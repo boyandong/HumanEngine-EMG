@@ -1,0 +1,6 @@
+# Existing verified CPU environment; no install performed by this task.
+torch>=2.4
+numpy>=1.26
+scipy>=1.14
+pytest>=8.4
+# h5py is only needed for explicitly requested HDF5 interface access.

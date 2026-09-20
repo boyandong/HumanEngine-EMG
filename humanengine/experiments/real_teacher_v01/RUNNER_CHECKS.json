@@ -1,0 +1,7 @@
+{
+  "label_field_projection": "PASS",
+  "tampered_membership_rejected_before_payload": "PASS",
+  "64_anchor_4_user_8_source_support": "PASS",
+  "deterministic_step_sampler": "PASS",
+  "scientific_evidence": false
+}

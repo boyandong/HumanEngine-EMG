@@ -1,0 +1,11 @@
+{
+  "next_offset": 462824044544,
+  "n_members": 25255,
+  "etag": "\"62df27ac9a04800702061bac0ac1af32-6897\"",
+  "url": "https://fb-ctrl-oss.s3.amazonaws.com/emg2pose/emg2pose_dataset.tar",
+  "complete": true,
+  "updated": "2026-09-18T02:33:44",
+  "end_of_archive_seen": true,
+  "tar_content_length": 462824048640,
+  "completion_note": "The walk reached the end-of-archive marker and indexed 25255 members in 25245 range requests over 15392 s. The previous complete: false was a reporting bug: it compared the offset against the tar size, but a tar ends with padding so the walk stops at the marker first (462824044544 vs 462824048640, a 4096-byte difference). Fixed in tar_index.py going forward."
+}

@@ -1,0 +1,573 @@
+{
+  "schema": "humanengine-remediation-evidence-v2",
+  "created_utc": "2026-09-19T12:53:21.794135+00:00",
+  "status": "READY FOR INDEPENDENT RE-AUDIT",
+  "scientific_training_performed": false,
+  "versions": {
+    "scientific_route": "api-detached-r-v1",
+    "checkpoint_he": "he-kernel-checkpoint-v2",
+    "checkpoint_teacher": "emg-teacher-preparation-v2",
+    "teacher_certificate": "teacher-artifact-certificate-v2",
+    "quota_identity": "scientific-anchor-v2",
+    "effective_rank": "centered-singular-value-entropy-v2",
+    "M_A_private": "physical_weight-times-L_phys-no-family-alpha-v1"
+  },
+  "findings": {
+    "F01": {
+      "status": "REMEDIATED_LOCAL_REGRESSION_PASS"
+    },
+    "F02": {
+      "status": "REMEDIATED_LOCAL_REGRESSION_PASS"
+    },
+    "F03": {
+      "status": "REMEDIATED_LOCAL_REGRESSION_PASS"
+    },
+    "F04": {
+      "status": "REMEDIATED_LOCAL_REGRESSION_PASS"
+    },
+    "F05": {
+      "status": "REMEDIATED_LOCAL_REGRESSION_PASS"
+    },
+    "F06": {
+      "status": "READ_ONLY_RECONCILIATION_COMPLETE_PROVENANCE_UNRESOLVED",
+      "differences": [
+        {
+          "path": "human_semantic_validation\\logs\\staged_site_manifest.json",
+          "entry_sha256": "a64c53eedb111e2e5b6d74eca65c4061b90f802e79a8f6c95ae432ca28e3eab2",
+          "final_sha256": "a64c53eedb111e2e5b6d74eca65c4061b90f802e79a8f6c95ae432ca28e3eab2",
+          "unchanged_during_remediation": true,
+          "matches_historical_baseline": false,
+          "classification": "UNRESOLVED"
+        },
+        {
+          "path": "human_semantic_validation\\pilot2\\logs\\pilot2_state_after_revision.json",
+          "entry_sha256": null,
+          "final_sha256": null,
+          "unchanged_during_remediation": true,
+          "matches_historical_baseline": false,
+          "classification": "UNRESOLVED"
+        },
+        {
+          "path": "human_semantic_validation\\pilot2\\logs\\verifier_pilot2_B.json",
+          "entry_sha256": "a4fa48e1ffa7e4325ddf3344c696a0cc50424cfa18e6371d54480b392843c91d",
+          "final_sha256": "a4fa48e1ffa7e4325ddf3344c696a0cc50424cfa18e6371d54480b392843c91d",
+          "unchanged_during_remediation": true,
+          "matches_historical_baseline": false,
+          "classification": "UNRESOLVED"
+        },
+        {
+          "path": "human_semantic_validation\\pilot2\\logs\\verifier_pilot2_A.json",
+          "entry_sha256": "52ff181c443ee79d769ec0d0622d3a67b478fd09b3e843f7a40a65d1d850f2f7",
+          "final_sha256": "52ff181c443ee79d769ec0d0622d3a67b478fd09b3e843f7a40a65d1d850f2f7",
+          "unchanged_during_remediation": true,
+          "matches_historical_baseline": false,
+          "classification": "UNRESOLVED"
+        },
+        {
+          "path": "human_semantic_validation\\pilot2\\logs\\verifier_pilot1_regression_A.json",
+          "entry_sha256": "3c2e65cb4138fd1a275ebba31512d6cd4b61ce240409c5f59f01ab9bdf28e1ea",
+          "final_sha256": "3c2e65cb4138fd1a275ebba31512d6cd4b61ce240409c5f59f01ab9bdf28e1ea",
+          "unchanged_during_remediation": true,
+          "matches_historical_baseline": false,
+          "classification": "UNRESOLVED"
+        },
+        {
+          "path": "human_semantic_validation\\pilot2\\logs\\verifier_formal_regression_A.json",
+          "entry_sha256": "91c50c2bb02e79aee814e6f8fa24498e8b2e798a51a219551790d5c966324d3c",
+          "final_sha256": "91c50c2bb02e79aee814e6f8fa24498e8b2e798a51a219551790d5c966324d3c",
+          "unchanged_during_remediation": true,
+          "matches_historical_baseline": false,
+          "classification": "UNRESOLVED"
+        },
+        {
+          "path": "human_semantic_validation\\pilot2\\tools\\stage_pilot2_site.py",
+          "entry_sha256": "89db026b0469c01fbf6cc4dc5d6df5be57b1a80f2d068345e6d1ebf91b38fdd5",
+          "final_sha256": "89db026b0469c01fbf6cc4dc5d6df5be57b1a80f2d068345e6d1ebf91b38fdd5",
+          "unchanged_during_remediation": true,
+          "matches_historical_baseline": false,
+          "classification": "UNRESOLVED"
+        },
+        {
+          "path": "human_semantic_validation\\pilot2\\tools\\serve_pilot2.py",
+          "entry_sha256": "0110608bd2601d1bfee929ff4289dc39df681bb61b4ad801fb64faeb17ac792e",
+          "final_sha256": "0110608bd2601d1bfee929ff4289dc39df681bb61b4ad801fb64faeb17ac792e",
+          "unchanged_during_remediation": true,
+          "matches_historical_baseline": false,
+          "classification": "UNRESOLVED"
+        },
+        {
+          "path": "human_semantic_validation\\pilot2\\tests\\test_s6_pilot2.py",
+          "entry_sha256": "527535abc8b5b226e5fd24235819994605e7f7b054c39d3462914058667ec366",
+          "final_sha256": "527535abc8b5b226e5fd24235819994605e7f7b054c39d3462914058667ec366",
+          "unchanged_during_remediation": true,
+          "matches_historical_baseline": false,
+          "classification": "UNRESOLVED"
+        }
+      ]
+    },
+    "F07": {
+      "status": "REMEDIATED_LOCAL_REGRESSION_PASS"
+    },
+    "F08": {
+      "status": "REMEDIATED_LOCAL_REGRESSION_PASS"
+    },
+    "F09": {
+      "status": "CLARIFIED_AND_REGRESSION_PASS"
+    }
+  },
+  "tests": {
+    "historical_tests": 59,
+    "remediation_regressions": 37,
+    "name": "pytest",
+    "errors": "0",
+    "failures": "0",
+    "skipped": "0",
+    "tests": "96",
+    "time": "13.113",
+    "timestamp": "2026-09-19T20:47:03.188560+08:00",
+    "hostname": "ovo",
+    "artifact": "humanengine/remediation-test-results.xml",
+    "sha256": "a5f002693d50fda982fa1e9c158d433bf1deb0d749a976e2c464f6c683c07f0b"
+  },
+  "protected": {
+    "count": 321,
+    "unchanged_since_entry": 321,
+    "new_differences": [],
+    "historical_matches": 312,
+    "scope": "321 registered protected entries; no whole-disk/raw-data CRC claim"
+  },
+  "files": [
+    {
+      "path": "humanengine/__init__.py",
+      "sha256": "8e4e281a3375393d0c74f00523a6f4e2130ce5692773321c92e02040217871b1",
+      "historical_implementation_sha256": "8e4e281a3375393d0c74f00523a6f4e2130ce5692773321c92e02040217871b1",
+      "changed_since_implementation": false
+    },
+    {
+      "path": "humanengine/AGENTS.md",
+      "sha256": "a199b87f0736b4fc77d93bc2b0ec60f7a0e1d72b3391aaddca4d6a3d746866cf",
+      "historical_implementation_sha256": "a199b87f0736b4fc77d93bc2b0ec60f7a0e1d72b3391aaddca4d6a3d746866cf",
+      "changed_since_implementation": false
+    },
+    {
+      "path": "humanengine/api.py",
+      "sha256": "2bf29ca3c27f202c5566bf823de29ad3c1a61de05296688e6240f86b52ef5d4e",
+      "historical_implementation_sha256": "9f49c182cf9565a330d60df5f90c200dd673fe65515ef681a0c51e9bd9602207",
+      "changed_since_implementation": true
+    },
+    {
+      "path": "humanengine/config.py",
+      "sha256": "3b9802c623925c1780fd5f51186d72723eaff372db9ec0f95b8c45f91576c55e",
+      "historical_implementation_sha256": "55e4c66445957ce0e16113a5c6689241b8e7b07817d8bb2751d9194cc4ff2780",
+      "changed_since_implementation": true
+    },
+    {
+      "path": "humanengine/configs/he_cagrad_test.json",
+      "sha256": "8dac2b0eb39d3da38262706c09ae540fd6fdaa6786d8dcd4a0112feacb1b44c6",
+      "historical_implementation_sha256": "1c77ba698df69b04986d3ffe9d8db041290cfc7d866ed38d64769f190a4c4aff",
+      "changed_since_implementation": true
+    },
+    {
+      "path": "humanengine/configs/he_core_v01.json",
+      "sha256": "002bec948ac9cfd0a8cc335b7befc213b4c061e73998ad606d80b816b33dd90c",
+      "historical_implementation_sha256": "c5ad1a54f48c06a9d067d7b2b9cf4a6ca62e6b5a6b0f4677239f3a80fafd528c",
+      "changed_since_implementation": true
+    },
+    {
+      "path": "humanengine/configs/he_family_budget_test.json",
+      "sha256": "d70a5219fe740afcc6af77561fddf51d7d6ae2df6412013704c5956753317eae",
+      "historical_implementation_sha256": "3b3ef2a7b777c2133bfc952ff14d0d93f97a5df0548ee861455c4490dd74d10f",
+      "changed_since_implementation": true
+    },
+    {
+      "path": "humanengine/configs/he_full_v01.json",
+      "sha256": "ed33a67e4f0bb052e1f94f0a6b8c8e672bcd63f98697a9f8f884a2fb740df3dd",
+      "historical_implementation_sha256": "98337a12803f62b7492a8cb15f7a7d59af7ac41f6dbf7700d29021504b5c5c1b",
+      "changed_since_implementation": true
+    },
+    {
+      "path": "humanengine/configs/he_routing_test.json",
+      "sha256": "1c59404899694e90763b55a1f4e5d1ad8da07a3ed3b9f76d58fb6d0b4d991ccd",
+      "historical_implementation_sha256": "99ba4285f7fb375c6a7922bdb771ede6dd13d810b98c9d891de1b34bb591076a",
+      "changed_since_implementation": true
+    },
+    {
+      "path": "humanengine/configs/teacher_emg_ssl_v01.json",
+      "sha256": "f0b10bf29f04f82863a48f524712000f8e9611f440033ee74523ece6e900dc62",
+      "historical_implementation_sha256": "51323c41b4b3c558b28640277037271776547c9852eed86ea59205ce1c49ab7c",
+      "changed_since_implementation": true
+    },
+    {
+      "path": "humanengine/continual/__init__.py",
+      "sha256": "723aed724293895a9c54c9f606a8d3aad04b34c4dd5ac18b53b2194a14908475",
+      "historical_implementation_sha256": "723aed724293895a9c54c9f606a8d3aad04b34c4dd5ac18b53b2194a14908475",
+      "changed_since_implementation": false
+    },
+    {
+      "path": "humanengine/continual/contracts.py",
+      "sha256": "c5140017a00232ae8e98d7f6a095296abe6692710e8fbade0120859d750a1a1a",
+      "historical_implementation_sha256": "c5140017a00232ae8e98d7f6a095296abe6692710e8fbade0120859d750a1a1a",
+      "changed_since_implementation": false
+    },
+    {
+      "path": "humanengine/contracts.py",
+      "sha256": "08887869749198326af3edd25a58ce6fbd45917214f6657c79e43e80fd5a3484",
+      "historical_implementation_sha256": "08887869749198326af3edd25a58ce6fbd45917214f6657c79e43e80fd5a3484",
+      "changed_since_implementation": false
+    },
+    {
+      "path": "humanengine/core/__init__.py",
+      "sha256": "c47069cbed4d6f4cde25f0f81021e14d6e0ed560667bca4a1c46fe7ba174f661",
+      "historical_implementation_sha256": "c47069cbed4d6f4cde25f0f81021e14d6e0ed560667bca4a1c46fe7ba174f661",
+      "changed_since_implementation": false
+    },
+    {
+      "path": "humanengine/core/frontend.py",
+      "sha256": "243bf9d750abd5035644375e80880320eeeaf62ab52e4f2b41c81e15bc631efe",
+      "historical_implementation_sha256": "243bf9d750abd5035644375e80880320eeeaf62ab52e4f2b41c81e15bc631efe",
+      "changed_since_implementation": false
+    },
+    {
+      "path": "humanengine/core/personalization.py",
+      "sha256": "1cef31ee326b40e4421eb01404fdcb582fda6faabd3cdcfa4594c86185fa9df7",
+      "historical_implementation_sha256": "1cef31ee326b40e4421eb01404fdcb582fda6faabd3cdcfa4594c86185fa9df7",
+      "changed_since_implementation": false
+    },
+    {
+      "path": "humanengine/core/state.py",
+      "sha256": "60e492cdc28713a28c639e22bc75834cb14c7e52e92909df8ee4805fba0c71cb",
+      "historical_implementation_sha256": "60e492cdc28713a28c639e22bc75834cb14c7e52e92909df8ee4805fba0c71cb",
+      "changed_since_implementation": false
+    },
+    {
+      "path": "humanengine/core/summaries.py",
+      "sha256": "f1ea51c69a234aa023a932385b1caa28ef9c92b3cc4240b0a85c95e1a905a072",
+      "historical_implementation_sha256": "f1ea51c69a234aa023a932385b1caa28ef9c92b3cc4240b0a85c95e1a905a072",
+      "changed_since_implementation": false
+    },
+    {
+      "path": "humanengine/data/__init__.py",
+      "sha256": "483fa3f4f43007fa60f43155bd8e15d7b0bc23869318ec89cfd1ddf90b382c81",
+      "historical_implementation_sha256": "483fa3f4f43007fa60f43155bd8e15d7b0bc23869318ec89cfd1ddf90b382c81",
+      "changed_since_implementation": false
+    },
+    {
+      "path": "humanengine/data/references.py",
+      "sha256": "3f5310ebaee980226db39f531f8528fcc25e8df3c882f575da057f7ad3663d45",
+      "historical_implementation_sha256": "3f5310ebaee980226db39f531f8528fcc25e8df3c882f575da057f7ad3663d45",
+      "changed_since_implementation": false
+    },
+    {
+      "path": "humanengine/data/sampling.py",
+      "sha256": "8e4d18df0550e0f1fe159655bda17d9e6d0d3b0f4376ba8c10ecb2c94ff2e8e1",
+      "historical_implementation_sha256": "24185d27401da43064e99c4e3697a838a7e8f82069461e9b60507af479eb528e",
+      "changed_since_implementation": true
+    },
+    {
+      "path": "humanengine/data/sequence.py",
+      "sha256": "e6c38e27d1e32fb71ddbe19676d143a6f579afe18551fa41b4c53260ee7a11e1",
+      "historical_implementation_sha256": "e6c38e27d1e32fb71ddbe19676d143a6f579afe18551fa41b4c53260ee7a11e1",
+      "changed_since_implementation": false
+    },
+    {
+      "path": "humanengine/data/views.py",
+      "sha256": "b97ddeb9a6e8a9e654e4dc32e5d97b9533528227fdaa72a204f79d795e4c1e08",
+      "historical_implementation_sha256": "b97ddeb9a6e8a9e654e4dc32e5d97b9533528227fdaa72a204f79d795e4c1e08",
+      "changed_since_implementation": false
+    },
+    {
+      "path": "humanengine/diagnostics/__init__.py",
+      "sha256": "3b0b068da9ec4630e259f17b479469a986534f6dc2f466063abf64cfee3c4d83",
+      "historical_implementation_sha256": "3b0b068da9ec4630e259f17b479469a986534f6dc2f466063abf64cfee3c4d83",
+      "changed_since_implementation": false
+    },
+    {
+      "path": "humanengine/diagnostics/gradients.py",
+      "sha256": "e0a9dbab71bbf1c321b4c1d7e5b3e210f0486b33343e325677dab8f23fb2ea04",
+      "historical_implementation_sha256": "e0a9dbab71bbf1c321b4c1d7e5b3e210f0486b33343e325677dab8f23fb2ea04",
+      "changed_since_implementation": false
+    },
+    {
+      "path": "humanengine/diagnostics/representation.py",
+      "sha256": "b29908fff784cb90ed854d2d73f943f637dc33ff784373c64ed127b1af75bde2",
+      "historical_implementation_sha256": "3c381d8b98e03420cbd52b8247218145fd74cea13737ab88beaddc30ac35d145",
+      "changed_since_implementation": true
+    },
+    {
+      "path": "humanengine/F06_PROVENANCE_RECONCILIATION.md",
+      "sha256": "059d78e43e15b067329e0387b1980445d20f7482994da6b54763a25da9b846e0",
+      "historical_implementation_sha256": null,
+      "changed_since_implementation": null
+    },
+    {
+      "path": "humanengine/FROZEN_BASELINE.json",
+      "sha256": "759567c5f29c8500a8a17765a8df2c685adb55c2a27ce41a83280b261eafa231",
+      "historical_implementation_sha256": "759567c5f29c8500a8a17765a8df2c685adb55c2a27ce41a83280b261eafa231",
+      "changed_since_implementation": false
+    },
+    {
+      "path": "humanengine/heads/__init__.py",
+      "sha256": "cb3c0d21624cc9221d2a9ce19c3d7480cde81e8699e07d9584b5b9e80d9fe953",
+      "historical_implementation_sha256": "cb3c0d21624cc9221d2a9ce19c3d7480cde81e8699e07d9584b5b9e80d9fe953",
+      "changed_since_implementation": false
+    },
+    {
+      "path": "humanengine/heads/api_heads.py",
+      "sha256": "efed7bccfc91d9cd24fc426b8e61a5870347b1e131e711d9e0b6506363b9bd59",
+      "historical_implementation_sha256": "efed7bccfc91d9cd24fc426b8e61a5870347b1e131e711d9e0b6506363b9bd59",
+      "changed_since_implementation": false
+    },
+    {
+      "path": "humanengine/IMPLEMENTATION_EVIDENCE.json",
+      "sha256": "7f8a2dd74424ca896e23ef7666b2f83c4e2be79c38569b64961076c20a9324c0",
+      "historical_implementation_sha256": null,
+      "changed_since_implementation": null
+    },
+    {
+      "path": "humanengine/IMPLEMENTATION_MAP.md",
+      "sha256": "52148534a41cffaad86730ceeee167fc7b8c943432de61e880c5d5c89603f827",
+      "historical_implementation_sha256": "6fd0a13fbdb4dd20df7d89644e6377744bac6f074814d3039f093453c8ea4cb9",
+      "changed_since_implementation": true
+    },
+    {
+      "path": "humanengine/IMPLEMENTATION_REPORT.md",
+      "sha256": "a0c7ce9281889816673978c76620bec241fd43f3afebe9d053e8bff17ede7a10",
+      "historical_implementation_sha256": "91589715c1d8a49e4eb3140ea5900a25d02d628e2bc509bcaeb7a45629071aca",
+      "changed_since_implementation": true
+    },
+    {
+      "path": "humanengine/manifest.py",
+      "sha256": "4b66ef68a9337b062b03ea58195acf41a3addc978b4d38ccb3ed7e95bb38ca3b",
+      "historical_implementation_sha256": "ae104c24ba84d07b0ccb024b8051f9c1336f40c2a79cffe49982c7ac1fa7ffb8",
+      "changed_since_implementation": true
+    },
+    {
+      "path": "humanengine/objectives/__init__.py",
+      "sha256": "09e89f8c91bc0f607a8de0b496b666f3c94c08c2349f3c9c042f815fc8b245ad",
+      "historical_implementation_sha256": "09e89f8c91bc0f607a8de0b496b666f3c94c08c2349f3c9c042f815fc8b245ad",
+      "changed_since_implementation": false
+    },
+    {
+      "path": "humanengine/objectives/full.py",
+      "sha256": "4b618a0c16cf78964f7e59de06f1770b52f89f3d9c931ee4c2b2ae7c99b10c14",
+      "historical_implementation_sha256": "dd1fc26a843f10b8fbdb8b0357b4c57e990057c00100b3f8ac1f7604a36ccab4",
+      "changed_since_implementation": true
+    },
+    {
+      "path": "humanengine/objectives/reductions.py",
+      "sha256": "a44008053bdadadab46363f59730ceb3e16545fb8304fda44e213ea159c8335f",
+      "historical_implementation_sha256": "a44008053bdadadab46363f59730ceb3e16545fb8304fda44e213ea159c8335f",
+      "changed_since_implementation": false
+    },
+    {
+      "path": "humanengine/objectives/regularizers.py",
+      "sha256": "c528e73a8046cffc2873e74a556d9b163d8b679aa17005734cff64d921b991b8",
+      "historical_implementation_sha256": "c528e73a8046cffc2873e74a556d9b163d8b679aa17005734cff64d921b991b8",
+      "changed_since_implementation": false
+    },
+    {
+      "path": "humanengine/objectives/residual.py",
+      "sha256": "da186a620fff37d03188b42f1d28fad2ae2407bc4baead3dc0c468841fe67b5a",
+      "historical_implementation_sha256": "da186a620fff37d03188b42f1d28fad2ae2407bc4baead3dc0c468841fe67b5a",
+      "changed_since_implementation": false
+    },
+    {
+      "path": "humanengine/optimization/__init__.py",
+      "sha256": "735d7b7a72c8065a6e16ed0758ca32ef4502e9178c716222b1908d608f53111b",
+      "historical_implementation_sha256": "735d7b7a72c8065a6e16ed0758ca32ef4502e9178c716222b1908d608f53111b",
+      "changed_since_implementation": false
+    },
+    {
+      "path": "humanengine/optimization/cagrad.py",
+      "sha256": "7a9bb023b733fdce52cc38c090619a473e8ce6932faa7f1fce500ebb6d2500d5",
+      "historical_implementation_sha256": "aa46ecdf38cf6aad3cebb26364a7f60f137f3684dc492cfb80e49fb076a0fe03",
+      "changed_since_implementation": true
+    },
+    {
+      "path": "humanengine/optimization/factory.py",
+      "sha256": "9875f0331da3d21d4764a9ba694b99ebc09a9e4bb6e4075db1662c618b22e56b",
+      "historical_implementation_sha256": "bf0f652f770e4db22f8344973b67242c45db79836ba2ca2015f23ca5af3d9003",
+      "changed_since_implementation": true
+    },
+    {
+      "path": "humanengine/optimization/macrostep.py",
+      "sha256": "82fb5cfb83194f95439acebf489cdfd6ebe6edb09c67107cbe0063226592b058",
+      "historical_implementation_sha256": "103bd9249ad9dbb1c789d09d912570a8d1d896200e18d8e08af443d7a48dafd7",
+      "changed_since_implementation": true
+    },
+    {
+      "path": "humanengine/README.md",
+      "sha256": "3cf3dc3cda5a2689217497cd429a0112e90b4add393c048b05f15263a4824c82",
+      "historical_implementation_sha256": "ee40c8ba851525fa3bbe9287a5ce3609b32c8d7edd0c86076bcaf2f68bd97701",
+      "changed_since_implementation": true
+    },
+    {
+      "path": "humanengine/registry.py",
+      "sha256": "420cc8aa62c36fd832c3d223f5d9b3514e142c3307673d4346090b86211dedb2",
+      "historical_implementation_sha256": "420cc8aa62c36fd832c3d223f5d9b3514e142c3307673d4346090b86211dedb2",
+      "changed_since_implementation": false
+    },
+    {
+      "path": "humanengine/remediation-test-results.xml",
+      "sha256": "a5f002693d50fda982fa1e9c158d433bf1deb0d749a976e2c464f6c683c07f0b",
+      "historical_implementation_sha256": null,
+      "changed_since_implementation": null
+    },
+    {
+      "path": "humanengine/REMEDIATION_NOTES.md",
+      "sha256": "1d1acadd477e003b1176b48cbe24b22fa748ca82f6b62369838f228a1a1ea914",
+      "historical_implementation_sha256": null,
+      "changed_since_implementation": null
+    },
+    {
+      "path": "humanengine/REMEDIATION_PROTECTED_AFTER.json",
+      "sha256": "967fa5a76b1cf9e0d7a810c25527d410930e9a1f71c7911cc590050ff1625200",
+      "historical_implementation_sha256": null,
+      "changed_since_implementation": null
+    },
+    {
+      "path": "humanengine/REMEDIATION_PROTECTED_BEFORE.json",
+      "sha256": "6da2b110770f63025faba0386b63803c9e38b05bb4fca076a5b579e0d9db1af9",
+      "historical_implementation_sha256": null,
+      "changed_since_implementation": null
+    },
+    {
+      "path": "humanengine/REMEDIATION_REPORT.md",
+      "sha256": "832b67d91a3cb672d7aff20734a23f4764ad1201990c58cf30479e51f6637e4f",
+      "historical_implementation_sha256": null,
+      "changed_since_implementation": null
+    },
+    {
+      "path": "humanengine/REMEDIATION_REPRODUCTIONS_BEFORE.json",
+      "sha256": "48e4467281a690ad7293376d9239319bee671661bb0142ef011786864dfbf14d",
+      "historical_implementation_sha256": null,
+      "changed_since_implementation": null
+    },
+    {
+      "path": "humanengine/requirements-kernel.txt",
+      "sha256": "a3df8ce8e1fb1b4b547150c9bd3562ae8f9696769af1490634aa225893644cba",
+      "historical_implementation_sha256": "a3df8ce8e1fb1b4b547150c9bd3562ae8f9696769af1490634aa225893644cba",
+      "changed_since_implementation": false
+    },
+    {
+      "path": "humanengine/runbooks/LOCAL_VERIFICATION.md",
+      "sha256": "97a1dbae3ef169cd9a420ceec0aadce95095f870dde79901a114a621895dcdb5",
+      "historical_implementation_sha256": "97a1dbae3ef169cd9a420ceec0aadce95095f870dde79901a114a621895dcdb5",
+      "changed_since_implementation": false
+    },
+    {
+      "path": "humanengine/runbooks/remediation_evidence.py",
+      "sha256": "9b74de332f74212063977003313d6e5cec72749a20511d8de375456c9d18c120",
+      "historical_implementation_sha256": null,
+      "changed_since_implementation": null
+    },
+    {
+      "path": "humanengine/scientific_state.py",
+      "sha256": "a8b060e8c9da291854d3266e336c971a1368caeb2e58a6021ae9575a89406698",
+      "historical_implementation_sha256": null,
+      "changed_since_implementation": null
+    },
+    {
+      "path": "humanengine/SESSION_HANDOVER.md",
+      "sha256": "0ca66bbc93b794ddd78dd5fdeb3f73285cb79af81c39c8e1e7b3f83b23f96f07",
+      "historical_implementation_sha256": "f6cd00eec0d65695c2d05cf0e59afbfcc886e1d283b4504097f62d7cde49cd8a",
+      "changed_since_implementation": true
+    },
+    {
+      "path": "humanengine/SPEC_IMPLEMENTATION_TASK.md",
+      "sha256": "9477aea330fce4029f842a503fb7f1f580a59bc94207c87d473916ca25446e77",
+      "historical_implementation_sha256": "9477aea330fce4029f842a503fb7f1f580a59bc94207c87d473916ca25446e77",
+      "changed_since_implementation": false
+    },
+    {
+      "path": "humanengine/teacher/__init__.py",
+      "sha256": "06aded74be96ca4d13ba86e1d9a606c9d70a5fdb591c59e1b7de1f89b85de7ef",
+      "historical_implementation_sha256": "06aded74be96ca4d13ba86e1d9a606c9d70a5fdb591c59e1b7de1f89b85de7ef",
+      "changed_since_implementation": false
+    },
+    {
+      "path": "humanengine/teacher/model.py",
+      "sha256": "de55eea0291ab474afac643cdad66363e47424626bad3feb7ce7d5ebead5714a",
+      "historical_implementation_sha256": "4e1cb47381b193aab4ab205574b903dd9bbe18baa174d8f72bfc39503a92b5ac",
+      "changed_since_implementation": true
+    },
+    {
+      "path": "humanengine/teacher/preparation.py",
+      "sha256": "79403f09404c0eb4fd4f8419d5967895d2534f0fa41ba817aff2e5f05d61c48a",
+      "historical_implementation_sha256": "60ca4135f90eb05ade39efcd843929de7d465b28ecdc1fdbd913225eaa92e986",
+      "changed_since_implementation": true
+    },
+    {
+      "path": "humanengine/test-results.xml",
+      "sha256": "61a55c921ac94e420efc618c8275fa9936af595f9ddd972b764c2a1e4ec669fe",
+      "historical_implementation_sha256": "61a55c921ac94e420efc618c8275fa9936af595f9ddd972b764c2a1e4ec669fe",
+      "changed_since_implementation": false
+    },
+    {
+      "path": "humanengine/tests/__init__.py",
+      "sha256": "6d636f1c4eaa947c1a6cdd26fc2db0e9c93900dbe74871b2b0c35e89b5ee50c1",
+      "historical_implementation_sha256": "6d636f1c4eaa947c1a6cdd26fc2db0e9c93900dbe74871b2b0c35e89b5ee50c1",
+      "changed_since_implementation": false
+    },
+    {
+      "path": "humanengine/tests/conftest.py",
+      "sha256": "b6a56ae931e5f0f9811c4ad386f33a6ab92f267fa303accab29d3d6947e56e23",
+      "historical_implementation_sha256": "e7db27d3fef7bd98a5e77276e91a1305ce676352e27413ec87b855f00af992ed",
+      "changed_since_implementation": true
+    },
+    {
+      "path": "humanengine/tests/test_core.py",
+      "sha256": "03254dfebdadf132605338602afc1b70e48cc8ede551c023ff49671bd401185d",
+      "historical_implementation_sha256": "03254dfebdadf132605338602afc1b70e48cc8ede551c023ff49671bd401185d",
+      "changed_since_implementation": false
+    },
+    {
+      "path": "humanengine/tests/test_data_provenance.py",
+      "sha256": "e8a0aa8271312a38af6f6a4f63bb85d62c40cb608a02f46f6a1584586179b8df",
+      "historical_implementation_sha256": "4a320abafcd8b4cc7fdcc0de3049620e3da2a3f9145826e5aa0bbf0db02f5ddb",
+      "changed_since_implementation": true
+    },
+    {
+      "path": "humanengine/tests/test_integration.py",
+      "sha256": "d063da260c238148100625b06f3b4e2e3ff7842a806b827e47532253b9902f16",
+      "historical_implementation_sha256": "2738332ff227c55cc639a37b3a06d587e00a80953493e780333f2a4e0ae5ee4d",
+      "changed_since_implementation": true
+    },
+    {
+      "path": "humanengine/tests/test_objectives.py",
+      "sha256": "b9e341e3d631cc9cfc08238eea60d8779579ba4d59b1e0b9ff392298879a033b",
+      "historical_implementation_sha256": "b9e341e3d631cc9cfc08238eea60d8779579ba4d59b1e0b9ff392298879a033b",
+      "changed_since_implementation": false
+    },
+    {
+      "path": "humanengine/tests/test_optimization.py",
+      "sha256": "728b7e3fa8efd61d9c33edc20598520b2e8328ab2bde489e54c58dff2f9a79d8",
+      "historical_implementation_sha256": "2e200b59b3e84c9cada62140a223ce5371d3456ac98bbfb11147c248501b0c3f",
+      "changed_since_implementation": true
+    },
+    {
+      "path": "humanengine/tests/test_remediation.py",
+      "sha256": "10c296c2d1aecae9e1316c99b30c5a571be44db97275625fbb8b463700a2de32",
+      "historical_implementation_sha256": null,
+      "changed_since_implementation": null
+    },
+    {
+      "path": "humanengine/tests/test_teacher.py",
+      "sha256": "43b110f8507f6a9ef08cdd2f670978127ede144acfd32c71e03ebabf0b073c60",
+      "historical_implementation_sha256": "32d5cce0d6f32258fe1a0b07cfbb5759be991784c878d699565a936417d20949",
+      "changed_since_implementation": true
+    },
+    {
+      "path": "humanengine/verify.py",
+      "sha256": "1f6f0825012b3491b7be0fc069223bd3ea3b4a61b4dc80095618c0a1e9a4b481",
+      "historical_implementation_sha256": "1f6f0825012b3491b7be0fc069223bd3ea3b4a61b4dc80095618c0a1e9a4b481",
+      "changed_since_implementation": false
+    }
+  ],
+  "limitations": [
+    "Independent re-audit required; no teacher validation authorized",
+    "F06 exact authorization/authorship unresolved; original baseline preserved",
+    "Synthetic CPU checks only; no real quality measurements",
+    "Macrostep guards registered in-process state, not arbitrary external Python side effects"
+  ]
+}

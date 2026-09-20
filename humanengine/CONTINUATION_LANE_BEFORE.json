@@ -1,0 +1,410 @@
+[
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\__init__.py",
+    "sha256": "8E4E281A3375393D0C74F00523A6F4E2130CE5692773321C92E02040217871B1"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\AGENTS.md",
+    "sha256": "A199B87F0736B4FC77D93BC2B0EC60F7A0E1D72B3391AADDCA4D6A3D746866CF"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\api.py",
+    "sha256": "2BF29CA3C27F202C5566BF823DE29AD3C1A61DE05296688E6240F86B52EF5D4E"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\config.py",
+    "sha256": "3B9802C623925C1780FD5F51186D72723EAFF372DB9EC0F95B8C45F91576C55E"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\contracts.py",
+    "sha256": "08887869749198326AF3EDD25A58CE6FBD45917214F6657C79E43E80FD5A3484"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\EXECUTION_DECISIONS.md",
+    "sha256": "1FC3FD747F3717BD760D766C1671875B7E4C8584452DC3D3A32B9146B8671270"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\EXECUTION_EVIDENCE.json",
+    "sha256": "6F36980EE1A7AF313822C650A8148C04CD2CCBC357D2442C72BAA67E554EC142"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\EXECUTION_LANE_AFTER.json",
+    "sha256": "78236E46D26DC5F77B7F27D9D68DA276D354F7D334A444EC8B0278C0912B6A5B"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\EXECUTION_LANE_BEFORE.json",
+    "sha256": "9F0E474DB0B7F43CBF0453946EBCA277E8E190DEB57D7FA0380BFF910869AFD5"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\EXECUTION_PRESERVED_CONTRACTS.json",
+    "sha256": "AA7CB28567F289978651C00B494A9B984264B8A89546C55EF5E32007E60D6310"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\EXECUTION_PROTECTED_AFTER.json",
+    "sha256": "B81D8229E9EC2FAB7959A13A3556FCBA6F23FC5066CD3613D62FB7D2398B19EE"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\EXECUTION_PROTECTED_BEFORE.json",
+    "sha256": "A1C4FDD304E5635D79A99F388BF0168ED0C2D472BF478E0630D9CAA8D1C241A1"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\EXECUTION_REMEDIATION_REPORT.md",
+    "sha256": "D0B9AADC337196665210E441D9875B19135D94AB50C7F6A875F7FB5690FCD2CA"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\EXECUTION_REPRODUCTIONS_BEFORE.json",
+    "sha256": "0DF45492BEF4DBC7FB0EFC4B9A7D90E7CA1CB9968AB84B5CC7FFE243A25B9412"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\execution-final-suite.xml",
+    "sha256": "87D34339E8C11304094DF35165A7506ECE3110CAC466DC5F4E51A00FB489ED85"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\execution-first-suite.xml",
+    "sha256": "D94219A06B2CA86CBDED734C2C153294415B43D093F3A0BFDC0FC489441F39FC"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\execution-fourth-subset.xml",
+    "sha256": "B824F2C2D57067751BF9E311E2E80E944DB05DE24B1C60259F37BC65C4192B7C"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\execution-second-subset.xml",
+    "sha256": "A989858E7003D8787A6EB9C43DEC47D98E55D264A5EDC3EEA55DF207E7AA6A95"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\execution-third-suite.xml",
+    "sha256": "4F69F3B4C674FC8A1A39AEC3692CB66F681B34A360EA888B48DE796C94A05A80"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\execution.py",
+    "sha256": "E2088DED18CD2540DA2DCBAB35B0A8BCDF2ED7F6B074AC63ADDF09D4B2C4C11D"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\F06_PROVENANCE_RECONCILIATION.md",
+    "sha256": "059D78E43E15B067329E0387B1980445D20F7482994DA6B54763A25DA9B846E0"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\FROZEN_BASELINE.json",
+    "sha256": "759567C5F29C8500A8A17765A8DF2C685ADB55C2A27CE41A83280B261EAFA231"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\IMPLEMENTATION_EVIDENCE.json",
+    "sha256": "7F8A2DD74424CA896E23EF7666B2F83C4E2BE79C38569B64961076C20A9324C0"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\IMPLEMENTATION_MAP.md",
+    "sha256": "627D5D58F737E075ED1EAAC36B15A4696BB7792A5126A4FBF432204EE831095D"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\IMPLEMENTATION_REPORT.md",
+    "sha256": "A0C7CE9281889816673978C76620BEC241FD43F3AFEBE9D053E8BFF17EDE7A10"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\manifest.py",
+    "sha256": "75F3B4880410D161629518ECAC1ED3D0A3E83C50D466926F6546C6FE1859F23A"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\README.md",
+    "sha256": "B61169917950E3371EFDCAA6483FDF9FB1B1EF254E98491D7D1C80DAFF754A86"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\registry.py",
+    "sha256": "420CC8AA62C36FD832C3D223F5D9B3514E142C3307673D4346090B86211DEDB2"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\REMEDIATION_EVIDENCE.json",
+    "sha256": "772939C887C282490670FE80A3FC709653C37EB9C0C77EAE91BD589E08A7EC7F"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\REMEDIATION_NOTES.md",
+    "sha256": "1D1ACADD477E003B1176B48CBE24B22FA748CA82F6B62369838F228A1A1EA914"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\REMEDIATION_PROTECTED_AFTER.json",
+    "sha256": "967FA5A76B1CF9E0D7A810C25527D410930E9A1F71C7911CC590050FF1625200"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\REMEDIATION_PROTECTED_BEFORE.json",
+    "sha256": "6DA2B110770F63025FABA0386B63803C9E38B05BB4FCA076A5B579E0D9DB1AF9"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\REMEDIATION_REPORT.md",
+    "sha256": "832B67D91A3CB672D7AFF20734A23F4764AD1201990C58CF30479E51F6637E4F"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\REMEDIATION_REPRODUCTIONS_BEFORE.json",
+    "sha256": "48E4467281A690AD7293376D9239319BEE671661BB0142EF011786864DFBF14D"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\remediation-test-results.xml",
+    "sha256": "A5F002693D50FDA982FA1E9C158D433BF1DEB0D749A976E2C464F6C683C07F0B"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\requirements-kernel.txt",
+    "sha256": "A3DF8CE8E1FB1B4B547150C9BD3562AE8F9696769AF1490634AA225893644CBA"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\scientific_state.py",
+    "sha256": "7AA68AA006E535D6E264113C263C0A2FC9CE0BE94C11EA97C460ADBCFE00BB41"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\SESSION_HANDOVER.md",
+    "sha256": "4BA624FFAFDE0239F212FF5FEA43651D0B4F2DC893764B6BDC42BDA6E89F195F"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\SPEC_IMPLEMENTATION_TASK.md",
+    "sha256": "9477AEA330FCE4029F842A503FB7F1F580A59BC94207C87D473916CA25446E77"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\test-results.xml",
+    "sha256": "61A55C921AC94E420EFC618C8275FA9936AF595F9DDD972B764C2A1E4EC669FE"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\transaction.py",
+    "sha256": "4CDBE86F39E2718135F7436372EBDF48AB640862D776E09D320CC694EA2F84DC"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\verify.py",
+    "sha256": "1F6F0825012B3491B7BE0FC069223BD3EA3B4A61B4DC80095618C0A1E9A4B481"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\.pytest_cache\\.gitignore",
+    "sha256": "E7C6BB30148CF667606DCD63E7CA77ACAA3CFB0C8303BF09E6419E1E1669DC6D"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\.pytest_cache\\CACHEDIR.TAG",
+    "sha256": "37DC88EF9A0ABEDDBE81053A6DD8FDFB13AFB613045EA1EB4A5C815A74A3BDE4"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\.pytest_cache\\README.md",
+    "sha256": "420E808D79A6C25D3CDA0AF33BC4782314A14949866682C68CE8149E89B66B70"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\.pytest_cache\\v\\cache\\nodeids",
+    "sha256": "F7DFA9DD3BCD3B4DE8E4B5F2E3FED745DF9C14A7AAED89ED3B69696858746938"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\configs\\he_cagrad_test.json",
+    "sha256": "8DAC2B0EB39D3DA38262706C09AE540FD6FDAA6786D8DCD4A0112FEACB1B44C6"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\configs\\he_core_v01.json",
+    "sha256": "002BEC948AC9CFD0A8CC335B7BEFC213B4C061E73998AD606D80B816B33DD90C"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\configs\\he_family_budget_test.json",
+    "sha256": "D70A5219FE740AFCC6AF77561FDDF51D7D6AE2DF6412013704C5956753317EAE"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\configs\\he_full_v01.json",
+    "sha256": "ED33A67E4F0BB052E1F94F0A6B8C8E672BCD63F98697A9F8F884A2FB740DF3DD"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\configs\\he_routing_test.json",
+    "sha256": "1C59404899694E90763B55A1F4E5D1AD8DA07A3ED3B9F76D58FB6D0B4D991CCD"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\configs\\teacher_emg_ssl_v01.json",
+    "sha256": "F0B10BF29F04F82863A48F524712000F8E9611F440033EE74523ECE6E900DC62"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\continual\\__init__.py",
+    "sha256": "723AED724293895A9C54C9F606A8D3AAD04B34C4DD5AC18B53B2194A14908475"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\continual\\contracts.py",
+    "sha256": "C5140017A00232AE8E98D7F6A095296ABE6692710E8FBADE0120859D750A1A1A"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\core\\__init__.py",
+    "sha256": "C47069CBED4D6F4CDE25F0F81021E14D6E0ED560667BCA4A1C46FE7BA174F661"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\core\\frontend.py",
+    "sha256": "243BF9D750ABD5035644375E80880320EEEAF62AB52E4F2B41C81E15BC631EFE"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\core\\personalization.py",
+    "sha256": "1CEF31EE326B40E4421EB01404FDCB582FDA6FAABD3CDCFA4594C86185FA9DF7"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\core\\state.py",
+    "sha256": "60E492CDC28713A28C639E22BC75834CB14C7E52E92909DF8EE4805FBA0C71CB"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\core\\summaries.py",
+    "sha256": "F1EA51C69A234AA023A932385B1CAA28EF9C92B3CC4240B0A85C95E1A905A072"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\data\\__init__.py",
+    "sha256": "483FA3F4F43007FA60F43155BD8E15D7B0BC23869318EC89CFD1DDF90B382C81"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\data\\references.py",
+    "sha256": "3F5310EBAEE980226DB39F531F8528FCC25E8DF3C882F575DA057F7AD3663D45"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\data\\sampling.py",
+    "sha256": "8E4D18DF0550E0F1FE159655BDA17D9E6D0D3B0F4376BA8C10ECB2C94FF2E8E1"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\data\\sequence.py",
+    "sha256": "E6C38E27D1E32FB71DDBE19676D143A6F579AFE18551FA41B4C53260EE7A11E1"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\data\\views.py",
+    "sha256": "B97DDEB9A6E8A9E654E4DC32E5D97B9533528227FDAA72A204F79D795E4C1E08"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\diagnostics\\__init__.py",
+    "sha256": "3B0B068DA9EC4630E259F17B479469A986534F6DC2F466063ABF64CFEE3C4D83"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\diagnostics\\gradients.py",
+    "sha256": "E0A9DBAB71BBF1C321B4C1D7E5B3E210F0486B33343E325677DAB8F23FB2EA04"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\diagnostics\\representation.py",
+    "sha256": "B29908FFF784CB90ED854D2D73F943F637DC33FF784373C64ED127B1AF75BDE2"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\heads\\__init__.py",
+    "sha256": "CB3C0D21624CC9221D2A9CE19C3D7480CDE81E8699E07D9584B5B9E80D9FE953"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\heads\\api_heads.py",
+    "sha256": "EFED7BCCFC91D9CD24FC426B8E61A5870347B1E131E711D9E0B6506363B9BD59"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\objectives\\__init__.py",
+    "sha256": "09E89F8C91BC0F607A8DE0B496B666F3C94C08C2349F3C9C042F815FC8B245AD"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\objectives\\full.py",
+    "sha256": "4B618A0C16CF78964F7E59DE06F1770B52F89F3D9C931EE4C2B2AE7C99B10C14"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\objectives\\reductions.py",
+    "sha256": "A44008053BDADADAB46363F59730CEB3E16545FB8304FDA44E213EA159C8335F"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\objectives\\regularizers.py",
+    "sha256": "C528E73A8046CFFC2873E74A556D9B163D8B679AA17005734CFF64D921B991B8"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\objectives\\residual.py",
+    "sha256": "DA186A620FFF37D03188B42F1D28FAD2AE2407BC4BAEAD3DC0C468841FE67B5A"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\optimization\\__init__.py",
+    "sha256": "735D7B7A72C8065A6E16ED0758CA32EF4502E9178C716222B1908D608F53111B"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\optimization\\cagrad.py",
+    "sha256": "7A9BB023B733FDCE52CC38C090619A473E8CE6932FAA7F1FCE500EBB6D2500D5"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\optimization\\factory.py",
+    "sha256": "DA27A0393A79A9CF4AA8AD775FC088A4675F72675413B11EAA87811E7EB3F870"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\optimization\\macrostep.py",
+    "sha256": "0F5CA8158C7D4CDE44488A8CEB4D3B8F88F1B1129A3014D331D8C93CABD8B26B"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\runbooks\\LOCAL_VERIFICATION.md",
+    "sha256": "97A1DBAE3EF169CD9A420CEEC0AADCE95095F870DDE79901A114A621895DCDB5"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\runbooks\\remediation_evidence.py",
+    "sha256": "9B74DE332F74212063977003313D6E5CEC72749A20511D8DE375456C9D18C120"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\teacher\\__init__.py",
+    "sha256": "06ADED74BE96CA4D13BA86E1D9A606C9D70A5FDB591C59E1B7DE1F89B85DE7EF"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\teacher\\certificate.py",
+    "sha256": "44557868B620417E3337C2C66E4DF2EF2E45C543A19517ECA141CD4FC37FD7EB"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\teacher\\model.py",
+    "sha256": "EE8A624E23277B07C2BCF1056CA033DE50D0A87887F11F4DE2EE74BAD11DA9F4"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\teacher\\preparation.py",
+    "sha256": "94A05A5351ED7A83AE4683F4C938D52A81298083C0CEF672B6754ABDD4C5DE78"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\tests\\__init__.py",
+    "sha256": "6D636F1C4EAA947C1A6CDD26FC2DB0E9C93900DBE74871B2B0C35E89B5EE50C1"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\tests\\conftest.py",
+    "sha256": "B6A56AE931E5F0F9811C4AD386F33A6AB92F267FA303ACCAB29D3D6947E56E23"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\tests\\test_core.py",
+    "sha256": "03254DFEBDADF132605338602AFC1B70E48CC8EDE551C023FF49671BD401185D"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\tests\\test_data_provenance.py",
+    "sha256": "E8A0AA8271312A38AF6F6A4F63BB85D62C40CB608A02F46F6A1584586179B8DF"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\tests\\test_execution_integrity.py",
+    "sha256": "0D8DD878DAC96EB59C17DEB7BAA10F48A5F2FE2BF60A990F758BDD279AE76A55"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\tests\\test_integration.py",
+    "sha256": "7253FCE9A80E879BADCBF0911EC3E3AEEA7E526857C976E12868CAC1BC9A26E0"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\tests\\test_objectives.py",
+    "sha256": "B9E341E3D631CC9CFC08238EEA60D8779579BA4D59B1E0B9FF392298879A033B"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\tests\\test_optimization.py",
+    "sha256": "728B7E3FA8EFD61D9C33EDC20598520B2E8328AB2BDE489E54C58DFF2F9A79D8"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\tests\\test_remediation.py",
+    "sha256": "AEC5655F4FA4A47EF132F38A51ED12A17D663C06BE0E605E00C5BB965A53E16A"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\tests\\test_teacher.py",
+    "sha256": "43B110F8507F6A9EF08CDD2F670978127EDE144ACFD32C71E03EBABF0B073C60"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\tools\\collect_execution_evidence.py",
+    "sha256": "034732FCC903DC87F780B051640477E52C150C033CB4D2B3549ED8ECFCB041F3"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\tools\\recheck_preserved_contracts.py",
+    "sha256": "E3660D445C4589057B0AFAAE1E9BE4AC511093EA073940E21C0384B7DE74CD80"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine_design\\EVIDENCE_MANIFEST.json",
+    "sha256": "C7665333EB66F5FD74A2BEA1F8BB59088B844377E6E2A7699FF40498E1043C97"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine_design\\FOCUSED_REVIEW_EVIDENCE.json",
+    "sha256": "B464970D398E6FE1A503375EBD299940452BC0E05F64244AF109E2C9780879BF"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine_design\\FOCUSED_REVIEW_HANDOVER.md",
+    "sha256": "8AACB6420CC26848DFA4814D763514588D61B18EDFE18AD4DBC4FC569B4E1947"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine_design\\FOCUSED_REVIEW_MULTI_API_RESIDUAL.md",
+    "sha256": "65D200E97B83C40B683F64B97104AA2FF7DC1385849751FDCC9D08F5689F58A0"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine_design\\HUMANENGINE_EMG_V0_1_ARCHITECTURE.md",
+    "sha256": "731D1A484B637F6A77D20B4895B874CE5700F97A5F411CBFD43182959C807268"
+  },
+  {
+    "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine_design\\SESSION_HANDOVER.md",
+    "sha256": "6BDBF3AE75E01870698F0857FAA22B12C22D7961759760479EF37DA26D1B701A"
+  }
+]

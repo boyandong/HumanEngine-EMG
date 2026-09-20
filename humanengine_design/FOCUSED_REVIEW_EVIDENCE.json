@@ -1,0 +1,125 @@
+{
+  "schema_version": "humanengine-focused-theory-evidence-v1",
+  "created_utc": "2026-09-19T08:56:41.8960900Z",
+  "status": "focused_theoretical_review_proposed_no_implementation_no_training",
+  "project_root": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate",
+  "request": {
+    "path": "C:\\Users\\董伯言\\.codex\\attachments\\9df72bdf-fd95-4da7-b0f2-c864b2e2bc56\\pasted-text-1.txt",
+    "sha256": "87a42f06aedf9fa7b1952f67e333404c12b0633f7d81a7e53ee95ad8495a0285",
+    "scope": "Two theoretical questions only; channels, sampling frequency and environment deferred"
+  },
+  "prior_evidence": {
+    "path": "humanengine_design\\EVIDENCE_MANIFEST.json",
+    "sha256": "c7665333eb66f5fd74a2bea1f8bb59088b844377e6e2a7699ff40498e1043c97"
+  },
+  "integrity": {
+    "protected_count": 309,
+    "changed_or_missing": [],
+    "checkpoint_checks": [
+      {
+        "path": "checkpoints\\emg2pose_model_checkpoints\\regression_emg2pose.ckpt",
+        "sha256": "d22d85c91638ddb122390af08a508e42d6cb7b6f1064b77fb610020d14b0cd94",
+        "matches_prior": true
+      },
+      {
+        "path": "checkpoints\\emg2pose_model_checkpoints\\regression_neuropose.ckpt",
+        "sha256": "aa744e1878ace0665859f8bd072f3e451fefaa2ed12d537f51828d216118e3f4",
+        "matches_prior": true
+      },
+      {
+        "path": "checkpoints\\emg2pose_model_checkpoints\\regression_vemg2pose.ckpt",
+        "sha256": "748b1d1ef0ce1985f6fc07225d97eebfb370243429af803b4997d28ecce2424e",
+        "matches_prior": true
+      },
+      {
+        "path": "checkpoints\\emg2pose_model_checkpoints\\tracking_emg2pose.ckpt",
+        "sha256": "258625329ea6e1bb57bae7eaafb01bfca31ab26083fda68734dabf017c341610",
+        "matches_prior": true
+      },
+      {
+        "path": "checkpoints\\emg2pose_model_checkpoints\\tracking_vemg2pose.ckpt",
+        "sha256": "629783b2b1e8bc1316190fc2a57ba95396dd0d6b59cfbb38543fc6ad8bd61ae5",
+        "matches_prior": true
+      }
+    ],
+    "historical_documents": [
+      {
+        "path": "humanengine_design\\HUMANENGINE_EMG_V0_1_ARCHITECTURE.md",
+        "bytes": 77381,
+        "sha256": "731d1a484b637f6a77d20b4895b874ce5700f97a5f411cbfd43182959c807268",
+        "matches_prior_deliverable": true
+      },
+      {
+        "path": "humanengine_design\\SESSION_HANDOVER.md",
+        "bytes": 9072,
+        "sha256": "6bdbf3ae75e01870698f0857faa22b12c22d7961759760479ef37da26d1b701a",
+        "matches_prior_deliverable": true
+      },
+      {
+        "path": "humanengine_design\\EVIDENCE_MANIFEST.json",
+        "bytes": 67241,
+        "sha256": "c7665333eb66f5fd74a2bea1f8bb59088b844377e6e2a7699ff40498e1043c97",
+        "matches_prior_deliverable": null
+      }
+    ],
+    "scope": "Existing py/md/yaml/yml/json/toml/txt/ckpt/npz/pkl files enumerated under docs, representation, inference, posture_decoder, bridge_audit, human_semantic_validation, baseline/emg2pose. This is NOT a full raw-data CRC audit or all-file forensic inventory."
+  },
+  "intentional_changes": {
+    "governance_path": "AGENTS.md",
+    "previous_sha256": "45942e209c092655b4ac1e0d14e2f159e38471f49e010dd37d0eadf8d405e45e",
+    "change": "Add focused addendum and latest handover navigation pointers only",
+    "new_files": [
+      "humanengine_design\\FOCUSED_REVIEW_MULTI_API_RESIDUAL.md",
+      "humanengine_design\\FOCUSED_REVIEW_HANDOVER.md",
+      "humanengine_design\\FOCUSED_REVIEW_EVIDENCE.json"
+    ]
+  },
+  "deliverables": [
+    {
+      "path": "humanengine_design\\FOCUSED_REVIEW_MULTI_API_RESIDUAL.md",
+      "bytes": 46811,
+      "sha256": "65d200e97b83c40b683f64b97104aa2ff7dc1385849751fdcc9d08f5689f58a0"
+    },
+    {
+      "path": "humanengine_design\\FOCUSED_REVIEW_HANDOVER.md",
+      "bytes": 9716,
+      "sha256": "8aacb6420cc26848dfa4814d763514588d61b18edfe18ad4dbc4fc569b4e1947"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 3192,
+      "sha256": "1c5b79f76230b4af5c72b1c55e0a8a58f8af7c11cc551f742c083b100ec99494"
+    }
+  ],
+  "validation": {
+    "q1_answer_count": 9,
+    "q2_answer_count": 10,
+    "markdown_fence_count": 12,
+    "independent_review": "Completed bounded theory and full-document review; corrected covariance versus independence wording and defined teacher summary head",
+    "required_outputs": "Sections 1-3 literature, 2 supervision, 4 residual, 5 unchanged/modified/routing, 6 failures/diagnostics, 7 falsification",
+    "no_model_tests_or_training_run": true
+  },
+  "source_control": {
+    "root_is_git_repository": false,
+    "baseline_head": "5f6f62b1a0a08426adffe55900842e75a8adb38c",
+    "baseline_status_clean": true,
+    "no_git_mutation": true
+  },
+  "research_evidence": "Primary URLs and full-text versus abstract scope are recorded in review section 9; no paper benchmarks claimed as HE results",
+  "runtime": {
+    "jobs_launched": [],
+    "external_other_lane_process_state": "UNKNOWN; reverify in successor",
+    "known_helper_errors": [
+      "multi_api_review: HTTP 429 retry limit; no mutation/job",
+      "residual_review: HTTP 429 retry limit; no mutation/job"
+    ],
+    "helpers_restarted": false,
+    "host_crash_or_unknown_mutation": false
+  },
+  "limits": [
+    "No empirical support for better APIs or residual information retention",
+    "No raw-dataset audit",
+    "No S6 label or endpoint access",
+    "No inference of current context length from cumulative tokens"
+  ]
+}

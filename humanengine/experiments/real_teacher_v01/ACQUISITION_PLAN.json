@@ -1,0 +1,929 @@
+{
+  "schema": "real-teacher-acquisition-plan-v1",
+  "selection_seed": "humanengine-real-teacher-v01-data-20260920",
+  "status": "selected_before_EMG_access_not_yet_content_verified",
+  "source_url": "https://fb-ctrl-oss.s3.amazonaws.com/emg2pose/emg2pose_dataset.tar",
+  "etag": "\"62df27ac9a04800702061bac0ac1af32-6897\"",
+  "archive_bytes": 462824048640,
+  "metadata_sha256": "0e7ad04a79a0f162385d22ec8d6f43af9b8360978ca11ef9d601bbf9594b09e6",
+  "index_sha256": "0fd7977638cd9e090f46643f5c8e19c58a163a0d136742bbcdbe2204ce94ad36",
+  "selection_rule": "SHA256(seed|id) order: 8 official train users, 4 official val users; 1 session/user; 2 complete bilateral recording pairs/session; no signal/label selection",
+  "forbidden": "all official test recordings, final outcomes, all S6 annotation/evaluator data; entire mini user d387095792 excluded",
+  "split_note": "Official train users also have separate official test recordings; those test recordings remain forbidden. Dev users are disjoint from train. No cross-user performance claim beyond this screening.",
+  "missing_rule": "Stop; do not silently substitute a different recording or user",
+  "files": [
+    {
+      "session": "2022-11-22-1669104000-00017-cv-emg-pose-train@2",
+      "user": "bd64911c18",
+      "start": "1669119020.0166667",
+      "end": "1669119085.2",
+      "side": "left",
+      "filename": "2022-11-22-1669104000-00017-cv-emg-pose-train@2-recording-5_left",
+      "held_out_user": "False",
+      "split": "train",
+      "partition": "train",
+      "official_split": "train",
+      "source_group": "2022-11-22-1669104000-00017-cv-emg-pose-train@2-recording-5",
+      "archive_member": {
+        "name": "emg2pose_data/2022-11-22-1669104000-00017-cv-emg-pose-train@2-recording-5_left.hdf5",
+        "typeflag": "0",
+        "offset": 427520065024,
+        "size": 19819776
+      }
+    },
+    {
+      "session": "2022-11-22-1669104000-00017-cv-emg-pose-train@2",
+      "user": "bd64911c18",
+      "start": "1669119020.0166667",
+      "end": "1669119085.2",
+      "side": "right",
+      "filename": "2022-11-22-1669104000-00017-cv-emg-pose-train@2-recording-5_right",
+      "held_out_user": "False",
+      "split": "train",
+      "partition": "train",
+      "official_split": "train",
+      "source_group": "2022-11-22-1669104000-00017-cv-emg-pose-train@2-recording-5",
+      "archive_member": {
+        "name": "emg2pose_data/2022-11-22-1669104000-00017-cv-emg-pose-train@2-recording-5_right.hdf5",
+        "typeflag": "0",
+        "offset": 427416103936,
+        "size": 19818560
+      }
+    },
+    {
+      "session": "2022-11-22-1669104000-00017-cv-emg-pose-train@2",
+      "user": "bd64911c18",
+      "start": "1669120062.3833334",
+      "end": "1669120107.6333334",
+      "side": "left",
+      "filename": "2022-11-22-1669104000-00017-cv-emg-pose-train@2-recording-15_left",
+      "held_out_user": "False",
+      "split": "train",
+      "partition": "train",
+      "official_split": "train",
+      "source_group": "2022-11-22-1669104000-00017-cv-emg-pose-train@2-recording-15",
+      "archive_member": {
+        "name": "emg2pose_data/2022-11-22-1669104000-00017-cv-emg-pose-train@2-recording-15_left.hdf5",
+        "typeflag": "0",
+        "offset": 428299755520,
+        "size": 13760448
+      }
+    },
+    {
+      "session": "2022-11-22-1669104000-00017-cv-emg-pose-train@2",
+      "user": "bd64911c18",
+      "start": "1669120062.3833334",
+      "end": "1669120107.6333334",
+      "side": "right",
+      "filename": "2022-11-22-1669104000-00017-cv-emg-pose-train@2-recording-15_right",
+      "held_out_user": "False",
+      "split": "train",
+      "partition": "train",
+      "official_split": "train",
+      "source_group": "2022-11-22-1669104000-00017-cv-emg-pose-train@2-recording-15",
+      "archive_member": {
+        "name": "emg2pose_data/2022-11-22-1669104000-00017-cv-emg-pose-train@2-recording-15_right.hdf5",
+        "typeflag": "0",
+        "offset": 428779580928,
+        "size": 13759232
+      }
+    },
+    {
+      "session": "2022-11-08-1667894400-7ba92-cv-emg-pose-demonstration@2",
+      "user": "f1bc3d19f7",
+      "start": "1667897958.4833333",
+      "end": "1667898002.4333334",
+      "side": "left",
+      "filename": "2022-11-08-1667894400-7ba92-cv-emg-pose-demonstration@2-recording-5_left",
+      "held_out_user": "False",
+      "split": "train",
+      "partition": "train",
+      "official_split": "train",
+      "source_group": "2022-11-08-1667894400-7ba92-cv-emg-pose-demonstration@2-recording-5",
+      "archive_member": {
+        "name": "emg2pose_data/2022-11-08-1667894400-7ba92-cv-emg-pose-demonstration@2-recording-5_left.hdf5",
+        "typeflag": "0",
+        "offset": 388262631424,
+        "size": 13357952
+      }
+    },
+    {
+      "session": "2022-11-08-1667894400-7ba92-cv-emg-pose-demonstration@2",
+      "user": "f1bc3d19f7",
+      "start": "1667897958.4833333",
+      "end": "1667898002.4333334",
+      "side": "right",
+      "filename": "2022-11-08-1667894400-7ba92-cv-emg-pose-demonstration@2-recording-5_right",
+      "held_out_user": "False",
+      "split": "train",
+      "partition": "train",
+      "official_split": "train",
+      "source_group": "2022-11-08-1667894400-7ba92-cv-emg-pose-demonstration@2-recording-5",
+      "archive_member": {
+        "name": "emg2pose_data/2022-11-08-1667894400-7ba92-cv-emg-pose-demonstration@2-recording-5_right.hdf5",
+        "typeflag": "0",
+        "offset": 388622453760,
+        "size": 13357952
+      }
+    },
+    {
+      "session": "2022-11-08-1667894400-7ba92-cv-emg-pose-demonstration@2",
+      "user": "f1bc3d19f7",
+      "start": "1667898077.0",
+      "end": "1667898120.9166667",
+      "side": "left",
+      "filename": "2022-11-08-1667894400-7ba92-cv-emg-pose-demonstration@2-recording-7_left",
+      "held_out_user": "False",
+      "split": "train",
+      "partition": "train",
+      "official_split": "train",
+      "source_group": "2022-11-08-1667894400-7ba92-cv-emg-pose-demonstration@2-recording-7",
+      "archive_member": {
+        "name": "emg2pose_data/2022-11-08-1667894400-7ba92-cv-emg-pose-demonstration@2-recording-7_left.hdf5",
+        "typeflag": "0",
+        "offset": 388068350976,
+        "size": 13350808
+      }
+    },
+    {
+      "session": "2022-11-08-1667894400-7ba92-cv-emg-pose-demonstration@2",
+      "user": "f1bc3d19f7",
+      "start": "1667898077.0",
+      "end": "1667898120.9166667",
+      "side": "right",
+      "filename": "2022-11-08-1667894400-7ba92-cv-emg-pose-demonstration@2-recording-7_right",
+      "held_out_user": "False",
+      "split": "train",
+      "partition": "train",
+      "official_split": "train",
+      "source_group": "2022-11-08-1667894400-7ba92-cv-emg-pose-demonstration@2-recording-7",
+      "archive_member": {
+        "name": "emg2pose_data/2022-11-08-1667894400-7ba92-cv-emg-pose-demonstration@2-recording-7_right.hdf5",
+        "typeflag": "0",
+        "offset": 388384023040,
+        "size": 13354456
+      }
+    },
+    {
+      "session": "2022-07-15-1657872000-1a902-cv-emg-pose-demonstration@2",
+      "user": "e5ffa40c92",
+      "start": "1657865014.5333333",
+      "end": "1657865075.0333333",
+      "side": "left",
+      "filename": "2022-07-15-1657872000-1a902-cv-emg-pose-demonstration@2-recording-8_left",
+      "held_out_user": "False",
+      "split": "train",
+      "partition": "train",
+      "official_split": "train",
+      "source_group": "2022-07-15-1657872000-1a902-cv-emg-pose-demonstration@2-recording-8",
+      "archive_member": {
+        "name": "emg2pose_data/2022-07-15-1657872000-1a902-cv-emg-pose-demonstration@2-recording-8_left.hdf5",
+        "typeflag": "0",
+        "offset": 105246966272,
+        "size": 18387176
+      }
+    },
+    {
+      "session": "2022-07-15-1657872000-1a902-cv-emg-pose-demonstration@2",
+      "user": "e5ffa40c92",
+      "start": "1657865014.5333333",
+      "end": "1657865075.0333333",
+      "side": "right",
+      "filename": "2022-07-15-1657872000-1a902-cv-emg-pose-demonstration@2-recording-8_right",
+      "held_out_user": "False",
+      "split": "train",
+      "partition": "train",
+      "official_split": "train",
+      "source_group": "2022-07-15-1657872000-1a902-cv-emg-pose-demonstration@2-recording-8",
+      "archive_member": {
+        "name": "emg2pose_data/2022-07-15-1657872000-1a902-cv-emg-pose-demonstration@2-recording-8_right.hdf5",
+        "typeflag": "0",
+        "offset": 105527974912,
+        "size": 18390824
+      }
+    },
+    {
+      "session": "2022-07-15-1657872000-1a902-cv-emg-pose-demonstration@2",
+      "user": "e5ffa40c92",
+      "start": "1657864664.9666667",
+      "end": "1657864710.6",
+      "side": "left",
+      "filename": "2022-07-15-1657872000-1a902-cv-emg-pose-demonstration@2-recording-3_left",
+      "held_out_user": "False",
+      "split": "train",
+      "partition": "train",
+      "official_split": "train",
+      "source_group": "2022-07-15-1657872000-1a902-cv-emg-pose-demonstration@2-recording-3",
+      "archive_member": {
+        "name": "emg2pose_data/2022-07-15-1657872000-1a902-cv-emg-pose-demonstration@2-recording-3_left.hdf5",
+        "typeflag": "0",
+        "offset": 105480598528,
+        "size": 13870952
+      }
+    },
+    {
+      "session": "2022-07-15-1657872000-1a902-cv-emg-pose-demonstration@2",
+      "user": "e5ffa40c92",
+      "start": "1657864664.9666667",
+      "end": "1657864710.6",
+      "side": "right",
+      "filename": "2022-07-15-1657872000-1a902-cv-emg-pose-demonstration@2-recording-3_right",
+      "held_out_user": "False",
+      "split": "train",
+      "partition": "train",
+      "official_split": "train",
+      "source_group": "2022-07-15-1657872000-1a902-cv-emg-pose-demonstration@2-recording-3",
+      "archive_member": {
+        "name": "emg2pose_data/2022-07-15-1657872000-1a902-cv-emg-pose-demonstration@2-recording-3_right.hdf5",
+        "typeflag": "0",
+        "offset": 105041334784,
+        "size": 13872168
+      }
+    },
+    {
+      "session": "2022-07-18-1658131200-8e9a0-cv-emg-pose-demonstration@2",
+      "user": "f0ff207f52",
+      "start": "1658142022.9166667",
+      "end": "1658142082.8666666",
+      "side": "left",
+      "filename": "2022-07-18-1658131200-8e9a0-cv-emg-pose-demonstration@2-recording-22_left",
+      "held_out_user": "False",
+      "split": "train",
+      "partition": "train",
+      "official_split": "train",
+      "source_group": "2022-07-18-1658131200-8e9a0-cv-emg-pose-demonstration@2-recording-22",
+      "archive_member": {
+        "name": "emg2pose_data/2022-07-18-1658131200-8e9a0-cv-emg-pose-demonstration@2-recording-22_left.hdf5",
+        "typeflag": "0",
+        "offset": 111693477376,
+        "size": 18220280
+      }
+    },
+    {
+      "session": "2022-07-18-1658131200-8e9a0-cv-emg-pose-demonstration@2",
+      "user": "f0ff207f52",
+      "start": "1658142022.9166667",
+      "end": "1658142082.8666666",
+      "side": "right",
+      "filename": "2022-07-18-1658131200-8e9a0-cv-emg-pose-demonstration@2-recording-22_right",
+      "held_out_user": "False",
+      "split": "train",
+      "partition": "train",
+      "official_split": "train",
+      "source_group": "2022-07-18-1658131200-8e9a0-cv-emg-pose-demonstration@2-recording-22",
+      "archive_member": {
+        "name": "emg2pose_data/2022-07-18-1658131200-8e9a0-cv-emg-pose-demonstration@2-recording-22_right.hdf5",
+        "typeflag": "0",
+        "offset": 111661720576,
+        "size": 18221496
+      }
+    },
+    {
+      "session": "2022-07-18-1658131200-8e9a0-cv-emg-pose-demonstration@2",
+      "user": "f0ff207f52",
+      "start": "1658141375.8833332",
+      "end": "1658141422.5833333",
+      "side": "left",
+      "filename": "2022-07-18-1658131200-8e9a0-cv-emg-pose-demonstration@2-recording-12_left",
+      "held_out_user": "False",
+      "split": "train",
+      "partition": "train",
+      "official_split": "train",
+      "source_group": "2022-07-18-1658131200-8e9a0-cv-emg-pose-demonstration@2-recording-12",
+      "archive_member": {
+        "name": "emg2pose_data/2022-07-18-1658131200-8e9a0-cv-emg-pose-demonstration@2-recording-12_left.hdf5",
+        "typeflag": "0",
+        "offset": 110949009920,
+        "size": 14192128
+      }
+    },
+    {
+      "session": "2022-07-18-1658131200-8e9a0-cv-emg-pose-demonstration@2",
+      "user": "f0ff207f52",
+      "start": "1658141375.8833332",
+      "end": "1658141422.5833333",
+      "side": "right",
+      "filename": "2022-07-18-1658131200-8e9a0-cv-emg-pose-demonstration@2-recording-12_right",
+      "held_out_user": "False",
+      "split": "train",
+      "partition": "train",
+      "official_split": "train",
+      "source_group": "2022-07-18-1658131200-8e9a0-cv-emg-pose-demonstration@2-recording-12",
+      "archive_member": {
+        "name": "emg2pose_data/2022-07-18-1658131200-8e9a0-cv-emg-pose-demonstration@2-recording-12_right.hdf5",
+        "typeflag": "0",
+        "offset": 110595836928,
+        "size": 14192128
+      }
+    },
+    {
+      "session": "2022-07-14-1657785600-b1c34-cv-emg-pose-train@2",
+      "user": "2478d8eb54",
+      "start": "1657775406.3833334",
+      "end": "1657775466.1666667",
+      "side": "left",
+      "filename": "2022-07-14-1657785600-b1c34-cv-emg-pose-train@2-recording-10_left",
+      "held_out_user": "False",
+      "split": "train",
+      "partition": "train",
+      "official_split": "train",
+      "source_group": "2022-07-14-1657785600-b1c34-cv-emg-pose-train@2-recording-10",
+      "archive_member": {
+        "name": "emg2pose_data/2022-07-14-1657785600-b1c34-cv-emg-pose-train@2-recording-10_left.hdf5",
+        "typeflag": "0",
+        "offset": 103340519424,
+        "size": 18167232
+      }
+    },
+    {
+      "session": "2022-07-14-1657785600-b1c34-cv-emg-pose-train@2",
+      "user": "2478d8eb54",
+      "start": "1657775406.3833334",
+      "end": "1657775466.1666667",
+      "side": "right",
+      "filename": "2022-07-14-1657785600-b1c34-cv-emg-pose-train@2-recording-10_right",
+      "held_out_user": "False",
+      "split": "train",
+      "partition": "train",
+      "official_split": "train",
+      "source_group": "2022-07-14-1657785600-b1c34-cv-emg-pose-train@2-recording-10",
+      "archive_member": {
+        "name": "emg2pose_data/2022-07-14-1657785600-b1c34-cv-emg-pose-train@2-recording-10_right.hdf5",
+        "typeflag": "0",
+        "offset": 103370453504,
+        "size": 18166776
+      }
+    },
+    {
+      "session": "2022-07-14-1657785600-b1c34-cv-emg-pose-train@2",
+      "user": "2478d8eb54",
+      "start": "1657774906.8333333",
+      "end": "1657774967.5",
+      "side": "left",
+      "filename": "2022-07-14-1657785600-b1c34-cv-emg-pose-train@2-recording-6_left",
+      "held_out_user": "False",
+      "split": "train",
+      "partition": "train",
+      "official_split": "train",
+      "source_group": "2022-07-14-1657785600-b1c34-cv-emg-pose-train@2-recording-6",
+      "archive_member": {
+        "name": "emg2pose_data/2022-07-14-1657785600-b1c34-cv-emg-pose-train@2-recording-6_left.hdf5",
+        "typeflag": "0",
+        "offset": 103106312704,
+        "size": 18417576
+      }
+    },
+    {
+      "session": "2022-07-14-1657785600-b1c34-cv-emg-pose-train@2",
+      "user": "2478d8eb54",
+      "start": "1657774906.8333333",
+      "end": "1657774967.5",
+      "side": "right",
+      "filename": "2022-07-14-1657785600-b1c34-cv-emg-pose-train@2-recording-6_right",
+      "held_out_user": "False",
+      "split": "train",
+      "partition": "train",
+      "official_split": "train",
+      "source_group": "2022-07-14-1657785600-b1c34-cv-emg-pose-train@2-recording-6",
+      "archive_member": {
+        "name": "emg2pose_data/2022-07-14-1657785600-b1c34-cv-emg-pose-train@2-recording-6_right.hdf5",
+        "typeflag": "0",
+        "offset": 102990828544,
+        "size": 18440680
+      }
+    },
+    {
+      "session": "2022-11-18-1668758400-d7f6d-cv-emg-pose-train@2",
+      "user": "6a7fc66366",
+      "start": "1668774324.6166666",
+      "end": "1668774390.2666667",
+      "side": "left",
+      "filename": "2022-11-18-1668758400-d7f6d-cv-emg-pose-train@2-recording-7_left",
+      "held_out_user": "False",
+      "split": "train",
+      "partition": "train",
+      "official_split": "train",
+      "source_group": "2022-11-18-1668758400-d7f6d-cv-emg-pose-train@2-recording-7",
+      "archive_member": {
+        "name": "emg2pose_data/2022-11-18-1668758400-d7f6d-cv-emg-pose-train@2-recording-7_left.hdf5",
+        "typeflag": "0",
+        "offset": 422837009920,
+        "size": 19954752
+      }
+    },
+    {
+      "session": "2022-11-18-1668758400-d7f6d-cv-emg-pose-train@2",
+      "user": "6a7fc66366",
+      "start": "1668774324.6166666",
+      "end": "1668774390.2666667",
+      "side": "right",
+      "filename": "2022-11-18-1668758400-d7f6d-cv-emg-pose-train@2-recording-7_right",
+      "held_out_user": "False",
+      "split": "train",
+      "partition": "train",
+      "official_split": "train",
+      "source_group": "2022-11-18-1668758400-d7f6d-cv-emg-pose-train@2-recording-7",
+      "archive_member": {
+        "name": "emg2pose_data/2022-11-18-1668758400-d7f6d-cv-emg-pose-train@2-recording-7_right.hdf5",
+        "typeflag": "0",
+        "offset": 422763317248,
+        "size": 19954752
+      }
+    },
+    {
+      "session": "2022-11-18-1668758400-d7f6d-cv-emg-pose-train@2",
+      "user": "6a7fc66366",
+      "start": "1668774670.3166666",
+      "end": "1668774726.65",
+      "side": "left",
+      "filename": "2022-11-18-1668758400-d7f6d-cv-emg-pose-train@2-recording-9_left",
+      "held_out_user": "False",
+      "split": "train",
+      "partition": "train",
+      "official_split": "train",
+      "source_group": "2022-11-18-1668758400-d7f6d-cv-emg-pose-train@2-recording-9",
+      "archive_member": {
+        "name": "emg2pose_data/2022-11-18-1668758400-d7f6d-cv-emg-pose-train@2-recording-9_left.hdf5",
+        "typeflag": "0",
+        "offset": 422892681216,
+        "size": 17127552
+      }
+    },
+    {
+      "session": "2022-11-18-1668758400-d7f6d-cv-emg-pose-train@2",
+      "user": "6a7fc66366",
+      "start": "1668774670.3166666",
+      "end": "1668774726.65",
+      "side": "right",
+      "filename": "2022-11-18-1668758400-d7f6d-cv-emg-pose-train@2-recording-9_right",
+      "held_out_user": "False",
+      "split": "train",
+      "partition": "train",
+      "official_split": "train",
+      "source_group": "2022-11-18-1668758400-d7f6d-cv-emg-pose-train@2-recording-9",
+      "archive_member": {
+        "name": "emg2pose_data/2022-11-18-1668758400-d7f6d-cv-emg-pose-train@2-recording-9_right.hdf5",
+        "typeflag": "0",
+        "offset": 423037384192,
+        "size": 17128768
+      }
+    },
+    {
+      "session": "2022-08-30-1661846400-3cb99-cv-emg-pose-demonstration@2",
+      "user": "87aa3b3887",
+      "start": "1661839018.4333334",
+      "end": "1661839070.7",
+      "side": "left",
+      "filename": "2022-08-30-1661846400-3cb99-cv-emg-pose-demonstration@2-recording-5_left",
+      "held_out_user": "False",
+      "split": "train",
+      "partition": "train",
+      "official_split": "train",
+      "source_group": "2022-08-30-1661846400-3cb99-cv-emg-pose-demonstration@2-recording-5",
+      "archive_member": {
+        "name": "emg2pose_data/2022-08-30-1661846400-3cb99-cv-emg-pose-demonstration@2-recording-5_left.hdf5",
+        "typeflag": "0",
+        "offset": 195981959680,
+        "size": 15887080
+      }
+    },
+    {
+      "session": "2022-08-30-1661846400-3cb99-cv-emg-pose-demonstration@2",
+      "user": "87aa3b3887",
+      "start": "1661839018.4333334",
+      "end": "1661839070.7",
+      "side": "right",
+      "filename": "2022-08-30-1661846400-3cb99-cv-emg-pose-demonstration@2-recording-5_right",
+      "held_out_user": "False",
+      "split": "train",
+      "partition": "train",
+      "official_split": "train",
+      "source_group": "2022-08-30-1661846400-3cb99-cv-emg-pose-demonstration@2-recording-5",
+      "archive_member": {
+        "name": "emg2pose_data/2022-08-30-1661846400-3cb99-cv-emg-pose-demonstration@2-recording-5_right.hdf5",
+        "typeflag": "0",
+        "offset": 196479259648,
+        "size": 15884648
+      }
+    },
+    {
+      "session": "2022-08-30-1661846400-3cb99-cv-emg-pose-demonstration@2",
+      "user": "87aa3b3887",
+      "start": "1661838805.15",
+      "end": "1661838851.8833334",
+      "side": "left",
+      "filename": "2022-08-30-1661846400-3cb99-cv-emg-pose-demonstration@2-recording-2_left",
+      "held_out_user": "False",
+      "split": "train",
+      "partition": "train",
+      "official_split": "train",
+      "source_group": "2022-08-30-1661846400-3cb99-cv-emg-pose-demonstration@2-recording-2",
+      "archive_member": {
+        "name": "emg2pose_data/2022-08-30-1661846400-3cb99-cv-emg-pose-demonstration@2-recording-2_left.hdf5",
+        "typeflag": "0",
+        "offset": 196416909824,
+        "size": 14204288
+      }
+    },
+    {
+      "session": "2022-08-30-1661846400-3cb99-cv-emg-pose-demonstration@2",
+      "user": "87aa3b3887",
+      "start": "1661838805.15",
+      "end": "1661838851.8833334",
+      "side": "right",
+      "filename": "2022-08-30-1661846400-3cb99-cv-emg-pose-demonstration@2-recording-2_right",
+      "held_out_user": "False",
+      "split": "train",
+      "partition": "train",
+      "official_split": "train",
+      "source_group": "2022-08-30-1661846400-3cb99-cv-emg-pose-demonstration@2-recording-2",
+      "archive_member": {
+        "name": "emg2pose_data/2022-08-30-1661846400-3cb99-cv-emg-pose-demonstration@2-recording-2_right.hdf5",
+        "typeflag": "0",
+        "offset": 196371871744,
+        "size": 13399296
+      }
+    },
+    {
+      "session": "2022-11-10-1668067200-63c38-cv-emg-pose-demonstration@2",
+      "user": "c664b157c0",
+      "start": "1668069415.4",
+      "end": "1668069460.0666666",
+      "side": "left",
+      "filename": "2022-11-10-1668067200-63c38-cv-emg-pose-demonstration@2-recording-10_left",
+      "held_out_user": "False",
+      "split": "train",
+      "partition": "train",
+      "official_split": "train",
+      "source_group": "2022-11-10-1668067200-63c38-cv-emg-pose-demonstration@2-recording-10",
+      "archive_member": {
+        "name": "emg2pose_data/2022-11-10-1668067200-63c38-cv-emg-pose-demonstration@2-recording-10_left.hdf5",
+        "typeflag": "0",
+        "offset": 395956254208,
+        "size": 13574248
+      }
+    },
+    {
+      "session": "2022-11-10-1668067200-63c38-cv-emg-pose-demonstration@2",
+      "user": "c664b157c0",
+      "start": "1668069415.4",
+      "end": "1668069460.0666666",
+      "side": "right",
+      "filename": "2022-11-10-1668067200-63c38-cv-emg-pose-demonstration@2-recording-10_right",
+      "held_out_user": "False",
+      "split": "train",
+      "partition": "train",
+      "official_split": "train",
+      "source_group": "2022-11-10-1668067200-63c38-cv-emg-pose-demonstration@2-recording-10",
+      "archive_member": {
+        "name": "emg2pose_data/2022-11-10-1668067200-63c38-cv-emg-pose-demonstration@2-recording-10_right.hdf5",
+        "typeflag": "0",
+        "offset": 395460259840,
+        "size": 13576680
+      }
+    },
+    {
+      "session": "2022-11-10-1668067200-63c38-cv-emg-pose-demonstration@2",
+      "user": "c664b157c0",
+      "start": "1668069190.2833333",
+      "end": "1668069234.0333333",
+      "side": "left",
+      "filename": "2022-11-10-1668067200-63c38-cv-emg-pose-demonstration@2-recording-7_left",
+      "held_out_user": "False",
+      "split": "train",
+      "partition": "train",
+      "official_split": "train",
+      "source_group": "2022-11-10-1668067200-63c38-cv-emg-pose-demonstration@2-recording-7",
+      "archive_member": {
+        "name": "emg2pose_data/2022-11-10-1668067200-63c38-cv-emg-pose-demonstration@2-recording-7_left.hdf5",
+        "typeflag": "0",
+        "offset": 396073317376,
+        "size": 13300800
+      }
+    },
+    {
+      "session": "2022-11-10-1668067200-63c38-cv-emg-pose-demonstration@2",
+      "user": "c664b157c0",
+      "start": "1668069190.2833333",
+      "end": "1668069234.0333333",
+      "side": "right",
+      "filename": "2022-11-10-1668067200-63c38-cv-emg-pose-demonstration@2-recording-7_right",
+      "held_out_user": "False",
+      "split": "train",
+      "partition": "train",
+      "official_split": "train",
+      "source_group": "2022-11-10-1668067200-63c38-cv-emg-pose-demonstration@2-recording-7",
+      "archive_member": {
+        "name": "emg2pose_data/2022-11-10-1668067200-63c38-cv-emg-pose-demonstration@2-recording-7_right.hdf5",
+        "typeflag": "0",
+        "offset": 396199266304,
+        "size": 13295936
+      }
+    },
+    {
+      "session": "2022-10-31-1667203200-331de-cv-emg-pose-train@2",
+      "user": "1f6de69ab3",
+      "start": "1667194751.4333334",
+      "end": "1667194811.4833333",
+      "side": "left",
+      "filename": "2022-10-31-1667203200-331de-cv-emg-pose-train@2-recording-10_left",
+      "held_out_user": "True",
+      "split": "val",
+      "partition": "emg_development",
+      "official_split": "val",
+      "source_group": "2022-10-31-1667203200-331de-cv-emg-pose-train@2-recording-10",
+      "archive_member": {
+        "name": "emg2pose_data/2022-10-31-1667203200-331de-cv-emg-pose-train@2-recording-10_left.hdf5",
+        "typeflag": "0",
+        "offset": 367970550272,
+        "size": 18252200
+      }
+    },
+    {
+      "session": "2022-10-31-1667203200-331de-cv-emg-pose-train@2",
+      "user": "1f6de69ab3",
+      "start": "1667194751.4333334",
+      "end": "1667194811.4833333",
+      "side": "right",
+      "filename": "2022-10-31-1667203200-331de-cv-emg-pose-train@2-recording-10_right",
+      "held_out_user": "True",
+      "split": "val",
+      "partition": "emg_development",
+      "official_split": "val",
+      "source_group": "2022-10-31-1667203200-331de-cv-emg-pose-train@2-recording-10",
+      "archive_member": {
+        "name": "emg2pose_data/2022-10-31-1667203200-331de-cv-emg-pose-train@2-recording-10_right.hdf5",
+        "typeflag": "0",
+        "offset": 367587355136,
+        "size": 18250984
+      }
+    },
+    {
+      "session": "2022-10-31-1667203200-331de-cv-emg-pose-train@2",
+      "user": "1f6de69ab3",
+      "start": "1667194831.2833333",
+      "end": "1667194889.6333334",
+      "side": "left",
+      "filename": "2022-10-31-1667203200-331de-cv-emg-pose-train@2-recording-11_left",
+      "held_out_user": "True",
+      "split": "val",
+      "partition": "emg_development",
+      "official_split": "val",
+      "source_group": "2022-10-31-1667203200-331de-cv-emg-pose-train@2-recording-11",
+      "archive_member": {
+        "name": "emg2pose_data/2022-10-31-1667203200-331de-cv-emg-pose-train@2-recording-11_left.hdf5",
+        "typeflag": "0",
+        "offset": 367297084416,
+        "size": 17735096
+      }
+    },
+    {
+      "session": "2022-10-31-1667203200-331de-cv-emg-pose-train@2",
+      "user": "1f6de69ab3",
+      "start": "1667194831.2833333",
+      "end": "1667194889.6333334",
+      "side": "right",
+      "filename": "2022-10-31-1667203200-331de-cv-emg-pose-train@2-recording-11_right",
+      "held_out_user": "True",
+      "split": "val",
+      "partition": "emg_development",
+      "official_split": "val",
+      "source_group": "2022-10-31-1667203200-331de-cv-emg-pose-train@2-recording-11",
+      "archive_member": {
+        "name": "emg2pose_data/2022-10-31-1667203200-331de-cv-emg-pose-train@2-recording-11_right.hdf5",
+        "typeflag": "0",
+        "offset": 367155924480,
+        "size": 17734336
+      }
+    },
+    {
+      "session": "2022-04-07-1649318400-a9a00-cv-emg-pose-demonstration@2",
+      "user": "29ddab35d7",
+      "start": "1649317585.5",
+      "end": "1649317621.5333333",
+      "side": "left",
+      "filename": "2022-04-07-1649318400-a9a00-cv-emg-pose-demonstration@2-recording-1_left",
+      "held_out_user": "True",
+      "split": "val",
+      "partition": "emg_development",
+      "official_split": "val",
+      "source_group": "2022-04-07-1649318400-a9a00-cv-emg-pose-demonstration@2-recording-1",
+      "archive_member": {
+        "name": "emg2pose_data/2022-04-07-1649318400-a9a00-cv-emg-pose-demonstration@2-recording-1_left.hdf5",
+        "typeflag": "0",
+        "offset": 1447962624,
+        "size": 10044200
+      }
+    },
+    {
+      "session": "2022-04-07-1649318400-a9a00-cv-emg-pose-demonstration@2",
+      "user": "29ddab35d7",
+      "start": "1649317585.5",
+      "end": "1649317621.5333333",
+      "side": "right",
+      "filename": "2022-04-07-1649318400-a9a00-cv-emg-pose-demonstration@2-recording-1_right",
+      "held_out_user": "True",
+      "split": "val",
+      "partition": "emg_development",
+      "official_split": "val",
+      "source_group": "2022-04-07-1649318400-a9a00-cv-emg-pose-demonstration@2-recording-1",
+      "archive_member": {
+        "name": "emg2pose_data/2022-04-07-1649318400-a9a00-cv-emg-pose-demonstration@2-recording-1_right.hdf5",
+        "typeflag": "0",
+        "offset": 1753005056,
+        "size": 10942824
+      }
+    },
+    {
+      "session": "2022-04-07-1649318400-a9a00-cv-emg-pose-demonstration@2",
+      "user": "29ddab35d7",
+      "start": "1649318220.7666667",
+      "end": "1649318274.4666667",
+      "side": "left",
+      "filename": "2022-04-07-1649318400-a9a00-cv-emg-pose-demonstration@2-recording-9_left",
+      "held_out_user": "True",
+      "split": "val",
+      "partition": "emg_development",
+      "official_split": "val",
+      "source_group": "2022-04-07-1649318400-a9a00-cv-emg-pose-demonstration@2-recording-9",
+      "archive_member": {
+        "name": "emg2pose_data/2022-04-07-1649318400-a9a00-cv-emg-pose-demonstration@2-recording-9_left.hdf5",
+        "typeflag": "0",
+        "offset": 2189406720,
+        "size": 12245160
+      }
+    },
+    {
+      "session": "2022-04-07-1649318400-a9a00-cv-emg-pose-demonstration@2",
+      "user": "29ddab35d7",
+      "start": "1649318220.7666667",
+      "end": "1649318274.4666667",
+      "side": "right",
+      "filename": "2022-04-07-1649318400-a9a00-cv-emg-pose-demonstration@2-recording-9_right",
+      "held_out_user": "True",
+      "split": "val",
+      "partition": "emg_development",
+      "official_split": "val",
+      "source_group": "2022-04-07-1649318400-a9a00-cv-emg-pose-demonstration@2-recording-9",
+      "archive_member": {
+        "name": "emg2pose_data/2022-04-07-1649318400-a9a00-cv-emg-pose-demonstration@2-recording-9_right.hdf5",
+        "typeflag": "0",
+        "offset": 1655530496,
+        "size": 16319976
+      }
+    },
+    {
+      "session": "2022-11-16-1668585600-fc168-cv-emg-pose-train@2",
+      "user": "737fb9d2eb",
+      "start": "1668600173.9",
+      "end": "1668600419.4",
+      "side": "left",
+      "filename": "2022-11-16-1668585600-fc168-cv-emg-pose-train@2-recording-13_left",
+      "held_out_user": "True",
+      "split": "val",
+      "partition": "emg_development",
+      "official_split": "val",
+      "source_group": "2022-11-16-1668585600-fc168-cv-emg-pose-train@2-recording-13",
+      "archive_member": {
+        "name": "emg2pose_data/2022-11-16-1668585600-fc168-cv-emg-pose-train@2-recording-13_left.hdf5",
+        "typeflag": "0",
+        "offset": 415056736256,
+        "size": 74627176
+      }
+    },
+    {
+      "session": "2022-11-16-1668585600-fc168-cv-emg-pose-train@2",
+      "user": "737fb9d2eb",
+      "start": "1668600173.9",
+      "end": "1668600419.4",
+      "side": "right",
+      "filename": "2022-11-16-1668585600-fc168-cv-emg-pose-train@2-recording-13_right",
+      "held_out_user": "True",
+      "split": "val",
+      "partition": "emg_development",
+      "official_split": "val",
+      "source_group": "2022-11-16-1668585600-fc168-cv-emg-pose-train@2-recording-13",
+      "archive_member": {
+        "name": "emg2pose_data/2022-11-16-1668585600-fc168-cv-emg-pose-train@2-recording-13_right.hdf5",
+        "typeflag": "0",
+        "offset": 413891828736,
+        "size": 74628392
+      }
+    },
+    {
+      "session": "2022-11-16-1668585600-fc168-cv-emg-pose-train@2",
+      "user": "737fb9d2eb",
+      "start": "1668599080.9166667",
+      "end": "1668599137.6666667",
+      "side": "left",
+      "filename": "2022-11-16-1668585600-fc168-cv-emg-pose-train@2-recording-4_left",
+      "held_out_user": "True",
+      "split": "val",
+      "partition": "emg_development",
+      "official_split": "val",
+      "source_group": "2022-11-16-1668585600-fc168-cv-emg-pose-train@2-recording-4",
+      "archive_member": {
+        "name": "emg2pose_data/2022-11-16-1668585600-fc168-cv-emg-pose-train@2-recording-4_left.hdf5",
+        "typeflag": "0",
+        "offset": 415354197504,
+        "size": 17255232
+      }
+    },
+    {
+      "session": "2022-11-16-1668585600-fc168-cv-emg-pose-train@2",
+      "user": "737fb9d2eb",
+      "start": "1668599080.9166667",
+      "end": "1668599137.6666667",
+      "side": "right",
+      "filename": "2022-11-16-1668585600-fc168-cv-emg-pose-train@2-recording-4_right",
+      "held_out_user": "True",
+      "split": "val",
+      "partition": "emg_development",
+      "official_split": "val",
+      "source_group": "2022-11-16-1668585600-fc168-cv-emg-pose-train@2-recording-4",
+      "archive_member": {
+        "name": "emg2pose_data/2022-11-16-1668585600-fc168-cv-emg-pose-train@2-recording-4_right.hdf5",
+        "typeflag": "0",
+        "offset": 412643393024,
+        "size": 17254016
+      }
+    },
+    {
+      "session": "2022-09-13-1663056000-c13f1-cv-emg-pose-demonstration@2",
+      "user": "e86f1eaf2f",
+      "start": "1663048104.7",
+      "end": "1663048150.8166666",
+      "side": "left",
+      "filename": "2022-09-13-1663056000-c13f1-cv-emg-pose-demonstration@2-recording-2_left",
+      "held_out_user": "True",
+      "split": "val",
+      "partition": "emg_development",
+      "official_split": "val",
+      "source_group": "2022-09-13-1663056000-c13f1-cv-emg-pose-demonstration@2-recording-2",
+      "archive_member": {
+        "name": "emg2pose_data/2022-09-13-1663056000-c13f1-cv-emg-pose-demonstration@2-recording-2_left.hdf5",
+        "typeflag": "0",
+        "offset": 234632905216,
+        "size": 14018392
+      }
+    },
+    {
+      "session": "2022-09-13-1663056000-c13f1-cv-emg-pose-demonstration@2",
+      "user": "e86f1eaf2f",
+      "start": "1663048104.7",
+      "end": "1663048150.8166666",
+      "side": "right",
+      "filename": "2022-09-13-1663056000-c13f1-cv-emg-pose-demonstration@2-recording-2_right",
+      "held_out_user": "True",
+      "split": "val",
+      "partition": "emg_development",
+      "official_split": "val",
+      "source_group": "2022-09-13-1663056000-c13f1-cv-emg-pose-demonstration@2-recording-2",
+      "archive_member": {
+        "name": "emg2pose_data/2022-09-13-1663056000-c13f1-cv-emg-pose-demonstration@2-recording-2_right.hdf5",
+        "typeflag": "0",
+        "offset": 234660886016,
+        "size": 14018392
+      }
+    },
+    {
+      "session": "2022-09-13-1663056000-c13f1-cv-emg-pose-demonstration@2",
+      "user": "e86f1eaf2f",
+      "start": "1663048631.7666667",
+      "end": "1663048677.9",
+      "side": "left",
+      "filename": "2022-09-13-1663056000-c13f1-cv-emg-pose-demonstration@2-recording-9_left",
+      "held_out_user": "True",
+      "split": "val",
+      "partition": "emg_development",
+      "official_split": "val",
+      "source_group": "2022-09-13-1663056000-c13f1-cv-emg-pose-demonstration@2-recording-9",
+      "archive_member": {
+        "name": "emg2pose_data/2022-09-13-1663056000-c13f1-cv-emg-pose-demonstration@2-recording-9_left.hdf5",
+        "typeflag": "0",
+        "offset": 235270500352,
+        "size": 14024168
+      }
+    },
+    {
+      "session": "2022-09-13-1663056000-c13f1-cv-emg-pose-demonstration@2",
+      "user": "e86f1eaf2f",
+      "start": "1663048631.7666667",
+      "end": "1663048677.9",
+      "side": "right",
+      "filename": "2022-09-13-1663056000-c13f1-cv-emg-pose-demonstration@2-recording-9_right",
+      "held_out_user": "True",
+      "split": "val",
+      "partition": "emg_development",
+      "official_split": "val",
+      "source_group": "2022-09-13-1663056000-c13f1-cv-emg-pose-demonstration@2-recording-9",
+      "archive_member": {
+        "name": "emg2pose_data/2022-09-13-1663056000-c13f1-cv-emg-pose-demonstration@2-recording-9_right.hdf5",
+        "typeflag": "0",
+        "offset": 235303255040,
+        "size": 14024472
+      }
+    }
+  ],
+  "total_bytes": 871782416
+}

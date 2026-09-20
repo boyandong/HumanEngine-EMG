@@ -1,0 +1,67 @@
+{
+  "schema": "real-teacher-v01-discovery-v1",
+  "recorded_at": "2026-09-20T13:33:58.0246127+08:00",
+  "execution_status": "awaiting_remote_authentication",
+  "scientific_outcome": "not_evaluated",
+  "infra_acceptance": "PASS",
+  "historical_endpoint": {
+    "port": 39789,
+    "data_path_verified": false,
+    "host": "connect.westb.seetacloud.com",
+    "data_path": "/root/autodl-tmp/he/data",
+    "status": "connection_refused"
+  },
+  "authorized_endpoint": {
+    "port": 23229,
+    "connection": "responding",
+    "host": "connect.westc.seetacloud.com",
+    "user": "root",
+    "data_root": null,
+    "authentication": "existing he_5090 key rejected",
+    "authority": "current user message",
+    "remote_command_executed": false
+  },
+  "mutations": [
+    "new experiment records",
+    "new endpoint host key added to local known_hosts using accept-new"
+  ],
+  "training_steps": 0,
+  "data_downloaded": false,
+  "manifest_frozen": false,
+  "statistics_fitted": false,
+  "budget_frozen": false,
+  "health_protocol_frozen": false,
+  "certificate_issued": false,
+  "sources": [
+    {
+      "path": "D:\\Temp\\humanengine_v01_final_acceptance\\FINAL_ACCEPTANCE_REPORT.md",
+      "bytes": 14268,
+      "sha256": "6b90a8b585b59f7d226cf139839788653a221879d672cbd8bf02a12c491524ee"
+    },
+    {
+      "path": "D:\\Temp\\humanengine_v01_final_acceptance\\SESSION_HANDOVER.md",
+      "bytes": 3800,
+      "sha256": "0752e3e7b69f3732fb8e0ad6de9b50db4e9ceed0c2c555654e8533dfa95a02fe"
+    },
+    {
+      "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\teacher\\preparation.py",
+      "bytes": 9192,
+      "sha256": "94a05a5351ed7a83ae4683f4c938d52a81298083c0cef672b6754abdd4c5de78"
+    },
+    {
+      "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\teacher\\model.py",
+      "bytes": 7399,
+      "sha256": "ee8a624e23277b07c2bcf1056ca033de50d0a87887f11f4de2ee74bad11da9f4"
+    },
+    {
+      "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\teacher\\certificate.py",
+      "bytes": 1005,
+      "sha256": "44557868b620417e3337c2c66e4df2ef2e45c543a19517eca141cd4fc37fd7eb"
+    },
+    {
+      "path": "C:\\Users\\董伯言\\Desktop\\fingers\\emg2pose_handstate\\humanengine\\configs\\teacher_emg_ssl_v01.json",
+      "bytes": 3844,
+      "sha256": "f0b10bf29f04f82863a48f524712000f8e9611f440033ee74523ece6e900dc62"
+    }
+  ]
+}

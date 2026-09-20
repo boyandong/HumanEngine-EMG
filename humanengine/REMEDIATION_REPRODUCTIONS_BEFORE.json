@@ -1,0 +1,143 @@
+{
+  "F01": {
+    "status": "FAIL",
+    "no_grad": {
+      "rejected": true,
+      "parameters_restored": true,
+      "optimizer_unchanged": true,
+      "steps": 0,
+      "reported_consistent": null,
+      "seen_snapshots": [
+        [
+          0.30000001192092896,
+          0.699999988079071
+        ],
+        [
+          1.2999999523162842,
+          1.7000000476837158
+        ]
+      ]
+    },
+    "data": {
+      "rejected": false,
+      "parameters_restored": false,
+      "optimizer_unchanged": true,
+      "steps": 1,
+      "reported_consistent": true,
+      "seen_snapshots": [
+        [
+          0.30000001192092896,
+          0.699999988079071
+        ],
+        [
+          1.2999999523162842,
+          1.7000000476837158
+        ]
+      ]
+    },
+    "optimizer_step": {
+      "rejected": true,
+      "parameters_restored": true,
+      "optimizer_unchanged": false,
+      "steps": 0,
+      "reported_consistent": null,
+      "seen_snapshots": [
+        [
+          0.30000001192092896,
+          0.699999988079071
+        ],
+        [
+          0.2900000214576721,
+          0.6899999976158142
+        ]
+      ]
+    }
+  },
+  "F02": {
+    "status": "FAIL",
+    "same_signature_resume_E_max_difference": 516.4264526367188,
+    "same_signature_resume_H_max_difference": 1.3540488481521606,
+    "saved_floor": 0.001,
+    "resumed_floor": 0.5,
+    "saved_adapter": "personal-A",
+    "resumed_adapter": "identity",
+    "saved_provenance": {
+      "partition": "synthetic",
+      "version": "independent-synthetic"
+    },
+    "resumed_provenance": {
+      "partition": "synthetic",
+      "version": "incompatible"
+    },
+    "tampered_statistics_accepted": true
+  },
+  "F02_teacher": {
+    "status": "FAIL",
+    "saved_floor": 0.001,
+    "resumed_floor": 0.5,
+    "target_difference": 997.9999389648438,
+    "all_tensor_state_equal": true
+  },
+  "F03": {
+    "status": "FAIL",
+    "different_encoders_same_hash_accepted": true,
+    "collapsed_encoder_exported": true,
+    "target_difference": 0.3878048062324524,
+    "health_evidence_not_recomputed": true
+  },
+  "F04": {
+    "status": "FAIL",
+    "anchor": 1999,
+    "burnin_samples": 2000,
+    "anchor_warmup_flag": false,
+    "accepted_pose_loss": 0.3198379874229431,
+    "core_pose_gradient_L1": 0.0,
+    "core_residual_gradient_L1": 0.0,
+    "residual_counts": [
+      [
+        4,
+        4
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  "F05": {
+    "status": "FAIL",
+    "reported_plan_status": "COMPLETE",
+    "claimed_valid_grants": 7,
+    "unique_actual_anchors": 5,
+    "selected_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      0,
+      1
+    ]
+  },
+  "F07": {
+    "status": "FAIL",
+    "specified_singular_value_entropy_rank": 1.7547653506033232,
+    "reported_rank": 1.384145488461686,
+    "covariance_entropy_rank": 1.384145488461686
+  },
+  "F08": {
+    "status": "PASS",
+    "all_input_finite": true,
+    "direction": [
+      7.999999984405158e+19,
+      1.9999999961012896e+19
+    ],
+    "solver_status": "FALLBACK",
+    "reason": "zero_dual_vector",
+    "trust_residual": "-inf"
+  }
+}

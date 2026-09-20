@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Secrets and local connection material
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+
+# Raw data and archives
+*.hdf5
+*.h5
+*.mat
+*.npz
+*.npy
+*.csv.partial
+*.partial
+*.tar
+*.tar.gz
+*.zip
+
+# Models and experiment outputs
+*.pt
+*.pth
+*.ckpt
+*.pkl
+checkpoints/
+outputs/
+runs/
+logs/
+test-results/
+*.log
+*.xml
+
+# Evaluator-only or hidden annotation material
+**/hidden/
+**/evaluator/
+**/annotator_*/payload.json

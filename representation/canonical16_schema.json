@@ -1,0 +1,225 @@
+{
+  "schema_name": "canonical16",
+  "version": "1.0.0",
+  "status": "FROZEN",
+  "ndim": 16,
+  "unit": "radians",
+  "description": "The 16 kinematic variables intended to be matched reliably between emg2pose and NinaPro DB9. A LOSSY projection of emg2pose's official 20D pose: the four non-thumb MCP abduction/adduction variables are dropped by design.",
+  "does_not_fully_describe_hand_geometry": true,
+  "source": {
+    "dataset": "emg2pose",
+    "official_ndim": 20,
+    "ordering_authority": "emg2pose/constants.py::JOINTS",
+    "selection_method": "by official joint name, resolved at runtime",
+    "repo_commit_used_for_validation": "5f6f62b"
+  },
+  "ik_failure_semantics": {
+    "encoding": "all-zero joint_angles row",
+    "helper": "emg2pose.utils.get_ik_failures_mask",
+    "rule": "A 20D row whose 20 values are all (close to) zero is an IK failure and MUST NOT be treated as a valid posture. It is surfaced via the validity mask returned by to_canonical16(..., return_validity=True) / validity_mask().",
+    "not_a_neutral_hand": true
+  },
+  "variables": [
+    {
+      "canonical_index": 0,
+      "canonical_name": "thumb_cmc_flexion",
+      "source_emg2pose_joint_name": "THUMB_CMC_FE",
+      "source_emg2pose_index": 0,
+      "anatomical_meaning": "Thumb carpometacarpal flexion/extension",
+      "unit": "radians",
+      "dof_type": "FE",
+      "positive_direction": "flexion"
+    },
+    {
+      "canonical_index": 1,
+      "canonical_name": "thumb_cmc_ab_adduction",
+      "source_emg2pose_joint_name": "THUMB_CMC_AA",
+      "source_emg2pose_index": 1,
+      "anatomical_meaning": "Thumb carpometacarpal abduction/adduction",
+      "unit": "radians",
+      "dof_type": "AA",
+      "positive_direction": "per-finger (no global sign); see docs/joint_angle_definition.md 3.2"
+    },
+    {
+      "canonical_index": 2,
+      "canonical_name": "thumb_mcp_flexion",
+      "source_emg2pose_joint_name": "THUMB_MCP_FE",
+      "source_emg2pose_index": 2,
+      "anatomical_meaning": "Thumb metacarpophalangeal flexion/extension",
+      "unit": "radians",
+      "dof_type": "FE",
+      "positive_direction": "flexion"
+    },
+    {
+      "canonical_index": 3,
+      "canonical_name": "thumb_ip_flexion",
+      "source_emg2pose_joint_name": "THUMB_IP_FE",
+      "source_emg2pose_index": 3,
+      "anatomical_meaning": "Thumb interphalangeal flexion/extension",
+      "unit": "radians",
+      "dof_type": "FE",
+      "positive_direction": "flexion"
+    },
+    {
+      "canonical_index": 4,
+      "canonical_name": "index_mcp_flexion",
+      "source_emg2pose_joint_name": "INDEX_MCP_FE",
+      "source_emg2pose_index": 5,
+      "anatomical_meaning": "Index metacarpophalangeal flexion/extension",
+      "unit": "radians",
+      "dof_type": "FE",
+      "positive_direction": "flexion"
+    },
+    {
+      "canonical_index": 5,
+      "canonical_name": "index_pip_flexion",
+      "source_emg2pose_joint_name": "INDEX_PIP_FE",
+      "source_emg2pose_index": 6,
+      "anatomical_meaning": "Index proximal interphalangeal flexion/extension",
+      "unit": "radians",
+      "dof_type": "FE",
+      "positive_direction": "flexion"
+    },
+    {
+      "canonical_index": 6,
+      "canonical_name": "index_dip_flexion",
+      "source_emg2pose_joint_name": "INDEX_DIP_FE",
+      "source_emg2pose_index": 7,
+      "anatomical_meaning": "Index distal interphalangeal flexion/extension",
+      "unit": "radians",
+      "dof_type": "FE",
+      "positive_direction": "flexion"
+    },
+    {
+      "canonical_index": 7,
+      "canonical_name": "middle_mcp_flexion",
+      "source_emg2pose_joint_name": "MIDDLE_MCP_FE",
+      "source_emg2pose_index": 9,
+      "anatomical_meaning": "Middle metacarpophalangeal flexion/extension",
+      "unit": "radians",
+      "dof_type": "FE",
+      "positive_direction": "flexion"
+    },
+    {
+      "canonical_index": 8,
+      "canonical_name": "middle_pip_flexion",
+      "source_emg2pose_joint_name": "MIDDLE_PIP_FE",
+      "source_emg2pose_index": 10,
+      "anatomical_meaning": "Middle proximal interphalangeal flexion/extension",
+      "unit": "radians",
+      "dof_type": "FE",
+      "positive_direction": "flexion"
+    },
+    {
+      "canonical_index": 9,
+      "canonical_name": "middle_dip_flexion",
+      "source_emg2pose_joint_name": "MIDDLE_DIP_FE",
+      "source_emg2pose_index": 11,
+      "anatomical_meaning": "Middle distal interphalangeal flexion/extension",
+      "unit": "radians",
+      "dof_type": "FE",
+      "positive_direction": "flexion"
+    },
+    {
+      "canonical_index": 10,
+      "canonical_name": "ring_mcp_flexion",
+      "source_emg2pose_joint_name": "RING_MCP_FE",
+      "source_emg2pose_index": 13,
+      "anatomical_meaning": "Ring metacarpophalangeal flexion/extension",
+      "unit": "radians",
+      "dof_type": "FE",
+      "positive_direction": "flexion"
+    },
+    {
+      "canonical_index": 11,
+      "canonical_name": "ring_pip_flexion",
+      "source_emg2pose_joint_name": "RING_PIP_FE",
+      "source_emg2pose_index": 14,
+      "anatomical_meaning": "Ring proximal interphalangeal flexion/extension",
+      "unit": "radians",
+      "dof_type": "FE",
+      "positive_direction": "flexion"
+    },
+    {
+      "canonical_index": 12,
+      "canonical_name": "ring_dip_flexion",
+      "source_emg2pose_joint_name": "RING_DIP_FE",
+      "source_emg2pose_index": 15,
+      "anatomical_meaning": "Ring distal interphalangeal flexion/extension",
+      "unit": "radians",
+      "dof_type": "FE",
+      "positive_direction": "flexion"
+    },
+    {
+      "canonical_index": 13,
+      "canonical_name": "pinky_mcp_flexion",
+      "source_emg2pose_joint_name": "PINKY_MCP_FE",
+      "source_emg2pose_index": 17,
+      "anatomical_meaning": "Pinky metacarpophalangeal flexion/extension",
+      "unit": "radians",
+      "dof_type": "FE",
+      "positive_direction": "flexion"
+    },
+    {
+      "canonical_index": 14,
+      "canonical_name": "pinky_pip_flexion",
+      "source_emg2pose_joint_name": "PINKY_PIP_FE",
+      "source_emg2pose_index": 18,
+      "anatomical_meaning": "Pinky proximal interphalangeal flexion/extension",
+      "unit": "radians",
+      "dof_type": "FE",
+      "positive_direction": "flexion"
+    },
+    {
+      "canonical_index": 15,
+      "canonical_name": "pinky_dip_flexion",
+      "source_emg2pose_joint_name": "PINKY_DIP_FE",
+      "source_emg2pose_index": 19,
+      "anatomical_meaning": "Pinky distal interphalangeal flexion/extension",
+      "unit": "radians",
+      "dof_type": "FE",
+      "positive_direction": "flexion"
+    }
+  ],
+  "dropped_variables": [
+    {
+      "source_emg2pose_joint_name": "INDEX_MCP_AA",
+      "source_emg2pose_index": 4,
+      "reason": "excluded from canonical16 by design (non-thumb MCP ab/adduction)"
+    },
+    {
+      "source_emg2pose_joint_name": "MIDDLE_MCP_AA",
+      "source_emg2pose_index": 8,
+      "reason": "excluded from canonical16 by design (non-thumb MCP ab/adduction)"
+    },
+    {
+      "source_emg2pose_joint_name": "RING_MCP_AA",
+      "source_emg2pose_index": 12,
+      "reason": "excluded from canonical16 by design (non-thumb MCP ab/adduction)"
+    },
+    {
+      "source_emg2pose_joint_name": "PINKY_MCP_AA",
+      "source_emg2pose_index": 16,
+      "reason": "excluded from canonical16 by design (non-thumb MCP ab/adduction)"
+    }
+  ],
+  "reserved_canonical18": {
+    "status": "DISABLED",
+    "ndim": 18,
+    "note": "Reserved for a future canonical18. Enabled ONLY after the DB9<->emg2pose spread mapping has been independently validated. No spread formula is defined or implemented in this module.",
+    "reserved_variables": [
+      {
+        "canonical_index": "16",
+        "variable_name": "middle_ring_spread",
+        "status": "RESERVED_DISABLED",
+        "blocked_on": "DB9<->emg2pose spread mapping not yet independently validated"
+      },
+      {
+        "canonical_index": "17",
+        "variable_name": "ring_pinky_spread",
+        "status": "RESERVED_DISABLED",
+        "blocked_on": "DB9<->emg2pose spread mapping not yet independently validated"
+      }
+    ]
+  }
+}

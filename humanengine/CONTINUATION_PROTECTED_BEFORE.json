@@ -1,0 +1,1607 @@
+[
+  {
+    "path": "inference\\smoke_test_inference.py",
+    "sha256": "47d200b700e6f346b3e6b61b1cbc027aa799c35a1dd725d54e3665c0a5455548",
+    "baseline_sha256": "47d200b700e6f346b3e6b61b1cbc027aa799c35a1dd725d54e3665c0a5455548"
+  },
+  {
+    "path": "inference\\make_joint_reference.py",
+    "sha256": "ca78bda0eabdad3444dd311cbf4d236a800ff798aff90d0899e3f85329a7da57",
+    "baseline_sha256": "ca78bda0eabdad3444dd311cbf4d236a800ff798aff90d0899e3f85329a7da57"
+  },
+  {
+    "path": "inference\\predict_pose.py",
+    "sha256": "6cdd060ab639975eb5e2f96bfe43d01371f9f91ec6ecb812c2af2c314bbef818",
+    "baseline_sha256": "6cdd060ab639975eb5e2f96bfe43d01371f9f91ec6ecb812c2af2c314bbef818"
+  },
+  {
+    "path": "inference\\verify_joint_conventions.py",
+    "sha256": "0b4a0be2e7d3855dc6dcef8568549a28d9a7bc8916757162e136d73873a3ef0d",
+    "baseline_sha256": "0b4a0be2e7d3855dc6dcef8568549a28d9a7bc8916757162e136d73873a3ef0d"
+  },
+  {
+    "path": "representation\\db9_canonical16_schema.json",
+    "sha256": "0ede53b97908460a0700cc78674789ea30303f7f6572a129922765d683ed0f80",
+    "baseline_sha256": "0ede53b97908460a0700cc78674789ea30303f7f6572a129922765d683ed0f80"
+  },
+  {
+    "path": "representation\\canonical_hand.py",
+    "sha256": "d9922ff0927760fb5d319b6fd22eb264602e836cf87a7f09291550218c987130",
+    "baseline_sha256": "d9922ff0927760fb5d319b6fd22eb264602e836cf87a7f09291550218c987130"
+  },
+  {
+    "path": "representation\\canonical16_schema.json",
+    "sha256": "33449fca98ee2db2b0023438786801c5711cd3be042fdef181b663e8a77878e1",
+    "baseline_sha256": "33449fca98ee2db2b0023438786801c5711cd3be042fdef181b663e8a77878e1"
+  },
+  {
+    "path": "representation\\verify_canonical16_on_real_data.py",
+    "sha256": "b05b8273af759a439f97e94090ccb0775fc45faad672b230305efa52a737c7dc",
+    "baseline_sha256": "b05b8273af759a439f97e94090ccb0775fc45faad672b230305efa52a737c7dc"
+  },
+  {
+    "path": "representation\\db9_to_canonical16.py",
+    "sha256": "8ec97d0b0b4a61f8e8d958f93c2984fccd3144b2b8ca15adf4ff59e6160ce3cf",
+    "baseline_sha256": "8ec97d0b0b4a61f8e8d958f93c2984fccd3144b2b8ca15adf4ff59e6160ce3cf"
+  },
+  {
+    "path": "representation\\tests\\test_db9_to_canonical16.py",
+    "sha256": "527d4a5fa4a425693e51fc883a10725e8ce63e1b3d8b7e95f25a4217550aceb9",
+    "baseline_sha256": "527d4a5fa4a425693e51fc883a10725e8ce63e1b3d8b7e95f25a4217550aceb9"
+  },
+  {
+    "path": "representation\\tests\\test_canonical_hand.py",
+    "sha256": "688079644f7d27759692e6b655b086edc0f73dad2b7145f2d3cdd83e0a3b05ea",
+    "baseline_sha256": "688079644f7d27759692e6b655b086edc0f73dad2b7145f2d3cdd83e0a3b05ea"
+  },
+  {
+    "path": "bridge_audit\\_common.py",
+    "sha256": "81bde8efcd78e6e9e2d79eef98b24789807f83f2ceeba2d21e471dbd23c04ed9",
+    "baseline_sha256": "81bde8efcd78e6e9e2d79eef98b24789807f83f2ceeba2d21e471dbd23c04ed9"
+  },
+  {
+    "path": "bridge_audit\\visual_check.py",
+    "sha256": "42a158225410ecbdb5bd60c3e8d530a5f4946aa4961c60846837b6e10fa2022e",
+    "baseline_sha256": "42a158225410ecbdb5bd60c3e8d530a5f4946aa4961c60846837b6e10fa2022e"
+  },
+  {
+    "path": "bridge_audit\\tools\\apply_audit_corrections.py",
+    "sha256": "0c9ce04400f24937b368efcb0a0e3ea8df009d0a87af0534bb728ebd384811eb",
+    "baseline_sha256": "0c9ce04400f24937b368efcb0a0e3ea8df009d0a87af0534bb728ebd384811eb"
+  },
+  {
+    "path": "docs\\smoke_test_report.txt",
+    "sha256": "99411ac5b7e157a215b6d6835cb156c0f941519c48a54be97aa2d6eddb4abbf2",
+    "baseline_sha256": "99411ac5b7e157a215b6d6835cb156c0f941519c48a54be97aa2d6eddb4abbf2"
+  },
+  {
+    "path": "docs\\smoke_test_evidence.json",
+    "sha256": "d83fc9d2d2d40acff327f75b90387d5b0108a35218e5117db7aeaa5ad6bb495b",
+    "baseline_sha256": "d83fc9d2d2d40acff327f75b90387d5b0108a35218e5117db7aeaa5ad6bb495b"
+  },
+  {
+    "path": "docs\\SESSION_HANDOVER.md",
+    "sha256": "e96636f5db5208ba20c4bd70d68567f047492086883514e37ef5c45e9632c4ea",
+    "baseline_sha256": "e96636f5db5208ba20c4bd70d68567f047492086883514e37ef5c45e9632c4ea"
+  },
+  {
+    "path": "docs\\SESSION2_REPORT.md",
+    "sha256": "75181720d67502af94b97e549b3efa79b858144ddbc6a5b7a58e5c991d3f6968",
+    "baseline_sha256": "75181720d67502af94b97e549b3efa79b858144ddbc6a5b7a58e5c991d3f6968"
+  },
+  {
+    "path": "docs\\SERVER_ACQUISITION_RUNBOOK.md",
+    "sha256": "674d419018a69660f118f0f86955e5e570e51c2f07b8f80667323f4a98242924",
+    "baseline_sha256": "674d419018a69660f118f0f86955e5e570e51c2f07b8f80667323f4a98242924"
+  },
+  {
+    "path": "docs\\REPETITION_AUDIT.json",
+    "sha256": "350b06c1d4a479dd81b7ec1a3ba1707a59ab0a67ccd72049d34c1b864c818a47",
+    "baseline_sha256": "350b06c1d4a479dd81b7ec1a3ba1707a59ab0a67ccd72049d34c1b864c818a47"
+  },
+  {
+    "path": "docs\\REMEDIATION_REPORT.md",
+    "sha256": "aa2a39262bbc939316353bc81789ea5cb45a8af3c0de3d4a64b8d8cd60edbfad",
+    "baseline_sha256": "aa2a39262bbc939316353bc81789ea5cb45a8af3c0de3d4a64b8d8cd60edbfad"
+  },
+  {
+    "path": "docs\\joint_reference_table.md",
+    "sha256": "a98f084be8e99f3af09cfded57d867dab9725d626dfee8ffc4915cc91d15fecd",
+    "baseline_sha256": "a98f084be8e99f3af09cfded57d867dab9725d626dfee8ffc4915cc91d15fecd"
+  },
+  {
+    "path": "docs\\joint_reference_table.json",
+    "sha256": "b9c945155f1aaa30d1483e9916a329f22b100aaecf29c913ad72f82830a8c214",
+    "baseline_sha256": "b9c945155f1aaa30d1483e9916a329f22b100aaecf29c913ad72f82830a8c214"
+  },
+  {
+    "path": "docs\\joint_convention_verification.txt",
+    "sha256": "ed2c65136725b85b2de434e7af4abd82bd55b3351765523722e2552a91ad30d0",
+    "baseline_sha256": "ed2c65136725b85b2de434e7af4abd82bd55b3351765523722e2552a91ad30d0"
+  },
+  {
+    "path": "docs\\joint_angle_definition.md",
+    "sha256": "87e9f9222fce1a8d44ec8495bf50d47676cb5920a1bed6cf547089815a03befe",
+    "baseline_sha256": "87e9f9222fce1a8d44ec8495bf50d47676cb5920a1bed6cf547089815a03befe"
+  },
+  {
+    "path": "bridge_audit\\tests\\test_bridge_audit.py",
+    "sha256": "71feddf2973efa6676516a851b0e89b2e1f86d3c34bd699056a0899e58ebb51c",
+    "baseline_sha256": "71feddf2973efa6676516a851b0e89b2e1f86d3c34bd699056a0899e58ebb51c"
+  },
+  {
+    "path": "bridge_audit\\SESSION5_HANDOVER.md",
+    "sha256": "cc6ad44f99d56f52ea6d30ddd9dc5e50f93ce9dd26087a3d6c1a796c59a5807b",
+    "baseline_sha256": "cc6ad44f99d56f52ea6d30ddd9dc5e50f93ce9dd26087a3d6c1a796c59a5807b"
+  },
+  {
+    "path": "bridge_audit\\SESSION5_BRIDGE_AUDIT_REPORT.md",
+    "sha256": "56fc29a3135d8562f4a7f5ae38c9aa6b8706c2c607990136e3a10891527ad043",
+    "baseline_sha256": "56fc29a3135d8562f4a7f5ae38c9aa6b8706c2c607990136e3a10891527ad043"
+  },
+  {
+    "path": "bridge_audit\\run_bridge_audit.py",
+    "sha256": "74d9034381da1915ea8b7ee502c99aada51c557a38836ced45586c37337a420c",
+    "baseline_sha256": "74d9034381da1915ea8b7ee502c99aada51c557a38836ced45586c37337a420c"
+  },
+  {
+    "path": "docs\\generated\\emg2pose_joint_axes.json",
+    "sha256": "0e991a4a3300b871871e42744e112413dc7b8f8b4c82d53ae4296c1d15dcd11b",
+    "baseline_sha256": "0e991a4a3300b871871e42744e112413dc7b8f8b4c82d53ae4296c1d15dcd11b"
+  },
+  {
+    "path": "docs\\FROZEN_CONFIRMATORY_SPEC.json",
+    "sha256": "50c338bed3bf8a346f492abb61002a3e406f45aa3606e506271d026a75dc4196",
+    "baseline_sha256": "50c338bed3bf8a346f492abb61002a3e406f45aa3606e506271d026a75dc4196"
+  },
+  {
+    "path": "docs\\emg2pose_paper.txt",
+    "sha256": "3be244ca73e202fe2480305b98a4c56fe3258327d8ed8a2ea2f96285734d0f54",
+    "baseline_sha256": "3be244ca73e202fe2480305b98a4c56fe3258327d8ed8a2ea2f96285734d0f54"
+  },
+  {
+    "path": "docs\\EMG2POSE_DATASET_REFERENCE.md",
+    "sha256": "042b84a6c35dbc7cef35b78e77e237931a2af47377e9fad3c503473f51c39072",
+    "baseline_sha256": "042b84a6c35dbc7cef35b78e77e237931a2af47377e9fad3c503473f51c39072"
+  },
+  {
+    "path": "docs\\DB9_FILE_AUDIT.json",
+    "sha256": "b6e107c5cdc36e641514acbc884233d1eeb99614b63e22d0f0e101fb66e7cc1c",
+    "baseline_sha256": "b6e107c5cdc36e641514acbc884233d1eeb99614b63e22d0f0e101fb66e7cc1c"
+  },
+  {
+    "path": "docs\\DB9_EMG2POSE_ZERO_COMPATIBILITY.json",
+    "sha256": "58d0faf30dd65b9e362a27e884f83b5fe9e2a77001fa9f1c8b25a2cbabc71a53",
+    "baseline_sha256": "58d0faf30dd65b9e362a27e884f83b5fe9e2a77001fa9f1c8b25a2cbabc71a53"
+  },
+  {
+    "path": "docs\\DB9_CANONICAL16_MAPPING.md",
+    "sha256": "20ccedae3bfd8264c48c42975c9c60d8a0cc7f8a9d0026084a4396dd242abdf5",
+    "baseline_sha256": "20ccedae3bfd8264c48c42975c9c60d8a0cc7f8a9d0026084a4396dd242abdf5"
+  },
+  {
+    "path": "docs\\DATASET_ACCESS_DECISION.md",
+    "sha256": "f70f23b77315768b25df470b8fe65eea2f0987ca13b19122351c0428ca1bf1a2",
+    "baseline_sha256": "f70f23b77315768b25df470b8fe65eea2f0987ca13b19122351c0428ca1bf1a2"
+  },
+  {
+    "path": "docs\\CORPUS_INTEGRITY.json",
+    "sha256": "244ed912e470398a0b032d890b951447c2ca6607506c50d852369662f01b1462",
+    "baseline_sha256": "244ed912e470398a0b032d890b951447c2ca6607506c50d852369662f01b1462"
+  },
+  {
+    "path": "docs\\CORPUS_GATE.json",
+    "sha256": "a4ef2df9324b67d330c8e25eae3f926d2d4c64094ec11a8d601e0a656560b1f9",
+    "baseline_sha256": "a4ef2df9324b67d330c8e25eae3f926d2d4c64094ec11a8d601e0a656560b1f9"
+  },
+  {
+    "path": "docs\\CONFIRMATORY_RUN_MANIFEST.json",
+    "sha256": "1c65d71579dfac980b2e7e5957b558b417c539fd7e62742449f602329bf0fa2a",
+    "baseline_sha256": "1c65d71579dfac980b2e7e5957b558b417c539fd7e62742449f602329bf0fa2a"
+  },
+  {
+    "path": "docs\\CONFIRMATORY_RESULTS.md",
+    "sha256": "419386bad24a2303343f0d7eedc42c7767679377dd19d3a7e3c40658194ca83c",
+    "baseline_sha256": "419386bad24a2303343f0d7eedc42c7767679377dd19d3a7e3c40658194ca83c"
+  },
+  {
+    "path": "docs\\CONFIRMATORY_COHORTS.json",
+    "sha256": "55a7d511198d3749ad289a3cee5b0e3b31e5cc42a10c9575108133eaf8f924fc",
+    "baseline_sha256": "55a7d511198d3749ad289a3cee5b0e3b31e5cc42a10c9575108133eaf8f924fc"
+  },
+  {
+    "path": "docs\\canonical_emg2pose_verification.json",
+    "sha256": "e2eb2af519192facc9e77f48ed7ce86ca11fdca1e7fc1fc518cd16d870a9f8aa",
+    "baseline_sha256": "e2eb2af519192facc9e77f48ed7ce86ca11fdca1e7fc1fc518cd16d870a9f8aa"
+  },
+  {
+    "path": "docs\\canonical16_real_data_verification.txt",
+    "sha256": "138090e21866d5dc32218723a9daa87a081b96f54ab554e6918b2f55752bace0",
+    "baseline_sha256": "138090e21866d5dc32218723a9daa87a081b96f54ab554e6918b2f55752bace0"
+  },
+  {
+    "path": "docs\\canonical16_real_data_evidence.json",
+    "sha256": "895b18c399283b69d3cf73ef8ae28ed3a2671b4a6511e1298623613a68c2dafc",
+    "baseline_sha256": "895b18c399283b69d3cf73ef8ae28ed3a2671b4a6511e1298623613a68c2dafc"
+  },
+  {
+    "path": "docs\\CANONICAL16_CONTRACT.md",
+    "sha256": "14f6d46dea611a669c776f917bf6f1929c13ecf2c3026c8da403e4853197e6bf",
+    "baseline_sha256": "14f6d46dea611a669c776f917bf6f1929c13ecf2c3026c8da403e4853197e6bf"
+  },
+  {
+    "path": "docs\\artifact_hashes.json",
+    "sha256": "df7f2225026a2df5cfa91af8dd0f92aaf001007dcae3499182123e35a7ba9fc2",
+    "baseline_sha256": "df7f2225026a2df5cfa91af8dd0f92aaf001007dcae3499182123e35a7ba9fc2"
+  },
+  {
+    "path": "bridge_audit\\domain_depth.py",
+    "sha256": "cc033114802585db284d9b7d379332b1e9a68a786c7c3cb3e19d17a820435c3f",
+    "baseline_sha256": "cc033114802585db284d9b7d379332b1e9a68a786c7c3cb3e19d17a820435c3f"
+  },
+  {
+    "path": "bridge_audit\\decoder.py",
+    "sha256": "3086f07cb1e0a835ce0435f9ce94e805bd64128dabbc54874fd0bd7de3d629cb",
+    "baseline_sha256": "3086f07cb1e0a835ce0435f9ce94e805bd64128dabbc54874fd0bd7de3d629cb"
+  },
+  {
+    "path": "bridge_audit\\results\\domain_depth_supplement.json",
+    "sha256": "31963dfe6efaf921a050de84a14931fb18e30e201b07ee7f7a00558d0150f949",
+    "baseline_sha256": "31963dfe6efaf921a050de84a14931fb18e30e201b07ee7f7a00558d0150f949"
+  },
+  {
+    "path": "bridge_audit\\results\\BRIDGE_AUDIT_SUMMARY.json",
+    "sha256": "821d81cd3f3dbe29030fdce17c111f56f29a2b11fd483205193655eb781cdd11",
+    "baseline_sha256": "821d81cd3f3dbe29030fdce17c111f56f29a2b11fd483205193655eb781cdd11"
+  },
+  {
+    "path": "bridge_audit\\results\\bridge_audit_results.json",
+    "sha256": "81d114c68ebb0cfee3e7dab5e04c30181fb8579f1001a88d520c83af0ce18548",
+    "baseline_sha256": "81d114c68ebb0cfee3e7dab5e04c30181fb8579f1001a88d520c83af0ce18548"
+  },
+  {
+    "path": "bridge_audit\\results\\sessions\\2022-12-06-1670313600-e3096-cv-emg-pose-train@2-recording-11_right.paired50hz.npz",
+    "sha256": "1df23a1156ad86dfcefd03077e5b124bc5cc3bf0ec443ca18c95372b53d1bc7c",
+    "baseline_sha256": "1df23a1156ad86dfcefd03077e5b124bc5cc3bf0ec443ca18c95372b53d1bc7c"
+  },
+  {
+    "path": "bridge_audit\\results\\sessions\\2022-12-06-1670313600-e3096-cv-emg-pose-train@2-recording-11_left.paired50hz.npz",
+    "sha256": "6c0624250df5c0bf55cbdcfc3001748428fe4600773ff9dbdbef8ca58a8904b3",
+    "baseline_sha256": "6c0624250df5c0bf55cbdcfc3001748428fe4600773ff9dbdbef8ca58a8904b3"
+  },
+  {
+    "path": "bridge_audit\\results\\sessions\\2022-12-06-1670313600-e3096-cv-emg-pose-train@2-recording-10_right.paired50hz.npz",
+    "sha256": "12be623ea75faddafbb647a1fac089f4ec32f30ea91afd587346827061e4331b",
+    "baseline_sha256": "12be623ea75faddafbb647a1fac089f4ec32f30ea91afd587346827061e4331b"
+  },
+  {
+    "path": "bridge_audit\\results\\sessions\\2022-12-06-1670313600-e3096-cv-emg-pose-train@2-recording-10_left.paired50hz.npz",
+    "sha256": "acc950dcdf3bc5f68efa916e32561b1246192c4278ad1e2a140510796519ff0c",
+    "baseline_sha256": "acc950dcdf3bc5f68efa916e32561b1246192c4278ad1e2a140510796519ff0c"
+  },
+  {
+    "path": "bridge_audit\\results\\phase9_visual_examples.json",
+    "sha256": "1a3e1b3249e30acbf4c070f91f2cff58c8d61dd17ae9d8eb3a175a7ac6da54dd",
+    "baseline_sha256": "1a3e1b3249e30acbf4c070f91f2cff58c8d61dd17ae9d8eb3a175a7ac6da54dd"
+  },
+  {
+    "path": "bridge_audit\\results\\sessions\\2022-12-06-1670313600-e3096-cv-emg-pose-train@2-recording-14_right.paired50hz.npz",
+    "sha256": "e02678ab16576024767fc5cca3517a9c7fc1ff995fb7d725a50d821cbe74026d",
+    "baseline_sha256": "e02678ab16576024767fc5cca3517a9c7fc1ff995fb7d725a50d821cbe74026d"
+  },
+  {
+    "path": "bridge_audit\\results\\sessions\\2022-12-06-1670313600-e3096-cv-emg-pose-train@2-recording-14_left.paired50hz.npz",
+    "sha256": "c22613babf6397a6d90acd302f733abf78743988bf2fd8195369ce5a7a8853fc",
+    "baseline_sha256": "c22613babf6397a6d90acd302f733abf78743988bf2fd8195369ce5a7a8853fc"
+  },
+  {
+    "path": "bridge_audit\\results\\sessions\\2022-12-06-1670313600-e3096-cv-emg-pose-train@2-recording-13_right.paired50hz.npz",
+    "sha256": "ab80bef9637415a8e02038db062384a881ce008bc9233242bdef5f27db3589db",
+    "baseline_sha256": "ab80bef9637415a8e02038db062384a881ce008bc9233242bdef5f27db3589db"
+  },
+  {
+    "path": "bridge_audit\\results\\sessions\\2022-12-06-1670313600-e3096-cv-emg-pose-train@2-recording-13_left.paired50hz.npz",
+    "sha256": "94af92c4d84b063b7e3030498b9ad66b301c5b3d9ee55475fde2b7cb92ee4579",
+    "baseline_sha256": "94af92c4d84b063b7e3030498b9ad66b301c5b3d9ee55475fde2b7cb92ee4579"
+  },
+  {
+    "path": "bridge_audit\\results\\sessions\\2022-12-06-1670313600-e3096-cv-emg-pose-train@2-recording-12_right.paired50hz.npz",
+    "sha256": "10ac031e9c16cd1e5caecd61ddb0162cb9e44aab2ea1b391fb29cbc26fffe3cb",
+    "baseline_sha256": "10ac031e9c16cd1e5caecd61ddb0162cb9e44aab2ea1b391fb29cbc26fffe3cb"
+  },
+  {
+    "path": "bridge_audit\\results\\sessions\\2022-12-06-1670313600-e3096-cv-emg-pose-train@2-recording-12_left.paired50hz.npz",
+    "sha256": "339739dc2d875894ef98d2d509a9038556dcdca4284e42846fe9a454eb984841",
+    "baseline_sha256": "339739dc2d875894ef98d2d509a9038556dcdca4284e42846fe9a454eb984841"
+  },
+  {
+    "path": "bridge_audit\\results\\sessions\\2022-12-06-1670313600-e3096-cv-emg-pose-train@2-recording-2_right.paired50hz.npz",
+    "sha256": "bb5b71f86149326decc8258946fae2cbbdd089a6aa2588a8a2bd7c35d75294e4",
+    "baseline_sha256": "bb5b71f86149326decc8258946fae2cbbdd089a6aa2588a8a2bd7c35d75294e4"
+  },
+  {
+    "path": "bridge_audit\\results\\sessions\\2022-12-06-1670313600-e3096-cv-emg-pose-train@2-recording-2_left.paired50hz.npz",
+    "sha256": "4ae590b3616857b0410a53f2559c32f8e76a42e77dbbb1340fbaf25832429816",
+    "baseline_sha256": "4ae590b3616857b0410a53f2559c32f8e76a42e77dbbb1340fbaf25832429816"
+  },
+  {
+    "path": "bridge_audit\\results\\sessions\\2022-12-06-1670313600-e3096-cv-emg-pose-train@2-recording-1_right.paired50hz.npz",
+    "sha256": "d85182cf42fc4544204e100adb5c7b8879b08c3ba94c60f0dca48d18aa87716b",
+    "baseline_sha256": "d85182cf42fc4544204e100adb5c7b8879b08c3ba94c60f0dca48d18aa87716b"
+  },
+  {
+    "path": "bridge_audit\\results\\sessions\\2022-12-06-1670313600-e3096-cv-emg-pose-train@2-recording-1_left.paired50hz.npz",
+    "sha256": "3a9add4c03210699cb53bf02d5d5f6b27515a8053a96e8416bd9866740349153",
+    "baseline_sha256": "3a9add4c03210699cb53bf02d5d5f6b27515a8053a96e8416bd9866740349153"
+  },
+  {
+    "path": "bridge_audit\\results\\sessions\\2022-12-06-1670313600-e3096-cv-emg-pose-train@2-recording-15_right.paired50hz.npz",
+    "sha256": "90a959246a3fac69dcb67668ae5809001ad0ce93af38a0ea89efdf45fc5277e6",
+    "baseline_sha256": "90a959246a3fac69dcb67668ae5809001ad0ce93af38a0ea89efdf45fc5277e6"
+  },
+  {
+    "path": "bridge_audit\\results\\sessions\\2022-12-06-1670313600-e3096-cv-emg-pose-train@2-recording-15_left.paired50hz.npz",
+    "sha256": "bdb20b3f266e7489dec531afe91af25299e30a29c7f1ee65c0ea2209264983a1",
+    "baseline_sha256": "bdb20b3f266e7489dec531afe91af25299e30a29c7f1ee65c0ea2209264983a1"
+  },
+  {
+    "path": "bridge_audit\\results\\sessions\\2022-12-06-1670313600-e3096-cv-emg-pose-train@2-recording-4_left.paired50hz.npz",
+    "sha256": "520d9a1988d9ab2833148f98fde4a03921f64ea1dacf20343fcebf671e8fdb04",
+    "baseline_sha256": "520d9a1988d9ab2833148f98fde4a03921f64ea1dacf20343fcebf671e8fdb04"
+  },
+  {
+    "path": "bridge_audit\\results\\sessions\\2022-12-06-1670313600-e3096-cv-emg-pose-train@2-recording-3_right.paired50hz.npz",
+    "sha256": "b5dd0b12e5602c167232032885479b1ba57c1900ea20e584121da57f92a17feb",
+    "baseline_sha256": "b5dd0b12e5602c167232032885479b1ba57c1900ea20e584121da57f92a17feb"
+  },
+  {
+    "path": "bridge_audit\\results\\sessions\\2022-12-06-1670313600-e3096-cv-emg-pose-train@2-recording-3_left.paired50hz.npz",
+    "sha256": "37a187aa7a015072e0d5f6dd5ef41d7f4d6cd578c40a9d30cf76c0431ddef382",
+    "baseline_sha256": "37a187aa7a015072e0d5f6dd5ef41d7f4d6cd578c40a9d30cf76c0431ddef382"
+  },
+  {
+    "path": "bridge_audit\\results\\sessions\\2022-12-06-1670313600-e3096-cv-emg-pose-train@2-recording-5_left.paired50hz.npz",
+    "sha256": "7e483bd45848e0d6548425992aaf59370aedec7e88ce34b11ba625c31670b208",
+    "baseline_sha256": "7e483bd45848e0d6548425992aaf59370aedec7e88ce34b11ba625c31670b208"
+  },
+  {
+    "path": "bridge_audit\\results\\sessions\\2022-12-06-1670313600-e3096-cv-emg-pose-train@2-recording-4_right.paired50hz.npz",
+    "sha256": "423dc0e635a42700fbd39e1c132956f13216c8c37502e31ee409af014e298d90",
+    "baseline_sha256": "423dc0e635a42700fbd39e1c132956f13216c8c37502e31ee409af014e298d90"
+  },
+  {
+    "path": "bridge_audit\\results\\sessions\\2022-12-06-1670313600-e3096-cv-emg-pose-train@2-recording-5_right.paired50hz.npz",
+    "sha256": "43599c273fb7e99e2ba04f6aa9c1edac700580f460589c6a83d6356cf94aff78",
+    "baseline_sha256": "43599c273fb7e99e2ba04f6aa9c1edac700580f460589c6a83d6356cf94aff78"
+  },
+  {
+    "path": "bridge_audit\\results\\sessions\\2022-12-06-1670313600-e3096-cv-emg-pose-train@2-recording-6_left.paired50hz.npz",
+    "sha256": "b3af70a8c990e1c0f2eb3b89e6fb047b3faddab4c4fc2e7e40f59f478ff6a20d",
+    "baseline_sha256": "b3af70a8c990e1c0f2eb3b89e6fb047b3faddab4c4fc2e7e40f59f478ff6a20d"
+  },
+  {
+    "path": "bridge_audit\\results\\sessions\\2022-12-06-1670313600-e3096-cv-emg-pose-train@2-recording-6_right.paired50hz.npz",
+    "sha256": "223cd1f7bc0be46f5ef4aa3480fdba60e7bcae6ba33e7790670e72d726759d4b",
+    "baseline_sha256": "223cd1f7bc0be46f5ef4aa3480fdba60e7bcae6ba33e7790670e72d726759d4b"
+  },
+  {
+    "path": "bridge_audit\\results\\sessions\\2022-12-06-1670313600-e3096-cv-emg-pose-train@2-recording-9_right.paired50hz.npz",
+    "sha256": "50a3aa084f8cb3f2075403a0712a873e7924c627bbfbc7fe5d27461e96556126",
+    "baseline_sha256": "50a3aa084f8cb3f2075403a0712a873e7924c627bbfbc7fe5d27461e96556126"
+  },
+  {
+    "path": "bridge_audit\\results\\sessions\\2022-12-06-1670313600-e3096-cv-emg-pose-train@2-recording-9_left.paired50hz.npz",
+    "sha256": "d534adb8a8182fbef5f9215964b805621515d0dd1ab90584f039ae28526c22a9",
+    "baseline_sha256": "d534adb8a8182fbef5f9215964b805621515d0dd1ab90584f039ae28526c22a9"
+  },
+  {
+    "path": "bridge_audit\\results\\sessions\\2022-12-06-1670313600-e3096-cv-emg-pose-train@2-recording-8_right.paired50hz.npz",
+    "sha256": "b345b2880abfe96ec864168649b37d121b1f19728ccc36224b359cef07ad38db",
+    "baseline_sha256": "b345b2880abfe96ec864168649b37d121b1f19728ccc36224b359cef07ad38db"
+  },
+  {
+    "path": "bridge_audit\\results\\sessions\\2022-12-06-1670313600-e3096-cv-emg-pose-train@2-recording-8_left.paired50hz.npz",
+    "sha256": "a192dbc951cf867181fcce1b0faaf60d3a7b6fa2aec1b5fb858d799914245470",
+    "baseline_sha256": "a192dbc951cf867181fcce1b0faaf60d3a7b6fa2aec1b5fb858d799914245470"
+  },
+  {
+    "path": "bridge_audit\\results\\sessions\\2022-12-06-1670313600-e3096-cv-emg-pose-train@2-recording-7_right.paired50hz.npz",
+    "sha256": "996429398b642cb31e584e475d20fa25e9f504dbd31aded1c1dfc3c43014e654",
+    "baseline_sha256": "996429398b642cb31e584e475d20fa25e9f504dbd31aded1c1dfc3c43014e654"
+  },
+  {
+    "path": "bridge_audit\\results\\sessions\\2022-12-06-1670313600-e3096-cv-emg-pose-train@2-recording-7_left.paired50hz.npz",
+    "sha256": "989756c1e76874116eb65f4d53041ca6065a2a917a0ad220a9076141bb754593",
+    "baseline_sha256": "989756c1e76874116eb65f4d53041ca6065a2a917a0ad220a9076141bb754593"
+  },
+  {
+    "path": "human_semantic_validation\\README.md",
+    "sha256": "58198a22b449e09c793d2d14532343f5cdb05842368e50f8b1fc9c055efb486b",
+    "baseline_sha256": "58198a22b449e09c793d2d14532343f5cdb05842368e50f8b1fc9c055efb486b"
+  },
+  {
+    "path": "posture_decoder\\tools\\verify_corpus_integrity.py",
+    "sha256": "200f336c2f6f70f50a8d7be0e8fb98fc6f68ae38d6cad8acb65ed8a1e906c381",
+    "baseline_sha256": "200f336c2f6f70f50a8d7be0e8fb98fc6f68ae38d6cad8acb65ed8a1e906c381"
+  },
+  {
+    "path": "posture_decoder\\tools\\verify_corpus_gate.py",
+    "sha256": "76a77d997b2946dd190c93d0d7c969911be8c203656fa26790a85c126d899ebe",
+    "baseline_sha256": "76a77d997b2946dd190c93d0d7c969911be8c203656fa26790a85c126d899ebe"
+  },
+  {
+    "path": "posture_decoder\\tools\\verify_canonical_emg2pose.py",
+    "sha256": "b61c06d02ecc1b2a55cad71fce42bb663b1c04a1e997b99c3a39a1600e43664b",
+    "baseline_sha256": "b61c06d02ecc1b2a55cad71fce42bb663b1c04a1e997b99c3a39a1600e43664b"
+  },
+  {
+    "path": "posture_decoder\\tools\\unpack_db9.py",
+    "sha256": "0fab445a4bdf72bc34738e3263c4884a6cdd7afd813c6379092f8dde6db31add",
+    "baseline_sha256": "0fab445a4bdf72bc34738e3263c4884a6cdd7afd813c6379092f8dde6db31add"
+  },
+  {
+    "path": "posture_decoder\\tools\\thumb_zero_alignment.py",
+    "sha256": "fb6d1944d6451254a213b03cffa4df46d8c8a2d55acfebccc3129e65ea5f1470",
+    "baseline_sha256": "fb6d1944d6451254a213b03cffa4df46d8c8a2d55acfebccc3129e65ea5f1470"
+  },
+  {
+    "path": "posture_decoder\\tools\\thumb_web_sign_test.py",
+    "sha256": "16c8aae2eb418b3f172d09d051a5136446f2717b8addfde26165b04759ae7e0c",
+    "baseline_sha256": "16c8aae2eb418b3f172d09d051a5136446f2717b8addfde26165b04759ae7e0c"
+  },
+  {
+    "path": "posture_decoder\\tools\\resolve_thumb_axis.py",
+    "sha256": "a1c16d2c1b725c2afbefe1c45ee0ae964c4056f1cc563136d48bd4894fc57284",
+    "baseline_sha256": "a1c16d2c1b725c2afbefe1c45ee0ae964c4056f1cc563136d48bd4894fc57284"
+  },
+  {
+    "path": "posture_decoder\\tools\\make_confirmatory_manifest.py",
+    "sha256": "690669045394c4074a3d1189f7904ba6e4d1c1579ae7c439732ecd5afc8a3e96",
+    "baseline_sha256": "690669045394c4074a3d1189f7904ba6e4d1c1579ae7c439732ecd5afc8a3e96"
+  },
+  {
+    "path": "posture_decoder\\tools\\inspect_db9.py",
+    "sha256": "affc5a8695cfe6ee834aa0e7352d7f6e5eb3baf548803f214f4783bcd4731612",
+    "baseline_sha256": "affc5a8695cfe6ee834aa0e7352d7f6e5eb3baf548803f214f4783bcd4731612"
+  },
+  {
+    "path": "posture_decoder\\tools\\freeze_confirmatory_spec.py",
+    "sha256": "6e941430833dfdcb1af36afe73d3c370c494b0949f2babbd3001932f0e381804",
+    "baseline_sha256": "6e941430833dfdcb1af36afe73d3c370c494b0949f2babbd3001932f0e381804"
+  },
+  {
+    "path": "posture_decoder\\tools\\fetch_db9_member.py",
+    "sha256": "eac5814a802d67afc9810769452d4f02d09a5a399d78545310d05fbf6d1c34c4",
+    "baseline_sha256": "eac5814a802d67afc9810769452d4f02d09a5a399d78545310d05fbf6d1c34c4"
+  },
+  {
+    "path": "posture_decoder\\tools\\fetch_db9.py",
+    "sha256": "57938b1ffcb372a1c83ee5511652e58123debaa9b6aeab8ddf5459e3fd4e3ab7",
+    "baseline_sha256": "57938b1ffcb372a1c83ee5511652e58123debaa9b6aeab8ddf5459e3fd4e3ab7"
+  },
+  {
+    "path": "posture_decoder\\tools\\check_zero_pose_compatibility.py",
+    "sha256": "101db81054356f46fc055d1b660b4148cac5a824d7c6cef3ae7daf33fe290bb6",
+    "baseline_sha256": "101db81054356f46fc055d1b660b4148cac5a824d7c6cef3ae7daf33fe290bb6"
+  },
+  {
+    "path": "posture_decoder\\tools\\audit_repetitions.py",
+    "sha256": "0c2e390153e712e53c2f6b0b89e0a56d2a570bc322b70de9ba60a7d7136ef4f1",
+    "baseline_sha256": "0c2e390153e712e53c2f6b0b89e0a56d2a570bc322b70de9ba60a7d7136ef4f1"
+  },
+  {
+    "path": "posture_decoder\\tools\\audit_db9_files.py",
+    "sha256": "046f846bf08e71cc3c106a55dc96d0963605dc0e04d1426a8cda6194dd82778d",
+    "baseline_sha256": "046f846bf08e71cc3c106a55dc96d0963605dc0e04d1426a8cda6194dd82778d"
+  },
+  {
+    "path": "human_semantic_validation\\SESSION6_STAGE_A_REPORT.md",
+    "sha256": "42b7afc06f5d04cb857d04ccc5e6d02843f558b4140d88187b0709a401de04ff",
+    "baseline_sha256": "42b7afc06f5d04cb857d04ccc5e6d02843f558b4140d88187b0709a401de04ff"
+  },
+  {
+    "path": "human_semantic_validation\\SESSION6_STAGE_A_REMEDIATION.md",
+    "sha256": "eff7a647bbb4be607515bee9d516f9da2af05f4590ff93e3b979f337fcf0b12d",
+    "baseline_sha256": "eff7a647bbb4be607515bee9d516f9da2af05f4590ff93e3b979f337fcf0b12d"
+  },
+  {
+    "path": "human_semantic_validation\\s6_sampling_spec.py",
+    "sha256": "a7cb74edf857131f3e37c2e6fc970677cce22685cdf58a16347d9458ce4f9c09",
+    "baseline_sha256": "a7cb74edf857131f3e37c2e6fc970677cce22685cdf58a16347d9458ce4f9c09"
+  },
+  {
+    "path": "human_semantic_validation\\verifier\\verify_mirror_geometry.py",
+    "sha256": "fdee30cdd58ffdbdcff7b6448b0b24e49a2813d39d8e8f68eeac2fac4dbbd44f",
+    "baseline_sha256": "fdee30cdd58ffdbdcff7b6448b0b24e49a2813d39d8e8f68eeac2fac4dbbd44f"
+  },
+  {
+    "path": "posture_decoder\\README.md",
+    "sha256": "cd354e950ea0cdbc90f3b3c7e900851abb8e91d29e6d319b2167e44eb3a6936f",
+    "baseline_sha256": "cd354e950ea0cdbc90f3b3c7e900851abb8e91d29e6d319b2167e44eb3a6936f"
+  },
+  {
+    "path": "posture_decoder\\report.md",
+    "sha256": "36b5e6f1491d0f42d7296718cd38c48ccb95994aa183f307003aea40ecdfcce6",
+    "baseline_sha256": "36b5e6f1491d0f42d7296718cd38c48ccb95994aa183f307003aea40ecdfcce6"
+  },
+  {
+    "path": "baseline/emg2pose\\setup.py",
+    "sha256": "91ea118214373fc1ca6724168080c1cf9c7f595d55bedb01f74c100f78b18345",
+    "baseline_sha256": "91ea118214373fc1ca6724168080c1cf9c7f595d55bedb01f74c100f78b18345"
+  },
+  {
+    "path": "baseline/emg2pose\\README.md",
+    "sha256": "8edfe17691df171ca73c69f6519c4862f76a8d10977a6be3bc9d79904ba78bab",
+    "baseline_sha256": "8edfe17691df171ca73c69f6519c4862f76a8d10977a6be3bc9d79904ba78bab"
+  },
+  {
+    "path": "posture_decoder\\tests\\test_confirmatory_pipeline.py",
+    "sha256": "5d3da587d1a719f81f894437cccefbb8365151b8f9d66b4d90b3a10ccde7783a",
+    "baseline_sha256": "5d3da587d1a719f81f894437cccefbb8365151b8f9d66b4d90b3a10ccde7783a"
+  },
+  {
+    "path": "human_semantic_validation\\FUTURE_ANALYSIS_PLAN.md",
+    "sha256": "35d29585449e8a872efaf1491d249e37c17ba79e4390521c6122c5df27747b2b",
+    "baseline_sha256": "35d29585449e8a872efaf1491d249e37c17ba79e4390521c6122c5df27747b2b"
+  },
+  {
+    "path": "human_semantic_validation\\corpus_integrity_manifest.json",
+    "sha256": "c277dd643e98d3c68081b20aef8f84aa1da38dbf79394043cb326d5184ca5129",
+    "baseline_sha256": "c277dd643e98d3c68081b20aef8f84aa1da38dbf79394043cb326d5184ca5129"
+  },
+  {
+    "path": "human_semantic_validation\\BLINDING_SPEC.md",
+    "sha256": "c78a36d7c62edc0e0d4bfaeab2063d062d65f3bb5c3827df183280174408fcad",
+    "baseline_sha256": "c78a36d7c62edc0e0d4bfaeab2063d062d65f3bb5c3827df183280174408fcad"
+  },
+  {
+    "path": "baseline/emg2pose\\environment.yml",
+    "sha256": "a430eef0ef009ab5f46d0a81c554ea5c477760b5b7c346fbe341a55a7ed28910",
+    "baseline_sha256": "a430eef0ef009ab5f46d0a81c554ea5c477760b5b7c346fbe341a55a7ed28910"
+  },
+  {
+    "path": "posture_decoder\\experiments\\__init__.py",
+    "sha256": "9890ecb9cfd62d92abbd19ac9995fde8c2b135d8dc9514b1593f75e4dab88ee3",
+    "baseline_sha256": "9890ecb9cfd62d92abbd19ac9995fde8c2b135d8dc9514b1593f75e4dab88ee3"
+  },
+  {
+    "path": "posture_decoder\\experiments\\run_posture16.py",
+    "sha256": "89ce5e62a6c8886b5aba566ff4388837ddba7750911b27131e39b2aaf8a062f1",
+    "baseline_sha256": "89ce5e62a6c8886b5aba566ff4388837ddba7750911b27131e39b2aaf8a062f1"
+  },
+  {
+    "path": "posture_decoder\\experiments\\run_full_db9.py",
+    "sha256": "9ce2c7462fe80b60591b88da007b1f91170ce1fb8eb06801eac65354e44c66ae",
+    "baseline_sha256": "9ce2c7462fe80b60591b88da007b1f91170ce1fb8eb06801eac65354e44c66ae"
+  },
+  {
+    "path": "posture_decoder\\experiments\\run_baseline.py",
+    "sha256": "959382686e3d5c9b4b0d1cea0214b1f391557d1a75d80e348649409bda36313d",
+    "baseline_sha256": "959382686e3d5c9b4b0d1cea0214b1f391557d1a75d80e348649409bda36313d"
+  },
+  {
+    "path": "posture_decoder\\experiments\\diagnose_posture16.py",
+    "sha256": "2230f1195e372ef433b24abe684a40a82276aa4248ea052ae3c1d29079cf978b",
+    "baseline_sha256": "2230f1195e372ef433b24abe684a40a82276aa4248ea052ae3c1d29079cf978b"
+  },
+  {
+    "path": "posture_decoder\\experiments\\diagnose_drift.py",
+    "sha256": "e8cbbae64cfbdc7ff588c202de247ca6b561964d41098958e7848902137ec6a8",
+    "baseline_sha256": "e8cbbae64cfbdc7ff588c202de247ca6b561964d41098958e7848902137ec6a8"
+  },
+  {
+    "path": "posture_decoder\\experiments\\confirmatory_policy.py",
+    "sha256": "85aea12a0f63139c6df945d1258f2b5e18f1979225495d24671349172e7d50fd",
+    "baseline_sha256": "85aea12a0f63139c6df945d1258f2b5e18f1979225495d24671349172e7d50fd"
+  },
+  {
+    "path": "posture_decoder\\experiments\\confidence_report.py",
+    "sha256": "2d1189f165b86d28637a5d1f004c5eab2460d1423644db8784d793ef991135ab",
+    "baseline_sha256": "2d1189f165b86d28637a5d1f004c5eab2460d1423644db8784d793ef991135ab"
+  },
+  {
+    "path": "posture_decoder\\experiments\\build_dataset.py",
+    "sha256": "d6c8a78fc745767e51410a812515b04afea472c4542fd8458dd3c729154be50d",
+    "baseline_sha256": "d6c8a78fc745767e51410a812515b04afea472c4542fd8458dd3c729154be50d"
+  },
+  {
+    "path": "posture_decoder\\db9\\__init__.py",
+    "sha256": "548cfd6523655c9295f3f4b51d3dc903c9338bd65e9b72675bd23ce975c6481a",
+    "baseline_sha256": "548cfd6523655c9295f3f4b51d3dc903c9338bd65e9b72675bd23ce975c6481a"
+  },
+  {
+    "path": "posture_decoder\\db9\\quality.py",
+    "sha256": "f541238dfe079a4836d46635fc11afcea6f21625d9d400220871250f616ec938",
+    "baseline_sha256": "f541238dfe079a4836d46635fc11afcea6f21625d9d400220871250f616ec938"
+  },
+  {
+    "path": "posture_decoder\\db9\\loader.py",
+    "sha256": "6a07c5cefb8219d741bdbd2d1912e11d7f4039baefa4b9fd4ac745364b344d0d",
+    "baseline_sha256": "6a07c5cefb8219d741bdbd2d1912e11d7f4039baefa4b9fd4ac745364b344d0d"
+  },
+  {
+    "path": "posture_decoder\\db9\\labels.py",
+    "sha256": "8a90a3b5ef583037a1c4f38855b795587d3965007a0db214feae61872317e5cf",
+    "baseline_sha256": "8a90a3b5ef583037a1c4f38855b795587d3965007a0db214feae61872317e5cf"
+  },
+  {
+    "path": "posture_decoder\\db9\\canonical.py",
+    "sha256": "749ed8d9b03d856d0beafc4f5b811a753a0c672b7e2e183090155cdb963164ef",
+    "baseline_sha256": "749ed8d9b03d856d0beafc4f5b811a753a0c672b7e2e183090155cdb963164ef"
+  },
+  {
+    "path": "baseline/emg2pose\\CODE_OF_CONDUCT.md",
+    "sha256": "aa521dfb2da67e77b0720ac7b86049fe4f0165e1474f871c10e575a11f72c30d",
+    "baseline_sha256": "aa521dfb2da67e77b0720ac7b86049fe4f0165e1474f871c10e575a11f72c30d"
+  },
+  {
+    "path": "baseline/emg2pose\\CONTRIBUTING.md",
+    "sha256": "e576c22ce3db2334a2bcf767ea67cb7a10bb5ab9302839d9bd7c18dfbcd1c60f",
+    "baseline_sha256": "e576c22ce3db2334a2bcf767ea67cb7a10bb5ab9302839d9bd7c18dfbcd1c60f"
+  },
+  {
+    "path": "human_semantic_validation\\ANNOTATION_PROTOCOL.md",
+    "sha256": "92cad95eaac65aa86d1d3cead9a6e8bff689bfd96ce47bac6ad20b53c08cc7d6",
+    "baseline_sha256": "92cad95eaac65aa86d1d3cead9a6e8bff689bfd96ce47bac6ad20b53c08cc7d6"
+  },
+  {
+    "path": "human_semantic_validation\\logs\\verifier_annotator_B.json",
+    "sha256": "9efb86d55c12649d762f0ab9f5a96ba66dd2952b2cc28681d552e0176fa049df",
+    "baseline_sha256": "9238487d72443dc7cdd5de0609a217ce27bf339ce45928ea49a842eac465af01"
+  },
+  {
+    "path": "human_semantic_validation\\logs\\verifier_annotator_A.json",
+    "sha256": "6eb26741a4ef23b74a5bbe29c447cc257999ffbc8e6da56df481022f396b5fcf",
+    "baseline_sha256": "ab05a0b13f3f6e0541403f5cf40d3dd0687390163551a5bfcf459a27298ac42c"
+  },
+  {
+    "path": "human_semantic_validation\\logs\\valid_run_probe.json",
+    "sha256": "073d3cbba0717f66280516f984ed13332f3c1936dd629b63555cafdc565de583",
+    "baseline_sha256": "073d3cbba0717f66280516f984ed13332f3c1936dd629b63555cafdc565de583"
+  },
+  {
+    "path": "human_semantic_validation\\logs\\startup_clean_shell_test.json",
+    "sha256": "374ae6c6d4b26fb0279cb2286e249ec51cddb7865b18b1b024ff7fbc18119e74",
+    "baseline_sha256": "57828e5bd59aa8750206d189119634775d5020347f091ab8d95a2efde97c9cfc"
+  },
+  {
+    "path": "human_semantic_validation\\logs\\staged_site_manifest.json",
+    "sha256": "a64c53eedb111e2e5b6d74eca65c4061b90f802e79a8f6c95ae432ca28e3eab2",
+    "baseline_sha256": "275e447e65633abb42aad40eaec61ed4853897932c1b467fcbba3acaf9bb8a51"
+  },
+  {
+    "path": "human_semantic_validation\\logs\\render_diagnosis.json",
+    "sha256": "156e71f72ec1cafe20c9e6c98f2f3479e07681b832532a56145fdb8a73190b47",
+    "baseline_sha256": "156e71f72ec1cafe20c9e6c98f2f3479e07681b832532a56145fdb8a73190b47"
+  },
+  {
+    "path": "human_semantic_validation\\logs\\mirror_geometry_proof.json",
+    "sha256": "5fcb733c8b54ecffc7fdf74c49538736570e5d38328dcfad5bf819521f7046e1",
+    "baseline_sha256": "5fcb733c8b54ecffc7fdf74c49538736570e5d38328dcfad5bf819521f7046e1"
+  },
+  {
+    "path": "human_semantic_validation\\logs\\mirror_equivariance.json",
+    "sha256": "fcc4fa26fd088f02a28a76c1a5b63ad33213091858fc88e6f3e951d512bf95cf",
+    "baseline_sha256": "fcc4fa26fd088f02a28a76c1a5b63ad33213091858fc88e6f3e951d512bf95cf"
+  },
+  {
+    "path": "human_semantic_validation\\logs\\left_view_transform_search.json",
+    "sha256": "ddd96eebc94ef65fac59b7c38b1deeb6abaec91034090b389d49642d40264532",
+    "baseline_sha256": "ddd96eebc94ef65fac59b7c38b1deeb6abaec91034090b389d49642d40264532"
+  },
+  {
+    "path": "human_semantic_validation\\logs\\benchmark_hashes_pre_remediation.json",
+    "sha256": "37266e225ad66e30455e2774797cd63328558262a929b6899c944476c89158e3",
+    "baseline_sha256": "37266e225ad66e30455e2774797cd63328558262a929b6899c944476c89158e3"
+  },
+  {
+    "path": "human_semantic_validation\\logs\\benchmark_hashes_after_remediation.json",
+    "sha256": "c14f0a000c3440ee8a4dc9712902aa014b94c7cff63a845903c1140010dd972c",
+    "baseline_sha256": "c14f0a000c3440ee8a4dc9712902aa014b94c7cff63a845903c1140010dd972c"
+  },
+  {
+    "path": "human_semantic_validation\\logs\\benchmark_build_report.json",
+    "sha256": "00c93b2f9a73396e490b08db78d1750c01ff7b012fa76a995c26564136190263",
+    "baseline_sha256": "00c93b2f9a73396e490b08db78d1750c01ff7b012fa76a995c26564136190263"
+  },
+  {
+    "path": "human_semantic_validation\\logs\\adversarial_route_tests.json",
+    "sha256": "a1cf0e46ecb6b44c2a3f11d8f608d02275e64bb9014a12309b6914d649d918d9",
+    "baseline_sha256": "5c51403b9a4c019e296ce50d823f6decf1631a95025876de37fb9c5186205deb"
+  },
+  {
+    "path": "human_semantic_validation\\LABEL_DEFINITIONS.md",
+    "sha256": "a5b36bd059f61bbf15fa6a4cdae26920af82d82b6a1edc5ba25bcf98d6182914",
+    "baseline_sha256": "a5b36bd059f61bbf15fa6a4cdae26920af82d82b6a1edc5ba25bcf98d6182914"
+  },
+  {
+    "path": "human_semantic_validation\\NATURALISTIC_SAMPLING_SPEC.json",
+    "sha256": "64f5d95e1f8d5307e16efa8bd236106aec31b2a67a3bcf460419a3c719a2fbf5",
+    "baseline_sha256": "64f5d95e1f8d5307e16efa8bd236106aec31b2a67a3bcf460419a3c719a2fbf5"
+  },
+  {
+    "path": "baseline/emg2pose\\config\\base.yaml",
+    "sha256": "9ec186a1ccc98443b7b07fa5a19b484c6552497f75a35a121a77426d75b052ee",
+    "baseline_sha256": "9ec186a1ccc98443b7b07fa5a19b484c6552497f75a35a121a77426d75b052ee"
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\lightning.py",
+    "sha256": "aa97cc0bafa5163bf7052dd3a6cd0606184d3fbae0f15125e6beb918c6dcef5f",
+    "baseline_sha256": "aa97cc0bafa5163bf7052dd3a6cd0606184d3fbae0f15125e6beb918c6dcef5f"
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\kinematics.py",
+    "sha256": "01d3d968db86e334f7b537d17eb939eb1105c6d5dcea33ba9e3691fb1dcac051",
+    "baseline_sha256": "01d3d968db86e334f7b537d17eb939eb1105c6d5dcea33ba9e3691fb1dcac051"
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\data.py",
+    "sha256": "bef43e87ea25080aadd6b3a5480464850ce2af1f2421087ecfc7172075c6b4d1",
+    "baseline_sha256": "bef43e87ea25080aadd6b3a5480464850ce2af1f2421087ecfc7172075c6b4d1"
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\constants.py",
+    "sha256": "8ae5d6941be9fd4c2600f79d4a81f618af003ffe565c672f018626b1132a8d85",
+    "baseline_sha256": "8ae5d6941be9fd4c2600f79d4a81f618af003ffe565c672f018626b1132a8d85"
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\networks.py",
+    "sha256": "1c5dafe4b37380b1ef83c58696a5cdd4d9abe0c9a63af4b4fb88c3e449ee082c",
+    "baseline_sha256": "1c5dafe4b37380b1ef83c58696a5cdd4d9abe0c9a63af4b4fb88c3e449ee082c"
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\metrics.py",
+    "sha256": "0af517aa21922131864e24657bbd768438d73c7cc00d92313eca3f37b4b6a7e5",
+    "baseline_sha256": "0af517aa21922131864e24657bbd768438d73c7cc00d92313eca3f37b4b6a7e5"
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\pose_modules.py",
+    "sha256": "7e02d749d7db44d5370295872e9ab8f12e2e47a9e4b89386a2d9a5d101fd3b9b",
+    "baseline_sha256": "7e02d749d7db44d5370295872e9ab8f12e2e47a9e4b89386a2d9a5d101fd3b9b"
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\__init__.py",
+    "sha256": "9b703c1e0053753a565a8ff09418b823b4aaa0953a1b661fd8403ebe6b8e3a8f",
+    "baseline_sha256": "9b703c1e0053753a565a8ff09418b823b4aaa0953a1b661fd8403ebe6b8e3a8f"
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\visualization.py",
+    "sha256": "8d701fa5557b5048c96f8d961db0f3a5d948f461bd312c8eb68b4fae00585fd5",
+    "baseline_sha256": "8d701fa5557b5048c96f8d961db0f3a5d948f461bd312c8eb68b4fae00585fd5"
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\utils.py",
+    "sha256": "0531d6786dd6d667ca6f48343a3a01d9e0734ebeea383c3c4543c5205f6f9c8b",
+    "baseline_sha256": "0531d6786dd6d667ca6f48343a3a01d9e0734ebeea383c3c4543c5205f6f9c8b"
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\train.py",
+    "sha256": "86bc097bb7787b44d719cbf7a38bb42b4c79df1fad63ee3a019096f156aa6dba",
+    "baseline_sha256": "86bc097bb7787b44d719cbf7a38bb42b4c79df1fad63ee3a019096f156aa6dba"
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\test_analysis.py",
+    "sha256": "d6c216623e7b2aa2017d92bc2d38d3d1b3741fa62fb8c102619e0f2223ffedde",
+    "baseline_sha256": "d6c216623e7b2aa2017d92bc2d38d3d1b3741fa62fb8c102619e0f2223ffedde"
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\transforms.py",
+    "sha256": "15140d8a493d2e7e56c8bccdb69fd15a3c9add1ce9e233ef7d4bc39a0926e5ab",
+    "baseline_sha256": "15140d8a493d2e7e56c8bccdb69fd15a3c9add1ce9e233ef7d4bc39a0926e5ab"
+  },
+  {
+    "path": "human_semantic_validation\\pilot2_external\\tools\\scan_external_packages.py",
+    "sha256": "9c457d2d7440799138c65718a00306b91cf24bd7aebb7e342b98547e8c704752",
+    "baseline_sha256": "9c457d2d7440799138c65718a00306b91cf24bd7aebb7e342b98547e8c704752"
+  },
+  {
+    "path": "human_semantic_validation\\pilot2_external\\tools\\make_external_packages.py",
+    "sha256": "0d146f6a5780ed335983743af4977f86d32a9cad73d1b542f56aed7c6e6628da",
+    "baseline_sha256": "0d146f6a5780ed335983743af4977f86d32a9cad73d1b542f56aed7c6e6628da"
+  },
+  {
+    "path": "baseline/emg2pose\\config\\transforms\\rotation_augmentation.yaml",
+    "sha256": "9b73508e96459626de3897b0b15eccf106f3b3a736a6fdfd1eef0b99f8a72350",
+    "baseline_sha256": "9b73508e96459626de3897b0b15eccf106f3b3a736a6fdfd1eef0b99f8a72350"
+  },
+  {
+    "path": "baseline/emg2pose\\config\\transforms\\channel_downsampling.yaml",
+    "sha256": "eb3194e139f402cbc2612b9c5a5152caaa92cde579ffdbedef7bfc7c22727281",
+    "baseline_sha256": "eb3194e139f402cbc2612b9c5a5152caaa92cde579ffdbedef7bfc7c22727281"
+  },
+  {
+    "path": "baseline/emg2pose\\config\\transforms\\basic.yaml",
+    "sha256": "ecdc6b09d8cc32bc499590b35b712734ac5b354c5e6b1cbcd560b68fe9d005e1",
+    "baseline_sha256": "ecdc6b09d8cc32bc499590b35b712734ac5b354c5e6b1cbcd560b68fe9d005e1"
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\tests\\test_visualization.py",
+    "sha256": "03354a11b5955e9f8ca6bc529d53faf52900554ec1fab8041b058fd41c6f4401",
+    "baseline_sha256": "03354a11b5955e9f8ca6bc529d53faf52900554ec1fab8041b058fd41c6f4401"
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\tests\\test_kinematics.py",
+    "sha256": "ab1f7d9a6ee58f142dc569860427ef90dc0cff76eb55256d8858a1f79d7e83b4",
+    "baseline_sha256": "ab1f7d9a6ee58f142dc569860427ef90dc0cff76eb55256d8858a1f79d7e83b4"
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\tests\\test_data.py",
+    "sha256": "98c164a7286b1bac3ee42a209bd1d8c3a1edacaa2bfac8aae865e92e203e18b1",
+    "baseline_sha256": "98c164a7286b1bac3ee42a209bd1d8c3a1edacaa2bfac8aae865e92e203e18b1"
+  },
+  {
+    "path": "baseline/emg2pose\\config\\pose_module\\vemg_with_initial_state.yaml",
+    "sha256": "5b81dbfd420ffc2d8fc7671d938caede5c5e082267539860e22d0c6ee5642218",
+    "baseline_sha256": "5b81dbfd420ffc2d8fc7671d938caede5c5e082267539860e22d0c6ee5642218"
+  },
+  {
+    "path": "baseline/emg2pose\\config\\pose_module\\pose_stateful.yaml",
+    "sha256": "a54890b4d04a5b440019b27394d3fbf8c61101029bda690c682be20cafa57862",
+    "baseline_sha256": "a54890b4d04a5b440019b27394d3fbf8c61101029bda690c682be20cafa57862"
+  },
+  {
+    "path": "baseline/emg2pose\\config\\pose_module\\pose.yaml",
+    "sha256": "15ffd7614308e07da1801fb376eae3380b92f764cf6e8ee8b1f1e3c29377f620",
+    "baseline_sha256": "15ffd7614308e07da1801fb376eae3380b92f764cf6e8ee8b1f1e3c29377f620"
+  },
+  {
+    "path": "human_semantic_validation\\pilot2_external\\README.md",
+    "sha256": "77f42232ae395364eea39c4ee0212c8461c6e1183e69f451d728c74826e4118b",
+    "baseline_sha256": "77f42232ae395364eea39c4ee0212c8461c6e1183e69f451d728c74826e4118b"
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "baseline_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\setup.py",
+    "sha256": "93304212b4e613d99379e39f960a796409bfe3e3807067f37a471cc584ecadc0",
+    "baseline_sha256": "93304212b4e613d99379e39f960a796409bfe3e3807067f37a471cc584ecadc0"
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\run_inference_torch_data.py",
+    "sha256": "52edf20e5eab4bd1d6246af6bcd4d0b8a302e8c31365010534d10e3e4bb7dcbe",
+    "baseline_sha256": "52edf20e5eab4bd1d6246af6bcd4d0b8a302e8c31365010534d10e3e4bb7dcbe"
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\run_eval_unknown_skeleton.py",
+    "sha256": "80c5664b2fca9cb5f25d5a3c82c3530434f03b254438f4f0f3dc3a7c86bf7368",
+    "baseline_sha256": "80c5664b2fca9cb5f25d5a3c82c3530434f03b254438f4f0f3dc3a7c86bf7368"
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\run_eval_known_skeleton.py",
+    "sha256": "2dea2f0578f29e11621965da618adf6c7bc7ddba2cb2e3ab4125bcbe3bc5b235",
+    "baseline_sha256": "2dea2f0578f29e11621965da618adf6c7bc7ddba2cb2e3ab4125bcbe3bc5b235"
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\README.md",
+    "sha256": "1b74477d1265bedba6cb87926071780c0cd58aaa1d7f4dafefee93058f3037c2",
+    "baseline_sha256": "1b74477d1265bedba6cb87926071780c0cd58aaa1d7f4dafefee93058f3037c2"
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\load_eval.py",
+    "sha256": "80903fb1d15a403ee5b87809ffff38cf9f6b78f1b19888a01d4298d895246f4e",
+    "baseline_sha256": "80903fb1d15a403ee5b87809ffff38cf9f6b78f1b19888a01d4298d895246f4e"
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\tests\\scripts\\create_test_hdf5.py",
+    "sha256": "603e5025356723fb0a0eacb82c312806d905e874ea9bb4517b3e175de9d45265",
+    "baseline_sha256": "603e5025356723fb0a0eacb82c312806d905e874ea9bb4517b3e175de9d45265"
+  },
+  {
+    "path": "baseline/emg2pose\\config\\pose_module\\decoder\\mlp.yaml",
+    "sha256": "166ffd1964bad0492508e3cb048f54a19e2751a6a3bbaca89520754bf00657e2",
+    "baseline_sha256": "166ffd1964bad0492508e3cb048f54a19e2751a6a3bbaca89520754bf00657e2"
+  },
+  {
+    "path": "baseline/emg2pose\\config\\pose_module\\decoder\\lstm.yaml",
+    "sha256": "765d0f0d5763bf2c7eab773dd3af4f7fd6a145c41c35ce777d1039fe1d29a9fb",
+    "baseline_sha256": "765d0f0d5763bf2c7eab773dd3af4f7fd6a145c41c35ce777d1039fe1d29a9fb"
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "baseline_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "human_semantic_validation\\annotator_A\\payload.json",
+    "sha256": "e73acc1ebfe72c289659f122a6becd8404d2362a1a8952ab6df2011864d04a5d",
+    "baseline_sha256": "e73acc1ebfe72c289659f122a6becd8404d2362a1a8952ab6df2011864d04a5d"
+  },
+  {
+    "path": "human_semantic_validation\\tools\\stage_annotation_site.py",
+    "sha256": "c53458b6056a85d884cd4051354ce07b90d8a1feb995cb40b402423c35136713",
+    "baseline_sha256": "c53458b6056a85d884cd4051354ce07b90d8a1feb995cb40b402423c35136713"
+  },
+  {
+    "path": "human_semantic_validation\\tools\\serve_annotation.py",
+    "sha256": "267b6b804cc4c3382b99770e79f2524b3e6ba4a1d5b9feb784e7636c58ec568c",
+    "baseline_sha256": "267b6b804cc4c3382b99770e79f2524b3e6ba4a1d5b9feb784e7636c58ec568c"
+  },
+  {
+    "path": "human_semantic_validation\\tools\\probe_valid_runs.py",
+    "sha256": "96831355b96ed94d265df74e2735f9275b69038681af834ca816165d2864d426",
+    "baseline_sha256": "96831355b96ed94d265df74e2735f9275b69038681af834ca816165d2864d426"
+  },
+  {
+    "path": "human_semantic_validation\\tools\\make_naturalistic_sampling_spec.py",
+    "sha256": "e5c2f4a04a517ddb6e86fb360b609b70f94957ee2e94dc574c70a91c0057e990",
+    "baseline_sha256": "e5c2f4a04a517ddb6e86fb360b609b70f94957ee2e94dc574c70a91c0057e990"
+  },
+  {
+    "path": "human_semantic_validation\\tools\\make_left_hand_geometry.py",
+    "sha256": "a95c5973e9247d0bee64913ce7d831114846a2ca0e4ef53e72a6df153ce090b7",
+    "baseline_sha256": "a95c5973e9247d0bee64913ce7d831114846a2ca0e4ef53e72a6df153ce090b7"
+  },
+  {
+    "path": "human_semantic_validation\\tools\\make_annotation_benchmark.py",
+    "sha256": "cb4163ff93a94ef30ea7f8b9eb744de396b75fcdfb5338a7e4484cdf4e6d41e0",
+    "baseline_sha256": "cb4163ff93a94ef30ea7f8b9eb744de396b75fcdfb5338a7e4484cdf4e6d41e0"
+  },
+  {
+    "path": "human_semantic_validation\\tools\\build_corpus_integrity_manifest.py",
+    "sha256": "2e8ddaf1fea0b1c48aadea5bed9e82aa190117a7a9a9e829d363caa661614ab7",
+    "baseline_sha256": "2e8ddaf1fea0b1c48aadea5bed9e82aa190117a7a9a9e829d363caa661614ab7"
+  },
+  {
+    "path": "baseline/emg2pose\\config\\optimizer\\adam.yaml",
+    "sha256": "383a1a7eaef767e14482d31539d07e0fa38975a5757eeae58d8d84ba2d8336db",
+    "baseline_sha256": "383a1a7eaef767e14482d31539d07e0fa38975a5757eeae58d8d84ba2d8336db"
+  },
+  {
+    "path": "human_semantic_validation\\pilot2_external\\packages\\annotator_F\\使用说明.txt",
+    "sha256": "9c5e5445041767e8bf1469bf3a43e03077f23d0d26c1df32927988afc77a0a74",
+    "baseline_sha256": "9c5e5445041767e8bf1469bf3a43e03077f23d0d26c1df32927988afc77a0a74"
+  },
+  {
+    "path": "human_semantic_validation\\pilot2_external\\packages\\annotator_F\\package_manifest.json",
+    "sha256": "7a743894b553226fd2dd6edfe1ce97cefa3dcd859b51e3788efb378d4510f7dd",
+    "baseline_sha256": "7a743894b553226fd2dd6edfe1ce97cefa3dcd859b51e3788efb378d4510f7dd"
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\tracker\\__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "baseline_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\tracker\\video_pose_data.py",
+    "sha256": "65f69a48e9a554589b57a899f24eda35a59ceb30c956733db1208afc04cf2e33",
+    "baseline_sha256": "65f69a48e9a554589b57a899f24eda35a59ceb30c956733db1208afc04cf2e33"
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\tracker\\tracking_result.py",
+    "sha256": "71340d853e8fbe8e703295a62959efc9d582d15969c0a1c1ec00aa7042c9f291",
+    "baseline_sha256": "71340d853e8fbe8e703295a62959efc9d582d15969c0a1c1ec00aa7042c9f291"
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\tracker\\tracker.py",
+    "sha256": "2ec892741108a3a4294909d1d52e7bb36f8d90f55cee989e83a68dd4d4571276",
+    "baseline_sha256": "2ec892741108a3a4294909d1d52e7bb36f8d90f55cee989e83a68dd4d4571276"
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\tracker\\perspective_crop.py",
+    "sha256": "93b1031127e4770c72ce779cef8716eb3fa6404fe6a8dcc320e52909360e7b65",
+    "baseline_sha256": "93b1031127e4770c72ce779cef8716eb3fa6404fe6a8dcc320e52909360e7b65"
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\models\\umetrack_model.py",
+    "sha256": "a80e6496fec099cc2bc63b5fbec9dd02814e9da6c27ba00a004fbe48fec39d36",
+    "baseline_sha256": "a80e6496fec099cc2bc63b5fbec9dd02814e9da6c27ba00a004fbe48fec39d36"
+  },
+  {
+    "path": "human_semantic_validation\\pilot2_external\\packages\\annotator_E\\使用说明.txt",
+    "sha256": "38d089614ab484edc118a4e97b3f6ca31e99a3c1e4e336a9d453f80c3a8cfbc9",
+    "baseline_sha256": "38d089614ab484edc118a4e97b3f6ca31e99a3c1e4e336a9d453f80c3a8cfbc9"
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\models\\temporal.py",
+    "sha256": "825baeb0a23d8ff43db6158c4c0af69aa9c0fa5563f374a73cc9e4b555dc4559",
+    "baseline_sha256": "825baeb0a23d8ff43db6158c4c0af69aa9c0fa5563f374a73cc9e4b555dc4559"
+  },
+  {
+    "path": "human_semantic_validation\\pilot2_external\\packages\\annotator_E\\package_manifest.json",
+    "sha256": "10129db206190c5cf9e72b53a9859f34b287f3ba0de8f7a971aa92620e51b2db",
+    "baseline_sha256": "10129db206190c5cf9e72b53a9859f34b287f3ba0de8f7a971aa92620e51b2db"
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\models\\skeleton_encoder.py",
+    "sha256": "b67a3903e305f3a53c28b3ac743cd5c7ade604b37888d91b771bca5ed5e70761",
+    "baseline_sha256": "b67a3903e305f3a53c28b3ac743cd5c7ade604b37888d91b771bca5ed5e70761"
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\models\\regressor.py",
+    "sha256": "850ffa740ab0782936eac95dffdf44f0c60eeb078b467dd42d10a000ff3d7b8b",
+    "baseline_sha256": "850ffa740ab0782936eac95dffdf44f0c60eeb078b467dd42d10a000ff3d7b8b"
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\models\\model_utils.py",
+    "sha256": "428b09add510ae70360dd54d00c7e7a4a5bfdac9102a672243ac4a88e4e73b75",
+    "baseline_sha256": "428b09add510ae70360dd54d00c7e7a4a5bfdac9102a672243ac4a88e4e73b75"
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\models\\model_opts.py",
+    "sha256": "eea62ac44ecbec18f59602ff6fba5a43fd9b661c2615c56f74e6b672e560af7f",
+    "baseline_sha256": "eea62ac44ecbec18f59602ff6fba5a43fd9b661c2615c56f74e6b672e560af7f"
+  },
+  {
+    "path": "human_semantic_validation\\pilot2_external\\packages\\annotator_C\\使用说明.txt",
+    "sha256": "bffbe0e684f14c2b713fdd57dfec06e3f3a7d88006b6578ef565e31fdfda543d",
+    "baseline_sha256": "bffbe0e684f14c2b713fdd57dfec06e3f3a7d88006b6578ef565e31fdfda543d"
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\models\\model_loader.py",
+    "sha256": "a1d5e3c6d6084d1aeecac25ed93493b87dc82c0bc9965dd4dbade5dc7b52c910",
+    "baseline_sha256": "a1d5e3c6d6084d1aeecac25ed93493b87dc82c0bc9965dd4dbade5dc7b52c910"
+  },
+  {
+    "path": "human_semantic_validation\\pilot2_external\\packages\\annotator_C\\package_manifest.json",
+    "sha256": "bb903e7ee238dfd045a22c8b7378a6fdbc536f40025382f49c311a9dbcf8845f",
+    "baseline_sha256": "bb903e7ee238dfd045a22c8b7378a6fdbc536f40025382f49c311a9dbcf8845f"
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\models\\feature_extractor.py",
+    "sha256": "2ef9a722cf867fecf7fe2f645b510a660b8e100c4cc839d8a2cfdca5b8e0ea0f",
+    "baseline_sha256": "2ef9a722cf867fecf7fe2f645b510a660b8e100c4cc839d8a2cfdca5b8e0ea0f"
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\models\\backbone_resnet.py",
+    "sha256": "b776080ed05ffa107b4577c05e5d42e07e71044c6791efc6c7a316b66d850c31",
+    "baseline_sha256": "b776080ed05ffa107b4577c05e5d42e07e71044c6791efc6c7a316b66d850c31"
+  },
+  {
+    "path": "human_semantic_validation\\tests\\test_server_startup_clean_shell.py",
+    "sha256": "102887c1a59bc67714e54469732226dd081a3a76f265c25ee7353b7e50341afc",
+    "baseline_sha256": "102887c1a59bc67714e54469732226dd081a3a76f265c25ee7353b7e50341afc"
+  },
+  {
+    "path": "human_semantic_validation\\tests\\test_s6_annotation_benchmark.py",
+    "sha256": "7b5d69a1f38ab00bc2c778b1de5129ad2a448b9191f1962f2c82de11c2009d92",
+    "baseline_sha256": "7b5d69a1f38ab00bc2c778b1de5129ad2a448b9191f1962f2c82de11c2009d92"
+  },
+  {
+    "path": "human_semantic_validation\\tests\\test_annotation_server_adversarial.py",
+    "sha256": "f24f40a29381b22e358b71d47f13eba401cd8293fd2b8de62f0f5d85fbfca45e",
+    "baseline_sha256": "f24f40a29381b22e358b71d47f13eba401cd8293fd2b8de62f0f5d85fbfca45e"
+  },
+  {
+    "path": "human_semantic_validation\\tests\\report_server_state.py",
+    "sha256": "3712eaaa8838963e8f54a96bbfb3700626db01a67111d6f86b1341007aacba38",
+    "baseline_sha256": "3712eaaa8838963e8f54a96bbfb3700626db01a67111d6f86b1341007aacba38"
+  },
+  {
+    "path": "human_semantic_validation\\pilot2\\ONTOLOGY_REFINED.md",
+    "sha256": "7867344e354f5dd78ec68fa9e8f5a645b5eacc1f5827ec88131d9b7c3c39f479",
+    "baseline_sha256": "7867344e354f5dd78ec68fa9e8f5a645b5eacc1f5827ec88131d9b7c3c39f479"
+  },
+  {
+    "path": "baseline/emg2pose\\config\\data_split\\mini_split.yaml",
+    "sha256": "e7eeed2e393fced2e1edd66d4a63d866abf177f84bc79aa8b94fd587dc85bcbe",
+    "baseline_sha256": "e7eeed2e393fced2e1edd66d4a63d866abf177f84bc79aa8b94fd587dc85bcbe"
+  },
+  {
+    "path": "baseline/emg2pose\\config\\data_split\\full_split.yaml",
+    "sha256": "a586861238ccb3011bd34d04329b6cdb42d21582e185f03100898994a176083c",
+    "baseline_sha256": "a586861238ccb3011bd34d04329b6cdb42d21582e185f03100898994a176083c"
+  },
+  {
+    "path": "human_semantic_validation\\hidden\\hidden_sample_manifest.json",
+    "sha256": "d622187cf5d7da229c1eed69fd8b55480dc372d646f3812dec4eb5531f3c7559",
+    "baseline_sha256": "d622187cf5d7da229c1eed69fd8b55480dc372d646f3812dec4eb5531f3c7559"
+  },
+  {
+    "path": "human_semantic_validation\\hidden\\hidden_payload_contract.json",
+    "sha256": "7efbc7d1e778dea67ebde55ad38f1a86cbe4c6c17d807fac3d7c5277397885d1",
+    "baseline_sha256": "7efbc7d1e778dea67ebde55ad38f1a86cbe4c6c17d807fac3d7c5277397885d1"
+  },
+  {
+    "path": "human_semantic_validation\\hidden\\hidden_duplicate_map.json",
+    "sha256": "1a2bb3c568ed152c4d2bb210e5c8ad809f28cccc38f3eda67d981f6698e2f442",
+    "baseline_sha256": "1a2bb3c568ed152c4d2bb210e5c8ad809f28cccc38f3eda67d981f6698e2f442"
+  },
+  {
+    "path": "baseline/emg2pose\\config\\network\\tds.yaml",
+    "sha256": "bc10241e69746144a831f9554731a9aff1c3b911636b19f501f121f285d07907",
+    "baseline_sha256": "bc10241e69746144a831f9554731a9aff1c3b911636b19f501f121f285d07907"
+  },
+  {
+    "path": "baseline/emg2pose\\config\\network\\neuropose.yaml",
+    "sha256": "bb0db4cb62e859cb698aefd905ac26a66ab9a091e2ea6fd1f82b311d88e13945",
+    "baseline_sha256": "bb0db4cb62e859cb698aefd905ac26a66ab9a091e2ea6fd1f82b311d88e13945"
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\data_utils\\split.py",
+    "sha256": "89e12c489b4c8062ba935af939eb7aa052d9595a50bf65bcd6dbfd9cf882401e",
+    "baseline_sha256": "89e12c489b4c8062ba935af939eb7aa052d9595a50bf65bcd6dbfd9cf882401e"
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\data_utils\\nested_async.py",
+    "sha256": "e57afff195cd9e755ee4c948ce9775428afbf8650a9ad6fa6aa355bacae2ab84",
+    "baseline_sha256": "e57afff195cd9e755ee4c948ce9775428afbf8650a9ad6fa6aa355bacae2ab84"
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\data_utils\\idxbinfile.py",
+    "sha256": "43b03ee4580360e1dc33aa93c8bd0432f3868c619198a2966c7e4f82c727f442",
+    "baseline_sha256": "43b03ee4580360e1dc33aa93c8bd0432f3868c619198a2966c7e4f82c727f442"
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\data_utils\\fs.py",
+    "sha256": "88f347920ab4fa48b9db082a6177ce3070677574989b8b86bd975f1682903e49",
+    "baseline_sha256": "88f347920ab4fa48b9db082a6177ce3070677574989b8b86bd975f1682903e49"
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\data_utils\\dataset_util.py",
+    "sha256": "32dc7a23d89f880753d419f386f973db2bd65d532d99658a26c4f6f25b8bd1a6",
+    "baseline_sha256": "32dc7a23d89f880753d419f386f973db2bd65d532d99658a26c4f6f25b8bd1a6"
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\data_utils\\bundles.py",
+    "sha256": "09e62b17abbf2b00c487878f4bbeeb621601d9f2d690600d156b2b422a5aa508",
+    "baseline_sha256": "09e62b17abbf2b00c487878f4bbeeb621601d9f2d690600d156b2b422a5aa508"
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\data_utils\\async_utils.py",
+    "sha256": "43f53f628df7979d1c53b4bbd22a012bec3f1f6660f13173ac01ce42985f1ee1",
+    "baseline_sha256": "43f53f628df7979d1c53b4bbd22a012bec3f1f6660f13173ac01ce42985f1ee1"
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\data_utils\\async_dataset.py",
+    "sha256": "7d1139d0cc15e8487569d9d4fa537e644a093fcb1535a1e9e67736bfab10957c",
+    "baseline_sha256": "7d1139d0cc15e8487569d9d4fa537e644a093fcb1535a1e9e67736bfab10957c"
+  },
+  {
+    "path": "human_semantic_validation\\pilot2_external\\logs\\external_package_build_report.json",
+    "sha256": "943fc99abc9a111871573f8b1f849f7796aed0f27d8827d084bc27b75295f17d",
+    "baseline_sha256": "943fc99abc9a111871573f8b1f849f7796aed0f27d8827d084bc27b75295f17d"
+  },
+  {
+    "path": "human_semantic_validation\\pilot2_external\\logs\\external_leakage_and_isolation_scan.json",
+    "sha256": "64ffa1e1998c5bca0a9e4fbce064cb1e675a198a9c33dc880f37287cd34ff95a",
+    "baseline_sha256": "64ffa1e1998c5bca0a9e4fbce064cb1e675a198a9c33dc880f37287cd34ff95a"
+  },
+  {
+    "path": "human_semantic_validation\\pilot2_external\\logs\\clean_machine_F.json",
+    "sha256": "9512626d5f384ab9263d6277cf1a20f35f97ba3ebdbbdfd65f29dbdbdb4b6a57",
+    "baseline_sha256": "9512626d5f384ab9263d6277cf1a20f35f97ba3ebdbbdfd65f29dbdbdb4b6a57"
+  },
+  {
+    "path": "human_semantic_validation\\pilot2_external\\logs\\clean_machine_E.json",
+    "sha256": "ed87942cc20aa8c82388af9b03fe315c7ec324fd2131deb7b08fe46ed3d4f85c",
+    "baseline_sha256": "ed87942cc20aa8c82388af9b03fe315c7ec324fd2131deb7b08fe46ed3d4f85c"
+  },
+  {
+    "path": "human_semantic_validation\\pilot2_external\\logs\\clean_machine_D.json",
+    "sha256": "9f49b9549002d8634b2505e14eeee394cd17c4b1c24a44c87f12356eda7bd51a",
+    "baseline_sha256": "9f49b9549002d8634b2505e14eeee394cd17c4b1c24a44c87f12356eda7bd51a"
+  },
+  {
+    "path": "human_semantic_validation\\pilot2_external\\logs\\clean_machine_C.json",
+    "sha256": "5e4935840ac2aa9d2e89d4d98b9de37775d9ca5aff90601da8bd8beb6afa8f61",
+    "baseline_sha256": "5e4935840ac2aa9d2e89d4d98b9de37775d9ca5aff90601da8bd8beb6afa8f61"
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\EMG2POSE_DEVELOPER_NOTE.md",
+    "sha256": "870ba73c0f39bbc8efe830c52c0d10c5d2f0082fbccbb01e3499e24819e5843f",
+    "baseline_sha256": "870ba73c0f39bbc8efe830c52c0d10c5d2f0082fbccbb01e3499e24819e5843f"
+  },
+  {
+    "path": "human_semantic_validation\\pilot2_external\\packages\\annotator_D\\使用说明.txt",
+    "sha256": "8055b87147091ca7a82e689c06fd501d719661a2a30a3ea9f9b190f7498104cc",
+    "baseline_sha256": "8055b87147091ca7a82e689c06fd501d719661a2a30a3ea9f9b190f7498104cc"
+  },
+  {
+    "path": "human_semantic_validation\\pilot2_external\\packages\\annotator_D\\package_manifest.json",
+    "sha256": "234aaf2d12cea07dc0f7f88605e9f70f53715689fead5bed57d9e61fe8bb2610",
+    "baseline_sha256": "234aaf2d12cea07dc0f7f88605e9f70f53715689fead5bed57d9e61fe8bb2610"
+  },
+  {
+    "path": "human_semantic_validation\\annotator_common\\left_hand_geometry.json",
+    "sha256": "e22359f3933f425f932573eab92db69c35c141f20be5ab1b1551060f9a109c4c",
+    "baseline_sha256": "e22359f3933f425f932573eab92db69c35c141f20be5ab1b1551060f9a109c4c"
+  },
+  {
+    "path": "human_semantic_validation\\annotator_common\\hand_geometry_343fc94403306119.json",
+    "sha256": "ad633041fe0ab74dd4bdbc30fee22491940a988172aa64078123860a2e788fbf",
+    "baseline_sha256": "ad633041fe0ab74dd4bdbc30fee22491940a988172aa64078123860a2e788fbf"
+  },
+  {
+    "path": "baseline/emg2pose\\config\\experiment\\tracking_vemg2pose.yaml",
+    "sha256": "2755c428696c0140f9331b113baa9ee7f83cbc0e9bc774f400149124744ec00a",
+    "baseline_sha256": "2755c428696c0140f9331b113baa9ee7f83cbc0e9bc774f400149124744ec00a"
+  },
+  {
+    "path": "baseline/emg2pose\\config\\experiment\\tracking_emg2pose.yaml",
+    "sha256": "e63234ee0586412a8c676daf30b88b2f7cc5098fb17ab5bc73789dbe12a8b44a",
+    "baseline_sha256": "e63234ee0586412a8c676daf30b88b2f7cc5098fb17ab5bc73789dbe12a8b44a"
+  },
+  {
+    "path": "baseline/emg2pose\\config\\experiment\\regression_vemg2pose.yaml",
+    "sha256": "14a49b80b31432e8a7ff93ab6c1fd94f79106a2f4f4e16934b103db054a9e8cf",
+    "baseline_sha256": "14a49b80b31432e8a7ff93ab6c1fd94f79106a2f4f4e16934b103db054a9e8cf"
+  },
+  {
+    "path": "baseline/emg2pose\\config\\experiment\\regression_neuropose.yaml",
+    "sha256": "f9a080f9a5e8ed7b8778ec4b1511573a4d0575ffb6f2574d74cda07c1941f1c3",
+    "baseline_sha256": "f9a080f9a5e8ed7b8778ec4b1511573a4d0575ffb6f2574d74cda07c1941f1c3"
+  },
+  {
+    "path": "baseline/emg2pose\\config\\experiment\\regression_emg2pose.yaml",
+    "sha256": "7278e621e76b1fa5ff76fe7c27900e1c3545598170061d9fb13235b09820459b",
+    "baseline_sha256": "7278e621e76b1fa5ff76fe7c27900e1c3545598170061d9fb13235b09820459b"
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\CODE_OF_CONDUCT.md",
+    "sha256": "49fd7625ea116e80b0b3f999c981647d7ec28568b9b999382b8e5ba8ed6fa32c",
+    "baseline_sha256": "49fd7625ea116e80b0b3f999c981647d7ec28568b9b999382b8e5ba8ed6fa32c"
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\CONTRIBUTING.md",
+    "sha256": "e78929092a04a7f52934c9920b1e973bddd751097c28bd799ff9fe2de0eab387",
+    "baseline_sha256": "e78929092a04a7f52934c9920b1e973bddd751097c28bd799ff9fe2de0eab387"
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\dataset\\generic_hand_model.json",
+    "sha256": "96649ddf7d036be3357dadd7c13db325a18638c6713583fbbbdd71446ce07564",
+    "baseline_sha256": "96649ddf7d036be3357dadd7c13db325a18638c6713583fbbbdd71446ce07564"
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\batched_dataset\\sample.py",
+    "sha256": "6a238aa49fc40b477b7db911835fe713f8dc6311bb3681a3626535d7addba404",
+    "baseline_sha256": "6a238aa49fc40b477b7db911835fe713f8dc6311bb3681a3626535d7addba404"
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\batched_dataset\\data_transform.py",
+    "sha256": "4f8f8bd82bc109aa5d664b5c2b6da21156e72baa735a61914cb69ef8f8023ab9",
+    "baseline_sha256": "4f8f8bd82bc109aa5d664b5c2b6da21156e72baa735a61914cb69ef8f8023ab9"
+  },
+  {
+    "path": "human_semantic_validation\\pilot\\README.md",
+    "sha256": "0b1543a9beba0275171936b3339b5c583c0e38c5ee0205cdd8b0c45c143f3c02",
+    "baseline_sha256": "0b1543a9beba0275171936b3339b5c583c0e38c5ee0205cdd8b0c45c143f3c02"
+  },
+  {
+    "path": "human_semantic_validation\\pilot\\pilot_sampling_spec.py",
+    "sha256": "6d4b89d6cb848d1d64fda8e3a019d821cb1ab6bb96be36b1a4105e8bcbf66096",
+    "baseline_sha256": "6d4b89d6cb848d1d64fda8e3a019d821cb1ab6bb96be36b1a4105e8bcbf66096"
+  },
+  {
+    "path": "human_semantic_validation\\pilot\\PILOT_SAMPLING_SPEC.json",
+    "sha256": "4a65d383ab88c68b4f3d7e93938abcfa7b7d418e37a43354e79aecced1eb847a",
+    "baseline_sha256": "4a65d383ab88c68b4f3d7e93938abcfa7b7d418e37a43354e79aecced1eb847a"
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\common\\__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "baseline_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\common\\pytorch3d_transforms_so3.py",
+    "sha256": "e06fac0d29ba41e0c852d003d3aa2e63e1720954f827c10f9848ff31aedba5e5",
+    "baseline_sha256": "e06fac0d29ba41e0c852d003d3aa2e63e1720954f827c10f9848ff31aedba5e5"
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\common\\metric_utils.py",
+    "sha256": "9df942392fcd49304688cfc9e3b24b5923f429076f9fced4ee2d902e256367bb",
+    "baseline_sha256": "9df942392fcd49304688cfc9e3b24b5923f429076f9fced4ee2d902e256367bb"
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\common\\hand_skinning.py",
+    "sha256": "73d74cb31ca05165ffa1ead9c8cf7ff6120a0798d1e4de8ed1cc497a28a9ea09",
+    "baseline_sha256": "73d74cb31ca05165ffa1ead9c8cf7ff6120a0798d1e4de8ed1cc497a28a9ea09"
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\common\\hand.py",
+    "sha256": "ce2067a6afd0339d6b1ab4b4e85efa20afc07a4233e8a2d445a2bf1d0ac2c7f4",
+    "baseline_sha256": "ce2067a6afd0339d6b1ab4b4e85efa20afc07a4233e8a2d445a2bf1d0ac2c7f4"
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\common\\crop.py",
+    "sha256": "af0284aa7e45dd161d7198ae7adbceb0bbf3e8d980584404947d392b46719988",
+    "baseline_sha256": "af0284aa7e45dd161d7198ae7adbceb0bbf3e8d980584404947d392b46719988"
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\common\\camera.py",
+    "sha256": "346c7f753769b2100c104b51022a00cf83cae8798e1f2fe97114f8bf5843a776",
+    "baseline_sha256": "346c7f753769b2100c104b51022a00cf83cae8798e1f2fe97114f8bf5843a776"
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\common\\affine.py",
+    "sha256": "737fc686355072e6859ae03f16785fff3141f0d568c287bdb8d5af80c1306ef8",
+    "baseline_sha256": "737fc686355072e6859ae03f16785fff3141f0d568c287bdb8d5af80c1306ef8"
+  },
+  {
+    "path": "human_semantic_validation\\annotator_B\\payload.json",
+    "sha256": "4df0d804feff291b524c807d74c03ce219d3080bb6061c8331de7ddbf3e3f69e",
+    "baseline_sha256": "4df0d804feff291b524c807d74c03ce219d3080bb6061c8331de7ddbf3e3f69e"
+  },
+  {
+    "path": "baseline/emg2pose\\config\\datamodule\\default.yaml",
+    "sha256": "19376459c8ff19789496972e6e84f470d136605f2c27650e7ab2405bcf403ba9",
+    "baseline_sha256": "19376459c8ff19789496972e6e84f470d136605f2c27650e7ab2405bcf403ba9"
+  },
+  {
+    "path": "human_semantic_validation\\pilot2\\logs\\pilot2_state_before_revision.json",
+    "sha256": "ee0cdbd0f3f060c295a893dbdd2fd1d8ee7024a0df1b13475bf4fd2b97c196e7",
+    "baseline_sha256": "ee0cdbd0f3f060c295a893dbdd2fd1d8ee7024a0df1b13475bf4fd2b97c196e7"
+  },
+  {
+    "path": "human_semantic_validation\\pilot2\\logs\\pilot2_state_after_revision.json",
+    "sha256": null,
+    "baseline_sha256": "ecd1539df985426c2229420633a4b2327338e24fc3f268d62c73e1a5512a03c3"
+  },
+  {
+    "path": "human_semantic_validation\\pilot2\\logs\\pilot2_build_report.json",
+    "sha256": "cf49a4a76f51b64a934345d246c33a90516f27db13398c0d505fcb2af655d54b",
+    "baseline_sha256": "cf49a4a76f51b64a934345d246c33a90516f27db13398c0d505fcb2af655d54b"
+  },
+  {
+    "path": "human_semantic_validation\\pilot2\\logs\\verifier_pilot2_B.json",
+    "sha256": "a4fa48e1ffa7e4325ddf3344c696a0cc50424cfa18e6371d54480b392843c91d",
+    "baseline_sha256": "fc63d5e8e97ddd867ce41dc312779febfe64cd8c1107126bb8600c1b388406f7"
+  },
+  {
+    "path": "human_semantic_validation\\pilot2\\logs\\verifier_pilot2_A.json",
+    "sha256": "52ff181c443ee79d769ec0d0622d3a67b478fd09b3e843f7a40a65d1d850f2f7",
+    "baseline_sha256": "5df6b12926f31dccea048489fed298af9cdc0d2ccf7f77374504e2bfc115c0bd"
+  },
+  {
+    "path": "human_semantic_validation\\pilot2\\logs\\verifier_pilot1_regression_A.json",
+    "sha256": "3c2e65cb4138fd1a275ebba31512d6cd4b61ce240409c5f59f01ab9bdf28e1ea",
+    "baseline_sha256": "bb1c72838dfc2213763ebc5563e2bcd9f5c3bd85d5bc318fec123f32b70e894e"
+  },
+  {
+    "path": "human_semantic_validation\\pilot2\\logs\\verifier_formal_regression_A.json",
+    "sha256": "91c50c2bb02e79aee814e6f8fa24498e8b2e798a51a219551790d5c966324d3c",
+    "baseline_sha256": "21059eb4b5f4c365c967230f4d9e751d47f96642ed67be557ca9addec6c01218"
+  },
+  {
+    "path": "human_semantic_validation\\pilot2\\annotator_B\\payload.json",
+    "sha256": "51d0be8655cbe7afd93db92a59c9b5f73babb4eb4aa8034cdc798672a8ad309b",
+    "baseline_sha256": "51d0be8655cbe7afd93db92a59c9b5f73babb4eb4aa8034cdc798672a8ad309b"
+  },
+  {
+    "path": "human_semantic_validation\\pilot2\\tools\\_probe_pilot2_feasibility.py",
+    "sha256": "66cb254f845211a6aa1ab3a450c311dbd93467ab46709a000108b8b011d25842",
+    "baseline_sha256": "66cb254f845211a6aa1ab3a450c311dbd93467ab46709a000108b8b011d25842"
+  },
+  {
+    "path": "human_semantic_validation\\pilot2\\tools\\_pilot2_state.py",
+    "sha256": "15175646903ea6fc4a9cd8efe3148571ad35dc2287689c6ddcbbf8046a24b620",
+    "baseline_sha256": "15175646903ea6fc4a9cd8efe3148571ad35dc2287689c6ddcbbf8046a24b620"
+  },
+  {
+    "path": "human_semantic_validation\\pilot2\\tools\\stage_pilot2_site.py",
+    "sha256": "89db026b0469c01fbf6cc4dc5d6df5be57b1a80f2d068345e6d1ebf91b38fdd5",
+    "baseline_sha256": "92a3a6f02f4d97a542d30cc5a168526c65b1629c508223911223afa34f6de5bf"
+  },
+  {
+    "path": "human_semantic_validation\\pilot2\\tools\\serve_pilot2.py",
+    "sha256": "0110608bd2601d1bfee929ff4289dc39df681bb61b4ad801fb64faeb17ac792e",
+    "baseline_sha256": "1a6893d974eb025a910337f6cba9f97a1f21f019f33b6525bcf0ecc2315aa323"
+  },
+  {
+    "path": "human_semantic_validation\\pilot2\\tools\\make_pilot2_set.py",
+    "sha256": "22b99ff743f0a5efefdc037ecebe5389b565822c95021f1506bfbf468fadd466",
+    "baseline_sha256": "22b99ff743f0a5efefdc037ecebe5389b565822c95021f1506bfbf468fadd466"
+  },
+  {
+    "path": "human_semantic_validation\\pilot2\\tools\\check_pilot2_invariants.py",
+    "sha256": "33924ffdf810b5b7e89ee8cd4e59c856e7406ea608ec7d4c46aef569b2e5079d",
+    "baseline_sha256": "33924ffdf810b5b7e89ee8cd4e59c856e7406ea608ec7d4c46aef569b2e5079d"
+  },
+  {
+    "path": "human_semantic_validation\\pilot2\\tools\\build_pilot2_ontology.py",
+    "sha256": "a84d5418c0783cfe4479ee94982b953150b60387eadc7928cacb45cccc2ab82b",
+    "baseline_sha256": "a84d5418c0783cfe4479ee94982b953150b60387eadc7928cacb45cccc2ab82b"
+  },
+  {
+    "path": "human_semantic_validation\\pilot2\\evaluator\\pilot2_sample_manifest.json",
+    "sha256": "5369367843a044b324ebb19bc6fbcebdef700357ce0ef34896c165886aecdadd",
+    "baseline_sha256": "5369367843a044b324ebb19bc6fbcebdef700357ce0ef34896c165886aecdadd"
+  },
+  {
+    "path": "human_semantic_validation\\pilot2\\evaluator\\pilot2_ontology.json",
+    "sha256": "3bb0db2f14f5b19d6baba978bc2b61533d7751759953b99eafb3e8d2ec9a5538",
+    "baseline_sha256": "3bb0db2f14f5b19d6baba978bc2b61533d7751759953b99eafb3e8d2ec9a5538"
+  },
+  {
+    "path": "human_semantic_validation\\pilot2\\evaluator\\pilot2_nonoverlap_witness.json",
+    "sha256": "5746d8da0874e16bc5a184deaea57f1d0cf9ceed76a3d8869552b738bd3ee7eb",
+    "baseline_sha256": "5746d8da0874e16bc5a184deaea57f1d0cf9ceed76a3d8869552b738bd3ee7eb"
+  },
+  {
+    "path": "human_semantic_validation\\pilot2\\PILOT2_SAMPLING_SPEC.json",
+    "sha256": "659171b24dd277e048888b4f157a8d6310551a1d19740e5ad20c216d5eaf3c01",
+    "baseline_sha256": "659171b24dd277e048888b4f157a8d6310551a1d19740e5ad20c216d5eaf3c01"
+  },
+  {
+    "path": "human_semantic_validation\\pilot2\\PILOT2_EVALUATION_PREREGISTRATION.md",
+    "sha256": "24e6a83554a5eb0c87ab4a9de6bde588eeddf9d6e53c4093f0195414085544b4",
+    "baseline_sha256": "24e6a83554a5eb0c87ab4a9de6bde588eeddf9d6e53c4093f0195414085544b4"
+  },
+  {
+    "path": "human_semantic_validation\\pilot2\\pilot2_sampling_spec.py",
+    "sha256": "492d4d2c58e6d253c05cacb989191e5c35d927e8dc997ef3973b78fb788e02e3",
+    "baseline_sha256": "492d4d2c58e6d253c05cacb989191e5c35d927e8dc997ef3973b78fb788e02e3"
+  },
+  {
+    "path": "human_semantic_validation\\pilot2\\README.md",
+    "sha256": "05a3bc992771fd2384729b32925a6870c7d12b60cf2fe011187ac36d003f07ae",
+    "baseline_sha256": "05a3bc992771fd2384729b32925a6870c7d12b60cf2fe011187ac36d003f07ae"
+  },
+  {
+    "path": "human_semantic_validation\\pilot\\logs\\_probe_pilot_feasibility.json",
+    "sha256": "1012a7bbfe4580ebd0e6004293c4072e375e127b65be014f482624be9ec413f6",
+    "baseline_sha256": "1012a7bbfe4580ebd0e6004293c4072e375e127b65be014f482624be9ec413f6"
+  },
+  {
+    "path": "human_semantic_validation\\pilot2\\annotator_common\\pilot2_hand_geometry.json",
+    "sha256": "1e33d19ca4a08b6e32ac07890820cbaa485ca022b28f17c551dbda52a3be88e8",
+    "baseline_sha256": "1e33d19ca4a08b6e32ac07890820cbaa485ca022b28f17c551dbda52a3be88e8"
+  },
+  {
+    "path": "human_semantic_validation\\pilot\\logs\\pilot_render_audit_A.json",
+    "sha256": "146654f5abd2eeb082deae09dced4939ba482a4085fe7c4fc80fee3c1edb5497",
+    "baseline_sha256": "146654f5abd2eeb082deae09dced4939ba482a4085fe7c4fc80fee3c1edb5497"
+  },
+  {
+    "path": "human_semantic_validation\\pilot2\\annotator_A\\payload.json",
+    "sha256": "f7e827168745fcdc4f80e76f144d86c0b708fd5c55fbf6dd15fea426801bd31f",
+    "baseline_sha256": "f7e827168745fcdc4f80e76f144d86c0b708fd5c55fbf6dd15fea426801bd31f"
+  },
+  {
+    "path": "human_semantic_validation\\pilot\\logs\\verifier_formal_B.json",
+    "sha256": "317d72c17092fa03eb0305a6919b51f73c48c0ea2497a80d3048a73c89f9f6fb",
+    "baseline_sha256": "317d72c17092fa03eb0305a6919b51f73c48c0ea2497a80d3048a73c89f9f6fb"
+  },
+  {
+    "path": "human_semantic_validation\\pilot\\logs\\verifier_formal_A.json",
+    "sha256": "b0c22adf8f6aca5b7f854f17e8fad1bf84660b723f6c82b8b2fc20b84de9338f",
+    "baseline_sha256": "b0c22adf8f6aca5b7f854f17e8fad1bf84660b723f6c82b8b2fc20b84de9338f"
+  },
+  {
+    "path": "human_semantic_validation\\pilot\\logs\\verifier_pilot_A.json",
+    "sha256": "a0cc1203d38cc4c1a6ef49bc3a144b10b50c67142355af5f75bf860c9f29b6a5",
+    "baseline_sha256": "a0cc1203d38cc4c1a6ef49bc3a144b10b50c67142355af5f75bf860c9f29b6a5"
+  },
+  {
+    "path": "human_semantic_validation\\pilot\\logs\\verifier_pilot_B.json",
+    "sha256": "038c0cec2f088cf2b8fed569f1cda0333c10020cba5a7d3d2053d3f023243623",
+    "baseline_sha256": "038c0cec2f088cf2b8fed569f1cda0333c10020cba5a7d3d2053d3f023243623"
+  },
+  {
+    "path": "human_semantic_validation\\pilot\\logs\\pilot1_human_agreement.json",
+    "sha256": "a9425b7af092ba005020f5df4cde7dbd2df7bc87d52805eb9112249ac0ee83d3",
+    "baseline_sha256": "a9425b7af092ba005020f5df4cde7dbd2df7bc87d52805eb9112249ac0ee83d3"
+  },
+  {
+    "path": "human_semantic_validation\\pilot\\logs\\pilot_build_report.json",
+    "sha256": "f1bee555baa794c3b1d80b94e73bdf9c29db58e64f303230d231518bf3d85a5b",
+    "baseline_sha256": "f1bee555baa794c3b1d80b94e73bdf9c29db58e64f303230d231518bf3d85a5b"
+  },
+  {
+    "path": "human_semantic_validation\\pilot2\\tests\\test_s6_pilot2.py",
+    "sha256": "527535abc8b5b226e5fd24235819994605e7f7b054c39d3462914058667ec366",
+    "baseline_sha256": "96e38fe9d26493c34ea08952d594e33778f773483b09a06513d1b439fac51561"
+  },
+  {
+    "path": "human_semantic_validation\\pilot\\annotator_B\\payload.json",
+    "sha256": "d16ee2add77f6c2339d3965f3d22421da48032bd7634b2d1d0e32a4653dc9601",
+    "baseline_sha256": "d16ee2add77f6c2339d3965f3d22421da48032bd7634b2d1d0e32a4653dc9601"
+  },
+  {
+    "path": "human_semantic_validation\\pilot\\evaluator\\pilot_sample_manifest.json",
+    "sha256": "3d89213e0c5cd9c2ebe70a445bbcbde6a495a8776ad1208b022de255bf2bcaa7",
+    "baseline_sha256": "3d89213e0c5cd9c2ebe70a445bbcbde6a495a8776ad1208b022de255bf2bcaa7"
+  },
+  {
+    "path": "human_semantic_validation\\pilot\\evaluator\\pilot_nonoverlap_witness.json",
+    "sha256": "2e424b77671fa8b624a89c08a0496ec161acc81bda7116ad54a0ad82ef3ab3b2",
+    "baseline_sha256": "2e424b77671fa8b624a89c08a0496ec161acc81bda7116ad54a0ad82ef3ab3b2"
+  },
+  {
+    "path": "human_semantic_validation\\pilot\\tests\\test_s6_pilot.py",
+    "sha256": "6c0bf7cadd09aef9d7939f0f16f55d823709b1dcc7abb1b4e42d6a517fef4f92",
+    "baseline_sha256": "6c0bf7cadd09aef9d7939f0f16f55d823709b1dcc7abb1b4e42d6a517fef4f92"
+  },
+  {
+    "path": "human_semantic_validation\\pilot\\annotator_common\\pilot_hand_geometry.json",
+    "sha256": "88256e077c7a47d76988c301b37f90e86c8bc101895b27ad2c887904000d783f",
+    "baseline_sha256": "88256e077c7a47d76988c301b37f90e86c8bc101895b27ad2c887904000d783f"
+  },
+  {
+    "path": "human_semantic_validation\\pilot\\annotator_A\\payload.json",
+    "sha256": "232be6cc289108eeed5017680603fd77f129b724619c57028244f9be8ef3e162",
+    "baseline_sha256": "232be6cc289108eeed5017680603fd77f129b724619c57028244f9be8ef3e162"
+  },
+  {
+    "path": "human_semantic_validation\\pilot\\tools\\_probe_pilot_feasibility.py",
+    "sha256": "66cb254f845211a6aa1ab3a450c311dbd93467ab46709a000108b8b011d25842",
+    "baseline_sha256": "66cb254f845211a6aa1ab3a450c311dbd93467ab46709a000108b8b011d25842"
+  },
+  {
+    "path": "human_semantic_validation\\pilot\\tools\\stage_pilot_site.py",
+    "sha256": "214773e81eb92e4d5445c952713848a3061331dac2aad54df25bb53adffe3970",
+    "baseline_sha256": "214773e81eb92e4d5445c952713848a3061331dac2aad54df25bb53adffe3970"
+  },
+  {
+    "path": "human_semantic_validation\\pilot\\tools\\serve_pilot.py",
+    "sha256": "68483488fb85c10b634afcf49d1fdf4b3d7dda9f9150a4ad12c7f032ebe3eb1e",
+    "baseline_sha256": "68483488fb85c10b634afcf49d1fdf4b3d7dda9f9150a4ad12c7f032ebe3eb1e"
+  },
+  {
+    "path": "human_semantic_validation\\pilot\\tools\\make_pilot_set.py",
+    "sha256": "537607bf723a8a3f3a9bd461d6eedce14db7e8e6115eeb2240998851fcbfe622",
+    "baseline_sha256": "537607bf723a8a3f3a9bd461d6eedce14db7e8e6115eeb2240998851fcbfe622"
+  },
+  {
+    "path": "human_semantic_validation\\pilot\\tools\\ingest_pilot1_labels.py",
+    "sha256": "3f5d31791df1d935beadfab20d125ed89ae0adfb51cc2b620746a216b28144f2",
+    "baseline_sha256": "3f5d31791df1d935beadfab20d125ed89ae0adfb51cc2b620746a216b28144f2"
+  },
+  {
+    "path": "human_semantic_validation\\pilot\\tools\\check_localization_invariants.py",
+    "sha256": "2a6d29477c18d1cbb380fbeed83ab4339e345c6147defc9d92a1cc6dd3b54c49",
+    "baseline_sha256": "2a6d29477c18d1cbb380fbeed83ab4339e345c6147defc9d92a1cc6dd3b54c49"
+  },
+  {
+    "path": "checkpoints\\emg2pose_model_checkpoints\\regression_emg2pose.ckpt",
+    "sha256": "d22d85c91638ddb122390af08a508e42d6cb7b6f1064b77fb610020d14b0cd94",
+    "baseline_sha256": "d22d85c91638ddb122390af08a508e42d6cb7b6f1064b77fb610020d14b0cd94"
+  },
+  {
+    "path": "checkpoints\\emg2pose_model_checkpoints\\regression_neuropose.ckpt",
+    "sha256": "aa744e1878ace0665859f8bd072f3e451fefaa2ed12d537f51828d216118e3f4",
+    "baseline_sha256": "aa744e1878ace0665859f8bd072f3e451fefaa2ed12d537f51828d216118e3f4"
+  },
+  {
+    "path": "checkpoints\\emg2pose_model_checkpoints\\regression_vemg2pose.ckpt",
+    "sha256": "748b1d1ef0ce1985f6fc07225d97eebfb370243429af803b4997d28ecce2424e",
+    "baseline_sha256": "748b1d1ef0ce1985f6fc07225d97eebfb370243429af803b4997d28ecce2424e"
+  },
+  {
+    "path": "checkpoints\\emg2pose_model_checkpoints\\tracking_emg2pose.ckpt",
+    "sha256": "258625329ea6e1bb57bae7eaafb01bfca31ab26083fda68734dabf017c341610",
+    "baseline_sha256": "258625329ea6e1bb57bae7eaafb01bfca31ab26083fda68734dabf017c341610"
+  },
+  {
+    "path": "checkpoints\\emg2pose_model_checkpoints\\tracking_vemg2pose.ckpt",
+    "sha256": "629783b2b1e8bc1316190fc2a57ba95396dd0d6b59cfbb38543fc6ad8bd61ae5",
+    "baseline_sha256": "629783b2b1e8bc1316190fc2a57ba95396dd0d6b59cfbb38543fc6ad8bd61ae5"
+  },
+  {
+    "path": "humanengine_design\\EVIDENCE_MANIFEST.json",
+    "sha256": "c7665333eb66f5fd74a2bea1f8bb59088b844377e6e2a7699ff40498e1043c97",
+    "baseline_sha256": "c7665333eb66f5fd74a2bea1f8bb59088b844377e6e2a7699ff40498e1043c97"
+  },
+  {
+    "path": "humanengine_design\\FOCUSED_REVIEW_EVIDENCE.json",
+    "sha256": "b464970d398e6fe1a503375ebd299940452bc0e05f64244af109e2c9780879bf",
+    "baseline_sha256": "b464970d398e6fe1a503375ebd299940452bc0e05f64244af109e2c9780879bf"
+  },
+  {
+    "path": "humanengine_design\\FOCUSED_REVIEW_HANDOVER.md",
+    "sha256": "8aacb6420cc26848dfa4814d763514588d61b18edfe18ad4dbc4fc569b4e1947",
+    "baseline_sha256": "8aacb6420cc26848dfa4814d763514588d61b18edfe18ad4dbc4fc569b4e1947"
+  },
+  {
+    "path": "humanengine_design\\FOCUSED_REVIEW_MULTI_API_RESIDUAL.md",
+    "sha256": "65d200e97b83c40b683f64b97104aa2ff7dc1385849751fdcc9d08f5689f58a0",
+    "baseline_sha256": "65d200e97b83c40b683f64b97104aa2ff7dc1385849751fdcc9d08f5689f58a0"
+  },
+  {
+    "path": "humanengine_design\\HUMANENGINE_EMG_V0_1_ARCHITECTURE.md",
+    "sha256": "731d1a484b637f6a77d20b4895b874ce5700f97a5f411cbfd43182959c807268",
+    "baseline_sha256": "731d1a484b637f6a77d20b4895b874ce5700f97a5f411cbfd43182959c807268"
+  },
+  {
+    "path": "humanengine_design\\SESSION_HANDOVER.md",
+    "sha256": "6bdbf3ae75e01870698f0857faa22b12c22d7961759760479ef37da26d1b701a",
+    "baseline_sha256": "6bdbf3ae75e01870698f0857faa22b12c22d7961759760479ef37da26d1b701a"
+  },
+  {
+    "path": "AGENTS.md",
+    "sha256": "1c5b79f76230b4af5c72b1c55e0a8a58f8af7c11cc551f742c083b100ec99494",
+    "baseline_sha256": "1c5b79f76230b4af5c72b1c55e0a8a58f8af7c11cc551f742c083b100ec99494"
+  }
+]

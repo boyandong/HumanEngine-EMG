@@ -1,0 +1,24 @@
+{
+  "scope": "Local synthetic CPU reproductions before continuation-identity edits",
+  "runtime": "D:/Anaconda3/envs/emgforce/python.exe; torch 2.4.1+cpu",
+  "X01": {
+    "adam_to_adamw_accepted_under_same_pin": true,
+    "next_parameter_max_difference": 0.009998000226914883
+  },
+  "X02": {
+    "same_shaped_lstm_bias_order_swap_accepted": true,
+    "next_named_parameter_max_difference": 0.01188015379011631
+  },
+  "X03": {
+    "aliased_lstm_bias_receiver_accepted": true,
+    "loaded_named_tensor_max_error": 0.1685013771057129,
+    "forward_max_difference": 0.07822978496551514
+  },
+  "X04": {
+    "nonpersistent_buffer_changed_from": 2.0,
+    "nonpersistent_buffer_changed_to": 3.0,
+    "layernorm_eps_changed_from": 0.00001,
+    "layernorm_eps_changed_to": 1.0,
+    "later_gradient_changed": true
+  }
+}

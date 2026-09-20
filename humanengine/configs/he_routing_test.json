@@ -1,0 +1,161 @@
+{
+  "name": "he_routing_test",
+  "schema": "he-kernel-config-v1",
+  "kernel": {
+    "channels": 16,
+    "sample_rate": 2000.0,
+    "feature_dim": 128,
+    "shared_dim": 256,
+    "residual_dim": 128,
+    "adapter_rank": 8,
+    "api_projector_dim": 128,
+    "predictor_hidden": 128,
+    "invariance_hidden": 128,
+    "invariance_dim": 32,
+    "geometry_hidden": 64,
+    "geometry_dim": 32,
+    "kernels": [
+      11,
+      5,
+      9
+    ],
+    "strides": [
+      5,
+      2,
+      4
+    ],
+    "residual_kernel": 5,
+    "dilations": [
+      1,
+      2
+    ],
+    "warmup_seconds": 1.0,
+    "burnin_seconds": 1.0,
+    "timestamp_tolerance_samples": 0.1,
+    "rms_seconds": 0.04,
+    "spectrum_seconds": 0.1,
+    "bands": [
+      [
+        40.0,
+        80.0
+      ],
+      [
+        80.0,
+        160.0
+      ],
+      [
+        160.0,
+        320.0
+      ],
+      [
+        320.0,
+        500.0
+      ],
+      [
+        500.0,
+        850.0
+      ]
+    ],
+    "signal_epsilon": 1e-06,
+    "signal_scale_floor": 0.001,
+    "hann_periodic": true,
+    "future_seconds": [
+      0.02,
+      0.04,
+      0.1
+    ],
+    "teacher_scales": [
+      0.1,
+      0.5,
+      2.0
+    ],
+    "teacher_hidden": 128,
+    "teacher_ema": 0.999,
+    "teacher_stats_momentum": 0.99,
+    "teacher_scale_floor": 0.05,
+    "mask_fraction": 0.3,
+    "mask_min": 0.2,
+    "mask_max": 0.5,
+    "mask_block_short_fraction": 0.2,
+    "observed_weight": 0.1,
+    "physical_weight": 0.05,
+    "variance_weight": 0.01,
+    "variance_floor": 0.1,
+    "variance_epsilon": 0.0001,
+    "minimum_anchors": 64,
+    "minimum_recordings": 8,
+    "minimum_users": 4,
+    "anchor_separation_seconds": 1.0,
+    "geometry_pair_separation_seconds": 0.2,
+    "geometry_min_pairs": 128,
+    "geometry_degenerate_threshold": 0.0001,
+    "geometry_distance_epsilon": 1e-08,
+    "geometry_mean_epsilon": 1e-06,
+    "pose_scale_floor": 0.1,
+    "vicreg_variance_floor": 1.0,
+    "vicreg_covariance_weight": 0.04,
+    "noise_multiplier": 0.02,
+    "pose_beta": [
+      1.0,
+      0.5,
+      0.05
+    ],
+    "reserve_alpha": 0.2,
+    "reserve_vicreg_weight": 0.1,
+    "cagrad_c": 0.25,
+    "cagrad_tolerance": 1e-07,
+    "cagrad_max_iterations": 500,
+    "distillation_weight": 0.2,
+    "huber_delta": 1.0,
+    "route_version": "api-detached-r-v1",
+    "summary_version": "log-rms40-band100-hann-periodic-v1",
+    "target_version": "independent-causal-3scale-2layer-v1",
+    "model_version": "he-scientific-kernel-v0.1",
+    "ma_private_rule": "physical_weight-times-L_phys-no-family-alpha-v1"
+  },
+  "execution": {
+    "device": "cpu",
+    "scientific_training_authorized": false,
+    "real_training_entrypoint": null
+  },
+  "provenance_required": [
+    "data_manifest_hash",
+    "statistics_hash",
+    "source_version",
+    "teacher_hash",
+    "registry_hash",
+    "reference_scales_hash"
+  ],
+  "teacher_selection": {
+    "rule": "fixed_budget_emg_only",
+    "budget_steps": null,
+    "health_thresholds": "must_preregister_before_real_teacher_preparation"
+  },
+  "statistics": "must_supply_train_only_versioned_artifacts; identity fixtures are synthetic only",
+  "family_registry": {
+    "pose": {
+      "components": [
+        "current",
+        "future",
+        "geometry"
+      ],
+      "beta": [
+        1.0,
+        0.5,
+        0.05
+      ],
+      "frozen_reference_scales": null,
+      "route_version": "api-detached-r-v1"
+    }
+  },
+  "optimizer_policy": {
+    "reference": "SGD without momentum",
+    "research_candidate": "AdamW",
+    "learning_rate": 0.0003,
+    "weight_decay": 0.0001,
+    "warmup_steps": 500,
+    "global_clip_norm": 1.0,
+    "actual_delta_diagnostics_required": true
+  },
+  "test_profile": true
+}

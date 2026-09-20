@@ -1,0 +1,2249 @@
+[
+  {
+    "path": "inference\\smoke_test_inference.py",
+    "sha256": "47D200B700E6F346B3E6B61B1CBC027AA799C35A1DD725D54E3665C0A5455548",
+    "exists": true,
+    "baseline_sha256": "47D200B700E6F346B3E6B61B1CBC027AA799C35A1DD725D54E3665C0A5455548",
+    "matches_baseline": true
+  },
+  {
+    "path": "inference\\make_joint_reference.py",
+    "sha256": "CA78BDA0EABDAD3444DD311CBF4D236A800FF798AFF90D0899E3F85329A7DA57",
+    "exists": true,
+    "baseline_sha256": "CA78BDA0EABDAD3444DD311CBF4D236A800FF798AFF90D0899E3F85329A7DA57",
+    "matches_baseline": true
+  },
+  {
+    "path": "inference\\predict_pose.py",
+    "sha256": "6CDD060AB639975EB5E2F96BFE43D01371F9F91EC6ECB812C2AF2C314BBEF818",
+    "exists": true,
+    "baseline_sha256": "6CDD060AB639975EB5E2F96BFE43D01371F9F91EC6ECB812C2AF2C314BBEF818",
+    "matches_baseline": true
+  },
+  {
+    "path": "inference\\verify_joint_conventions.py",
+    "sha256": "0B4A0BE2E7D3855DC6DCEF8568549A28D9A7BC8916757162E136D73873A3EF0D",
+    "exists": true,
+    "baseline_sha256": "0B4A0BE2E7D3855DC6DCEF8568549A28D9A7BC8916757162E136D73873A3EF0D",
+    "matches_baseline": true
+  },
+  {
+    "path": "representation\\db9_canonical16_schema.json",
+    "sha256": "0EDE53B97908460A0700CC78674789EA30303F7F6572A129922765D683ED0F80",
+    "exists": true,
+    "baseline_sha256": "0EDE53B97908460A0700CC78674789EA30303F7F6572A129922765D683ED0F80",
+    "matches_baseline": true
+  },
+  {
+    "path": "representation\\canonical_hand.py",
+    "sha256": "D9922FF0927760FB5D319B6FD22EB264602E836CF87A7F09291550218C987130",
+    "exists": true,
+    "baseline_sha256": "D9922FF0927760FB5D319B6FD22EB264602E836CF87A7F09291550218C987130",
+    "matches_baseline": true
+  },
+  {
+    "path": "representation\\canonical16_schema.json",
+    "sha256": "33449FCA98EE2DB2B0023438786801C5711CD3BE042FDEF181B663E8A77878E1",
+    "exists": true,
+    "baseline_sha256": "33449FCA98EE2DB2B0023438786801C5711CD3BE042FDEF181B663E8A77878E1",
+    "matches_baseline": true
+  },
+  {
+    "path": "representation\\verify_canonical16_on_real_data.py",
+    "sha256": "B05B8273AF759A439F97E94090CCB0775FC45FAAD672B230305EFA52A737C7DC",
+    "exists": true,
+    "baseline_sha256": "B05B8273AF759A439F97E94090CCB0775FC45FAAD672B230305EFA52A737C7DC",
+    "matches_baseline": true
+  },
+  {
+    "path": "representation\\db9_to_canonical16.py",
+    "sha256": "8EC97D0B0B4A61F8E8D958F93C2984FCCD3144B2B8CA15ADF4FF59E6160CE3CF",
+    "exists": true,
+    "baseline_sha256": "8EC97D0B0B4A61F8E8D958F93C2984FCCD3144B2B8CA15ADF4FF59E6160CE3CF",
+    "matches_baseline": true
+  },
+  {
+    "path": "representation\\tests\\test_db9_to_canonical16.py",
+    "sha256": "527D4A5FA4A425693E51FC883A10725E8CE63E1B3D8B7E95F25A4217550ACEB9",
+    "exists": true,
+    "baseline_sha256": "527D4A5FA4A425693E51FC883A10725E8CE63E1B3D8B7E95F25A4217550ACEB9",
+    "matches_baseline": true
+  },
+  {
+    "path": "representation\\tests\\test_canonical_hand.py",
+    "sha256": "688079644F7D27759692E6B655B086EDC0F73DAD2B7145F2D3CDD83E0A3B05EA",
+    "exists": true,
+    "baseline_sha256": "688079644F7D27759692E6B655B086EDC0F73DAD2B7145F2D3CDD83E0A3B05EA",
+    "matches_baseline": true
+  },
+  {
+    "path": "bridge_audit\\_common.py",
+    "sha256": "81BDE8EFCD78E6E9E2D79EEF98B24789807F83F2CEEBA2D21E471DBD23C04ED9",
+    "exists": true,
+    "baseline_sha256": "81BDE8EFCD78E6E9E2D79EEF98B24789807F83F2CEEBA2D21E471DBD23C04ED9",
+    "matches_baseline": true
+  },
+  {
+    "path": "bridge_audit\\visual_check.py",
+    "sha256": "42A158225410ECBDB5BD60C3E8D530A5F4946AA4961C60846837B6E10FA2022E",
+    "exists": true,
+    "baseline_sha256": "42A158225410ECBDB5BD60C3E8D530A5F4946AA4961C60846837B6E10FA2022E",
+    "matches_baseline": true
+  },
+  {
+    "path": "bridge_audit\\tools\\apply_audit_corrections.py",
+    "sha256": "0C9CE04400F24937B368EFCB0A0E3EA8DF009D0A87AF0534BB728EBD384811EB",
+    "exists": true,
+    "baseline_sha256": "0C9CE04400F24937B368EFCB0A0E3EA8DF009D0A87AF0534BB728EBD384811EB",
+    "matches_baseline": true
+  },
+  {
+    "path": "docs\\smoke_test_report.txt",
+    "sha256": "99411AC5B7E157A215B6D6835CB156C0F941519C48A54BE97AA2D6EDDB4ABBF2",
+    "exists": true,
+    "baseline_sha256": "99411AC5B7E157A215B6D6835CB156C0F941519C48A54BE97AA2D6EDDB4ABBF2",
+    "matches_baseline": true
+  },
+  {
+    "path": "docs\\smoke_test_evidence.json",
+    "sha256": "D83FC9D2D2D40ACFF327F75B90387D5B0108A35218E5117DB7AEAA5AD6BB495B",
+    "exists": true,
+    "baseline_sha256": "D83FC9D2D2D40ACFF327F75B90387D5B0108A35218E5117DB7AEAA5AD6BB495B",
+    "matches_baseline": true
+  },
+  {
+    "path": "docs\\SESSION_HANDOVER.md",
+    "sha256": "E96636F5DB5208BA20C4BD70D68567F047492086883514E37EF5C45E9632C4EA",
+    "exists": true,
+    "baseline_sha256": "E96636F5DB5208BA20C4BD70D68567F047492086883514E37EF5C45E9632C4EA",
+    "matches_baseline": true
+  },
+  {
+    "path": "docs\\SESSION2_REPORT.md",
+    "sha256": "75181720D67502AF94B97E549B3EFA79B858144DDBC6A5B7A58E5C991D3F6968",
+    "exists": true,
+    "baseline_sha256": "75181720D67502AF94B97E549B3EFA79B858144DDBC6A5B7A58E5C991D3F6968",
+    "matches_baseline": true
+  },
+  {
+    "path": "docs\\SERVER_ACQUISITION_RUNBOOK.md",
+    "sha256": "674D419018A69660F118F0F86955E5E570E51C2F07B8F80667323F4A98242924",
+    "exists": true,
+    "baseline_sha256": "674D419018A69660F118F0F86955E5E570E51C2F07B8F80667323F4A98242924",
+    "matches_baseline": true
+  },
+  {
+    "path": "docs\\REPETITION_AUDIT.json",
+    "sha256": "350B06C1D4A479DD81B7EC1A3BA1707A59AB0A67CCD72049D34C1B864C818A47",
+    "exists": true,
+    "baseline_sha256": "350B06C1D4A479DD81B7EC1A3BA1707A59AB0A67CCD72049D34C1B864C818A47",
+    "matches_baseline": true
+  },
+  {
+    "path": "docs\\REMEDIATION_REPORT.md",
+    "sha256": "AA2A39262BBC939316353BC81789EA5CB45A8AF3C0DE3D4A64B8D8CD60EDBFAD",
+    "exists": true,
+    "baseline_sha256": "AA2A39262BBC939316353BC81789EA5CB45A8AF3C0DE3D4A64B8D8CD60EDBFAD",
+    "matches_baseline": true
+  },
+  {
+    "path": "docs\\joint_reference_table.md",
+    "sha256": "A98F084BE8E99F3AF09CFDED57D867DAB9725D626DFEE8FFC4915CC91D15FECD",
+    "exists": true,
+    "baseline_sha256": "A98F084BE8E99F3AF09CFDED57D867DAB9725D626DFEE8FFC4915CC91D15FECD",
+    "matches_baseline": true
+  },
+  {
+    "path": "docs\\joint_reference_table.json",
+    "sha256": "B9C945155F1AAA30D1483E9916A329F22B100AAECF29C913AD72F82830A8C214",
+    "exists": true,
+    "baseline_sha256": "B9C945155F1AAA30D1483E9916A329F22B100AAECF29C913AD72F82830A8C214",
+    "matches_baseline": true
+  },
+  {
+    "path": "docs\\joint_convention_verification.txt",
+    "sha256": "ED2C65136725B85B2DE434E7AF4ABD82BD55B3351765523722E2552A91AD30D0",
+    "exists": true,
+    "baseline_sha256": "ED2C65136725B85B2DE434E7AF4ABD82BD55B3351765523722E2552A91AD30D0",
+    "matches_baseline": true
+  },
+  {
+    "path": "docs\\joint_angle_definition.md",
+    "sha256": "87E9F9222FCE1A8D44EC8495BF50D47676CB5920A1BED6CF547089815A03BEFE",
+    "exists": true,
+    "baseline_sha256": "87E9F9222FCE1A8D44EC8495BF50D47676CB5920A1BED6CF547089815A03BEFE",
+    "matches_baseline": true
+  },
+  {
+    "path": "bridge_audit\\tests\\test_bridge_audit.py",
+    "sha256": "71FEDDF2973EFA6676516A851B0E89B2E1F86D3C34BD699056A0899E58EBB51C",
+    "exists": true,
+    "baseline_sha256": "71FEDDF2973EFA6676516A851B0E89B2E1F86D3C34BD699056A0899E58EBB51C",
+    "matches_baseline": true
+  },
+  {
+    "path": "bridge_audit\\SESSION5_HANDOVER.md",
+    "sha256": "CC6AD44F99D56F52EA6D30DDD9DC5E50F93CE9DD26087A3D6C1A796C59A5807B",
+    "exists": true,
+    "baseline_sha256": "CC6AD44F99D56F52EA6D30DDD9DC5E50F93CE9DD26087A3D6C1A796C59A5807B",
+    "matches_baseline": true
+  },
+  {
+    "path": "bridge_audit\\SESSION5_BRIDGE_AUDIT_REPORT.md",
+    "sha256": "56FC29A3135D8562F4A7F5AE38C9AA6B8706C2C607990136E3A10891527AD043",
+    "exists": true,
+    "baseline_sha256": "56FC29A3135D8562F4A7F5AE38C9AA6B8706C2C607990136E3A10891527AD043",
+    "matches_baseline": true
+  },
+  {
+    "path": "bridge_audit\\run_bridge_audit.py",
+    "sha256": "74D9034381DA1915EA8B7EE502C99AADA51C557A38836CED45586C37337A420C",
+    "exists": true,
+    "baseline_sha256": "74D9034381DA1915EA8B7EE502C99AADA51C557A38836CED45586C37337A420C",
+    "matches_baseline": true
+  },
+  {
+    "path": "docs\\generated\\emg2pose_joint_axes.json",
+    "sha256": "0E991A4A3300B871871E42744E112413DC7B8F8B4C82D53AE4296C1D15DCD11B",
+    "exists": true,
+    "baseline_sha256": "0E991A4A3300B871871E42744E112413DC7B8F8B4C82D53AE4296C1D15DCD11B",
+    "matches_baseline": true
+  },
+  {
+    "path": "docs\\FROZEN_CONFIRMATORY_SPEC.json",
+    "sha256": "50C338BED3BF8A346F492ABB61002A3E406F45AA3606E506271D026A75DC4196",
+    "exists": true,
+    "baseline_sha256": "50C338BED3BF8A346F492ABB61002A3E406F45AA3606E506271D026A75DC4196",
+    "matches_baseline": true
+  },
+  {
+    "path": "docs\\emg2pose_paper.txt",
+    "sha256": "3BE244CA73E202FE2480305B98A4C56FE3258327D8ED8A2EA2F96285734D0F54",
+    "exists": true,
+    "baseline_sha256": "3BE244CA73E202FE2480305B98A4C56FE3258327D8ED8A2EA2F96285734D0F54",
+    "matches_baseline": true
+  },
+  {
+    "path": "docs\\EMG2POSE_DATASET_REFERENCE.md",
+    "sha256": "042B84A6C35DBC7CEF35B78E77E237931A2AF47377E9FAD3C503473F51C39072",
+    "exists": true,
+    "baseline_sha256": "042B84A6C35DBC7CEF35B78E77E237931A2AF47377E9FAD3C503473F51C39072",
+    "matches_baseline": true
+  },
+  {
+    "path": "docs\\DB9_FILE_AUDIT.json",
+    "sha256": "B6E107C5CDC36E641514ACBC884233D1EEB99614B63E22D0F0E101FB66E7CC1C",
+    "exists": true,
+    "baseline_sha256": "B6E107C5CDC36E641514ACBC884233D1EEB99614B63E22D0F0E101FB66E7CC1C",
+    "matches_baseline": true
+  },
+  {
+    "path": "docs\\DB9_EMG2POSE_ZERO_COMPATIBILITY.json",
+    "sha256": "58D0FAF30DD65B9E362A27E884F83B5FE9E2A77001FA9F1C8B25A2CBABC71A53",
+    "exists": true,
+    "baseline_sha256": "58D0FAF30DD65B9E362A27E884F83B5FE9E2A77001FA9F1C8B25A2CBABC71A53",
+    "matches_baseline": true
+  },
+  {
+    "path": "docs\\DB9_CANONICAL16_MAPPING.md",
+    "sha256": "20CCEDAE3BFD8264C48C42975C9C60D8A0CC7F8A9D0026084A4396DD242ABDF5",
+    "exists": true,
+    "baseline_sha256": "20CCEDAE3BFD8264C48C42975C9C60D8A0CC7F8A9D0026084A4396DD242ABDF5",
+    "matches_baseline": true
+  },
+  {
+    "path": "docs\\DATASET_ACCESS_DECISION.md",
+    "sha256": "F70F23B77315768B25DF470B8FE65EEA2F0987CA13B19122351C0428CA1BF1A2",
+    "exists": true,
+    "baseline_sha256": "F70F23B77315768B25DF470B8FE65EEA2F0987CA13B19122351C0428CA1BF1A2",
+    "matches_baseline": true
+  },
+  {
+    "path": "docs\\CORPUS_INTEGRITY.json",
+    "sha256": "244ED912E470398A0B032D890B951447C2CA6607506C50D852369662F01B1462",
+    "exists": true,
+    "baseline_sha256": "244ED912E470398A0B032D890B951447C2CA6607506C50D852369662F01B1462",
+    "matches_baseline": true
+  },
+  {
+    "path": "docs\\CORPUS_GATE.json",
+    "sha256": "A4EF2DF9324B67D330C8E25EAE3F926D2D4C64094EC11A8D601E0A656560B1F9",
+    "exists": true,
+    "baseline_sha256": "A4EF2DF9324B67D330C8E25EAE3F926D2D4C64094EC11A8D601E0A656560B1F9",
+    "matches_baseline": true
+  },
+  {
+    "path": "docs\\CONFIRMATORY_RUN_MANIFEST.json",
+    "sha256": "1C65D71579DFAC980B2E7E5957B558B417C539FD7E62742449F602329BF0FA2A",
+    "exists": true,
+    "baseline_sha256": "1C65D71579DFAC980B2E7E5957B558B417C539FD7E62742449F602329BF0FA2A",
+    "matches_baseline": true
+  },
+  {
+    "path": "docs\\CONFIRMATORY_RESULTS.md",
+    "sha256": "419386BAD24A2303343F0D7EEDC42C7767679377DD19D3A7E3C40658194CA83C",
+    "exists": true,
+    "baseline_sha256": "419386BAD24A2303343F0D7EEDC42C7767679377DD19D3A7E3C40658194CA83C",
+    "matches_baseline": true
+  },
+  {
+    "path": "docs\\CONFIRMATORY_COHORTS.json",
+    "sha256": "55A7D511198D3749AD289A3CEE5B0E3B31E5CC42A10C9575108133EAF8F924FC",
+    "exists": true,
+    "baseline_sha256": "55A7D511198D3749AD289A3CEE5B0E3B31E5CC42A10C9575108133EAF8F924FC",
+    "matches_baseline": true
+  },
+  {
+    "path": "docs\\canonical_emg2pose_verification.json",
+    "sha256": "E2EB2AF519192FACC9E77F48ED7CE86CA11FDCA1E7FC1FC518CD16D870A9F8AA",
+    "exists": true,
+    "baseline_sha256": "E2EB2AF519192FACC9E77F48ED7CE86CA11FDCA1E7FC1FC518CD16D870A9F8AA",
+    "matches_baseline": true
+  },
+  {
+    "path": "docs\\canonical16_real_data_verification.txt",
+    "sha256": "138090E21866D5DC32218723A9DAA87A081B96F54AB554E6918B2F55752BACE0",
+    "exists": true,
+    "baseline_sha256": "138090E21866D5DC32218723A9DAA87A081B96F54AB554E6918B2F55752BACE0",
+    "matches_baseline": true
+  },
+  {
+    "path": "docs\\canonical16_real_data_evidence.json",
+    "sha256": "895B18C399283B69D3CF73EF8AE28ED3A2671B4A6511E1298623613A68C2DAFC",
+    "exists": true,
+    "baseline_sha256": "895B18C399283B69D3CF73EF8AE28ED3A2671B4A6511E1298623613A68C2DAFC",
+    "matches_baseline": true
+  },
+  {
+    "path": "docs\\CANONICAL16_CONTRACT.md",
+    "sha256": "14F6D46DEA611A669C776F917BF6F1929C13ECF2C3026C8DA403E4853197E6BF",
+    "exists": true,
+    "baseline_sha256": "14F6D46DEA611A669C776F917BF6F1929C13ECF2C3026C8DA403E4853197E6BF",
+    "matches_baseline": true
+  },
+  {
+    "path": "docs\\artifact_hashes.json",
+    "sha256": "DF7F2225026A2DF5CFA91AF8DD0F92AAF001007DCAE3499182123E35A7BA9FC2",
+    "exists": true,
+    "baseline_sha256": "DF7F2225026A2DF5CFA91AF8DD0F92AAF001007DCAE3499182123E35A7BA9FC2",
+    "matches_baseline": true
+  },
+  {
+    "path": "bridge_audit\\domain_depth.py",
+    "sha256": "CC033114802585DB284D9B7D379332B1E9A68A786C7C3CB3E19D17A820435C3F",
+    "exists": true,
+    "baseline_sha256": "CC033114802585DB284D9B7D379332B1E9A68A786C7C3CB3E19D17A820435C3F",
+    "matches_baseline": true
+  },
+  {
+    "path": "bridge_audit\\decoder.py",
+    "sha256": "3086F07CB1E0A835CE0435F9CE94E805BD64128DABBC54874FD0BD7DE3D629CB",
+    "exists": true,
+    "baseline_sha256": "3086F07CB1E0A835CE0435F9CE94E805BD64128DABBC54874FD0BD7DE3D629CB",
+    "matches_baseline": true
+  },
+  {
+    "path": "bridge_audit\\results\\domain_depth_supplement.json",
+    "sha256": "31963DFE6EFAF921A050DE84A14931FB18E30E201B07EE7F7A00558D0150F949",
+    "exists": true,
+    "baseline_sha256": "31963DFE6EFAF921A050DE84A14931FB18E30E201B07EE7F7A00558D0150F949",
+    "matches_baseline": true
+  },
+  {
+    "path": "bridge_audit\\results\\BRIDGE_AUDIT_SUMMARY.json",
+    "sha256": "821D81CD3F3DBE29030FDCE17C111F56F29A2B11FD483205193655EB781CDD11",
+    "exists": true,
+    "baseline_sha256": "821D81CD3F3DBE29030FDCE17C111F56F29A2B11FD483205193655EB781CDD11",
+    "matches_baseline": true
+  },
+  {
+    "path": "bridge_audit\\results\\bridge_audit_results.json",
+    "sha256": "81D114C68EBB0CFEE3E7DAB5E04C30181FB8579F1001A88D520C83AF0CE18548",
+    "exists": true,
+    "baseline_sha256": "81D114C68EBB0CFEE3E7DAB5E04C30181FB8579F1001A88D520C83AF0CE18548",
+    "matches_baseline": true
+  },
+  {
+    "path": "bridge_audit\\results\\sessions\\2022-12-06-1670313600-e3096-cv-emg-pose-train@2-recording-11_right.paired50hz.npz",
+    "sha256": "1DF23A1156AD86DFCEFD03077E5B124BC5CC3BF0EC443CA18C95372B53D1BC7C",
+    "exists": true,
+    "baseline_sha256": "1DF23A1156AD86DFCEFD03077E5B124BC5CC3BF0EC443CA18C95372B53D1BC7C",
+    "matches_baseline": true
+  },
+  {
+    "path": "bridge_audit\\results\\sessions\\2022-12-06-1670313600-e3096-cv-emg-pose-train@2-recording-11_left.paired50hz.npz",
+    "sha256": "6C0624250DF5C0BF55CBDCFC3001748428FE4600773FF9DBDBEF8CA58A8904B3",
+    "exists": true,
+    "baseline_sha256": "6C0624250DF5C0BF55CBDCFC3001748428FE4600773FF9DBDBEF8CA58A8904B3",
+    "matches_baseline": true
+  },
+  {
+    "path": "bridge_audit\\results\\sessions\\2022-12-06-1670313600-e3096-cv-emg-pose-train@2-recording-10_right.paired50hz.npz",
+    "sha256": "12BE623EA75FADDAFBB647A1FAC089F4EC32F30EA91AFD587346827061E4331B",
+    "exists": true,
+    "baseline_sha256": "12BE623EA75FADDAFBB647A1FAC089F4EC32F30EA91AFD587346827061E4331B",
+    "matches_baseline": true
+  },
+  {
+    "path": "bridge_audit\\results\\sessions\\2022-12-06-1670313600-e3096-cv-emg-pose-train@2-recording-10_left.paired50hz.npz",
+    "sha256": "ACC950DCDF3BC5F68EFA916E32561B1246192C4278AD1E2A140510796519FF0C",
+    "exists": true,
+    "baseline_sha256": "ACC950DCDF3BC5F68EFA916E32561B1246192C4278AD1E2A140510796519FF0C",
+    "matches_baseline": true
+  },
+  {
+    "path": "bridge_audit\\results\\phase9_visual_examples.json",
+    "sha256": "1A3E1B3249E30ACBF4C070F91F2CFF58C8D61DD17AE9D8EB3A175A7AC6DA54DD",
+    "exists": true,
+    "baseline_sha256": "1A3E1B3249E30ACBF4C070F91F2CFF58C8D61DD17AE9D8EB3A175A7AC6DA54DD",
+    "matches_baseline": true
+  },
+  {
+    "path": "bridge_audit\\results\\sessions\\2022-12-06-1670313600-e3096-cv-emg-pose-train@2-recording-14_right.paired50hz.npz",
+    "sha256": "E02678AB16576024767FC5CCA3517A9C7FC1FF995FB7D725A50D821CBE74026D",
+    "exists": true,
+    "baseline_sha256": "E02678AB16576024767FC5CCA3517A9C7FC1FF995FB7D725A50D821CBE74026D",
+    "matches_baseline": true
+  },
+  {
+    "path": "bridge_audit\\results\\sessions\\2022-12-06-1670313600-e3096-cv-emg-pose-train@2-recording-14_left.paired50hz.npz",
+    "sha256": "C22613BABF6397A6D90ACD302F733ABF78743988BF2FD8195369CE5A7A8853FC",
+    "exists": true,
+    "baseline_sha256": "C22613BABF6397A6D90ACD302F733ABF78743988BF2FD8195369CE5A7A8853FC",
+    "matches_baseline": true
+  },
+  {
+    "path": "bridge_audit\\results\\sessions\\2022-12-06-1670313600-e3096-cv-emg-pose-train@2-recording-13_right.paired50hz.npz",
+    "sha256": "AB80BEF9637415A8E02038DB062384A881CE008BC9233242BDEF5F27DB3589DB",
+    "exists": true,
+    "baseline_sha256": "AB80BEF9637415A8E02038DB062384A881CE008BC9233242BDEF5F27DB3589DB",
+    "matches_baseline": true
+  },
+  {
+    "path": "bridge_audit\\results\\sessions\\2022-12-06-1670313600-e3096-cv-emg-pose-train@2-recording-13_left.paired50hz.npz",
+    "sha256": "94AF92C4D84B063B7E3030498B9AD66B301C5B3D9EE55475FDE2B7CB92EE4579",
+    "exists": true,
+    "baseline_sha256": "94AF92C4D84B063B7E3030498B9AD66B301C5B3D9EE55475FDE2B7CB92EE4579",
+    "matches_baseline": true
+  },
+  {
+    "path": "bridge_audit\\results\\sessions\\2022-12-06-1670313600-e3096-cv-emg-pose-train@2-recording-12_right.paired50hz.npz",
+    "sha256": "10AC031E9C16CD1E5CAECD61DDB0162CB9E44AAB2EA1B391FB29CBC26FFFE3CB",
+    "exists": true,
+    "baseline_sha256": "10AC031E9C16CD1E5CAECD61DDB0162CB9E44AAB2EA1B391FB29CBC26FFFE3CB",
+    "matches_baseline": true
+  },
+  {
+    "path": "bridge_audit\\results\\sessions\\2022-12-06-1670313600-e3096-cv-emg-pose-train@2-recording-12_left.paired50hz.npz",
+    "sha256": "339739DC2D875894EF98D2D509A9038556DCDCA4284E42846FE9A454EB984841",
+    "exists": true,
+    "baseline_sha256": "339739DC2D875894EF98D2D509A9038556DCDCA4284E42846FE9A454EB984841",
+    "matches_baseline": true
+  },
+  {
+    "path": "bridge_audit\\results\\sessions\\2022-12-06-1670313600-e3096-cv-emg-pose-train@2-recording-2_right.paired50hz.npz",
+    "sha256": "BB5B71F86149326DECC8258946FAE2CBBDD089A6AA2588A8A2BD7C35D75294E4",
+    "exists": true,
+    "baseline_sha256": "BB5B71F86149326DECC8258946FAE2CBBDD089A6AA2588A8A2BD7C35D75294E4",
+    "matches_baseline": true
+  },
+  {
+    "path": "bridge_audit\\results\\sessions\\2022-12-06-1670313600-e3096-cv-emg-pose-train@2-recording-2_left.paired50hz.npz",
+    "sha256": "4AE590B3616857B0410A53F2559C32F8E76A42E77DBBB1340FBAF25832429816",
+    "exists": true,
+    "baseline_sha256": "4AE590B3616857B0410A53F2559C32F8E76A42E77DBBB1340FBAF25832429816",
+    "matches_baseline": true
+  },
+  {
+    "path": "bridge_audit\\results\\sessions\\2022-12-06-1670313600-e3096-cv-emg-pose-train@2-recording-1_right.paired50hz.npz",
+    "sha256": "D85182CF42FC4544204E100ADB5C7B8879B08C3BA94C60F0DCA48D18AA87716B",
+    "exists": true,
+    "baseline_sha256": "D85182CF42FC4544204E100ADB5C7B8879B08C3BA94C60F0DCA48D18AA87716B",
+    "matches_baseline": true
+  },
+  {
+    "path": "bridge_audit\\results\\sessions\\2022-12-06-1670313600-e3096-cv-emg-pose-train@2-recording-1_left.paired50hz.npz",
+    "sha256": "3A9ADD4C03210699CB53BF02D5D5F6B27515A8053A96E8416BD9866740349153",
+    "exists": true,
+    "baseline_sha256": "3A9ADD4C03210699CB53BF02D5D5F6B27515A8053A96E8416BD9866740349153",
+    "matches_baseline": true
+  },
+  {
+    "path": "bridge_audit\\results\\sessions\\2022-12-06-1670313600-e3096-cv-emg-pose-train@2-recording-15_right.paired50hz.npz",
+    "sha256": "90A959246A3FAC69DCB67668AE5809001AD0CE93AF38A0EA89EFDF45FC5277E6",
+    "exists": true,
+    "baseline_sha256": "90A959246A3FAC69DCB67668AE5809001AD0CE93AF38A0EA89EFDF45FC5277E6",
+    "matches_baseline": true
+  },
+  {
+    "path": "bridge_audit\\results\\sessions\\2022-12-06-1670313600-e3096-cv-emg-pose-train@2-recording-15_left.paired50hz.npz",
+    "sha256": "BDB20B3F266E7489DEC531AFE91AF25299E30A29C7F1EE65C0EA2209264983A1",
+    "exists": true,
+    "baseline_sha256": "BDB20B3F266E7489DEC531AFE91AF25299E30A29C7F1EE65C0EA2209264983A1",
+    "matches_baseline": true
+  },
+  {
+    "path": "bridge_audit\\results\\sessions\\2022-12-06-1670313600-e3096-cv-emg-pose-train@2-recording-4_left.paired50hz.npz",
+    "sha256": "520D9A1988D9AB2833148F98FDE4A03921F64EA1DACF20343FCEBF671E8FDB04",
+    "exists": true,
+    "baseline_sha256": "520D9A1988D9AB2833148F98FDE4A03921F64EA1DACF20343FCEBF671E8FDB04",
+    "matches_baseline": true
+  },
+  {
+    "path": "bridge_audit\\results\\sessions\\2022-12-06-1670313600-e3096-cv-emg-pose-train@2-recording-3_right.paired50hz.npz",
+    "sha256": "B5DD0B12E5602C167232032885479B1BA57C1900EA20E584121DA57F92A17FEB",
+    "exists": true,
+    "baseline_sha256": "B5DD0B12E5602C167232032885479B1BA57C1900EA20E584121DA57F92A17FEB",
+    "matches_baseline": true
+  },
+  {
+    "path": "bridge_audit\\results\\sessions\\2022-12-06-1670313600-e3096-cv-emg-pose-train@2-recording-3_left.paired50hz.npz",
+    "sha256": "37A187AA7A015072E0D5F6DD5EF41D7F4D6CD578C40A9D30CF76C0431DDEF382",
+    "exists": true,
+    "baseline_sha256": "37A187AA7A015072E0D5F6DD5EF41D7F4D6CD578C40A9D30CF76C0431DDEF382",
+    "matches_baseline": true
+  },
+  {
+    "path": "bridge_audit\\results\\sessions\\2022-12-06-1670313600-e3096-cv-emg-pose-train@2-recording-5_left.paired50hz.npz",
+    "sha256": "7E483BD45848E0D6548425992AAF59370AEDEC7E88CE34B11BA625C31670B208",
+    "exists": true,
+    "baseline_sha256": "7E483BD45848E0D6548425992AAF59370AEDEC7E88CE34B11BA625C31670B208",
+    "matches_baseline": true
+  },
+  {
+    "path": "bridge_audit\\results\\sessions\\2022-12-06-1670313600-e3096-cv-emg-pose-train@2-recording-4_right.paired50hz.npz",
+    "sha256": "423DC0E635A42700FBD39E1C132956F13216C8C37502E31EE409AF014E298D90",
+    "exists": true,
+    "baseline_sha256": "423DC0E635A42700FBD39E1C132956F13216C8C37502E31EE409AF014E298D90",
+    "matches_baseline": true
+  },
+  {
+    "path": "bridge_audit\\results\\sessions\\2022-12-06-1670313600-e3096-cv-emg-pose-train@2-recording-5_right.paired50hz.npz",
+    "sha256": "43599C273FB7E99E2BA04F6AA9C1EDAC700580F460589C6A83D6356CF94AFF78",
+    "exists": true,
+    "baseline_sha256": "43599C273FB7E99E2BA04F6AA9C1EDAC700580F460589C6A83D6356CF94AFF78",
+    "matches_baseline": true
+  },
+  {
+    "path": "bridge_audit\\results\\sessions\\2022-12-06-1670313600-e3096-cv-emg-pose-train@2-recording-6_left.paired50hz.npz",
+    "sha256": "B3AF70A8C990E1C0F2EB3B89E6FB047B3FADDAB4C4FC2E7E40F59F478FF6A20D",
+    "exists": true,
+    "baseline_sha256": "B3AF70A8C990E1C0F2EB3B89E6FB047B3FADDAB4C4FC2E7E40F59F478FF6A20D",
+    "matches_baseline": true
+  },
+  {
+    "path": "bridge_audit\\results\\sessions\\2022-12-06-1670313600-e3096-cv-emg-pose-train@2-recording-6_right.paired50hz.npz",
+    "sha256": "223CD1F7BC0BE46F5EF4AA3480FDBA60E7BCAE6BA33E7790670E72D726759D4B",
+    "exists": true,
+    "baseline_sha256": "223CD1F7BC0BE46F5EF4AA3480FDBA60E7BCAE6BA33E7790670E72D726759D4B",
+    "matches_baseline": true
+  },
+  {
+    "path": "bridge_audit\\results\\sessions\\2022-12-06-1670313600-e3096-cv-emg-pose-train@2-recording-9_right.paired50hz.npz",
+    "sha256": "50A3AA084F8CB3F2075403A0712A873E7924C627BBFBC7FE5D27461E96556126",
+    "exists": true,
+    "baseline_sha256": "50A3AA084F8CB3F2075403A0712A873E7924C627BBFBC7FE5D27461E96556126",
+    "matches_baseline": true
+  },
+  {
+    "path": "bridge_audit\\results\\sessions\\2022-12-06-1670313600-e3096-cv-emg-pose-train@2-recording-9_left.paired50hz.npz",
+    "sha256": "D534ADB8A8182FBEF5F9215964B805621515D0DD1AB90584F039AE28526C22A9",
+    "exists": true,
+    "baseline_sha256": "D534ADB8A8182FBEF5F9215964B805621515D0DD1AB90584F039AE28526C22A9",
+    "matches_baseline": true
+  },
+  {
+    "path": "bridge_audit\\results\\sessions\\2022-12-06-1670313600-e3096-cv-emg-pose-train@2-recording-8_right.paired50hz.npz",
+    "sha256": "B345B2880ABFE96EC864168649B37D121B1F19728CCC36224B359CEF07AD38DB",
+    "exists": true,
+    "baseline_sha256": "B345B2880ABFE96EC864168649B37D121B1F19728CCC36224B359CEF07AD38DB",
+    "matches_baseline": true
+  },
+  {
+    "path": "bridge_audit\\results\\sessions\\2022-12-06-1670313600-e3096-cv-emg-pose-train@2-recording-8_left.paired50hz.npz",
+    "sha256": "A192DBC951CF867181FCCE1B0FAAF60D3A7B6FA2AEC1B5FB858D799914245470",
+    "exists": true,
+    "baseline_sha256": "A192DBC951CF867181FCCE1B0FAAF60D3A7B6FA2AEC1B5FB858D799914245470",
+    "matches_baseline": true
+  },
+  {
+    "path": "bridge_audit\\results\\sessions\\2022-12-06-1670313600-e3096-cv-emg-pose-train@2-recording-7_right.paired50hz.npz",
+    "sha256": "996429398B642CB31E584E475D20FA25E9F504DBD31ADED1C1DFC3C43014E654",
+    "exists": true,
+    "baseline_sha256": "996429398B642CB31E584E475D20FA25E9F504DBD31ADED1C1DFC3C43014E654",
+    "matches_baseline": true
+  },
+  {
+    "path": "bridge_audit\\results\\sessions\\2022-12-06-1670313600-e3096-cv-emg-pose-train@2-recording-7_left.paired50hz.npz",
+    "sha256": "989756C1E76874116EB65F4D53041CA6065A2A917A0AD220A9076141BB754593",
+    "exists": true,
+    "baseline_sha256": "989756C1E76874116EB65F4D53041CA6065A2A917A0AD220A9076141BB754593",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\README.md",
+    "sha256": "58198A22B449E09C793D2D14532343F5CDB05842368E50F8B1FC9C055EFB486B",
+    "exists": true,
+    "baseline_sha256": "58198A22B449E09C793D2D14532343F5CDB05842368E50F8B1FC9C055EFB486B",
+    "matches_baseline": true
+  },
+  {
+    "path": "posture_decoder\\tools\\verify_corpus_integrity.py",
+    "sha256": "200F336C2F6F70F50A8D7BE0E8FB98FC6F68AE38D6CAD8ACB65ED8A1E906C381",
+    "exists": true,
+    "baseline_sha256": "200F336C2F6F70F50A8D7BE0E8FB98FC6F68AE38D6CAD8ACB65ED8A1E906C381",
+    "matches_baseline": true
+  },
+  {
+    "path": "posture_decoder\\tools\\verify_corpus_gate.py",
+    "sha256": "76A77D997B2946DD190C93D0D7C969911BE8C203656FA26790A85C126D899EBE",
+    "exists": true,
+    "baseline_sha256": "76A77D997B2946DD190C93D0D7C969911BE8C203656FA26790A85C126D899EBE",
+    "matches_baseline": true
+  },
+  {
+    "path": "posture_decoder\\tools\\verify_canonical_emg2pose.py",
+    "sha256": "B61C06D02ECC1B2A55CAD71FCE42BB663B1C04A1E997B99C3A39A1600E43664B",
+    "exists": true,
+    "baseline_sha256": "B61C06D02ECC1B2A55CAD71FCE42BB663B1C04A1E997B99C3A39A1600E43664B",
+    "matches_baseline": true
+  },
+  {
+    "path": "posture_decoder\\tools\\unpack_db9.py",
+    "sha256": "0FAB445A4BDF72BC34738E3263C4884A6CDD7AFD813C6379092F8DDE6DB31ADD",
+    "exists": true,
+    "baseline_sha256": "0FAB445A4BDF72BC34738E3263C4884A6CDD7AFD813C6379092F8DDE6DB31ADD",
+    "matches_baseline": true
+  },
+  {
+    "path": "posture_decoder\\tools\\thumb_zero_alignment.py",
+    "sha256": "FB6D1944D6451254A213B03CFFA4DF46D8C8A2D55ACFEBCCC3129E65EA5F1470",
+    "exists": true,
+    "baseline_sha256": "FB6D1944D6451254A213B03CFFA4DF46D8C8A2D55ACFEBCCC3129E65EA5F1470",
+    "matches_baseline": true
+  },
+  {
+    "path": "posture_decoder\\tools\\thumb_web_sign_test.py",
+    "sha256": "16C8AAE2EB418B3F172D09D051A5136446F2717B8ADDFDE26165B04759AE7E0C",
+    "exists": true,
+    "baseline_sha256": "16C8AAE2EB418B3F172D09D051A5136446F2717B8ADDFDE26165B04759AE7E0C",
+    "matches_baseline": true
+  },
+  {
+    "path": "posture_decoder\\tools\\resolve_thumb_axis.py",
+    "sha256": "A1C16D2C1B725C2AFBEFE1C45EE0AE964C4056F1CC563136D48BD4894FC57284",
+    "exists": true,
+    "baseline_sha256": "A1C16D2C1B725C2AFBEFE1C45EE0AE964C4056F1CC563136D48BD4894FC57284",
+    "matches_baseline": true
+  },
+  {
+    "path": "posture_decoder\\tools\\make_confirmatory_manifest.py",
+    "sha256": "690669045394C4074A3D1189F7904BA6E4D1C1579AE7C439732ECD5AFC8A3E96",
+    "exists": true,
+    "baseline_sha256": "690669045394C4074A3D1189F7904BA6E4D1C1579AE7C439732ECD5AFC8A3E96",
+    "matches_baseline": true
+  },
+  {
+    "path": "posture_decoder\\tools\\inspect_db9.py",
+    "sha256": "AFFC5A8695CFE6EE834AA0E7352D7F6E5EB3BAF548803F214F4783BCD4731612",
+    "exists": true,
+    "baseline_sha256": "AFFC5A8695CFE6EE834AA0E7352D7F6E5EB3BAF548803F214F4783BCD4731612",
+    "matches_baseline": true
+  },
+  {
+    "path": "posture_decoder\\tools\\freeze_confirmatory_spec.py",
+    "sha256": "6E941430833DFDCB1AF36AFE73D3C370C494B0949F2BABBD3001932F0E381804",
+    "exists": true,
+    "baseline_sha256": "6E941430833DFDCB1AF36AFE73D3C370C494B0949F2BABBD3001932F0E381804",
+    "matches_baseline": true
+  },
+  {
+    "path": "posture_decoder\\tools\\fetch_db9_member.py",
+    "sha256": "EAC5814A802D67AFC9810769452D4F02D09A5A399D78545310D05FBF6D1C34C4",
+    "exists": true,
+    "baseline_sha256": "EAC5814A802D67AFC9810769452D4F02D09A5A399D78545310D05FBF6D1C34C4",
+    "matches_baseline": true
+  },
+  {
+    "path": "posture_decoder\\tools\\fetch_db9.py",
+    "sha256": "57938B1FFCB372A1C83EE5511652E58123DEBAA9B6AEAB8DDF5459E3FD4E3AB7",
+    "exists": true,
+    "baseline_sha256": "57938B1FFCB372A1C83EE5511652E58123DEBAA9B6AEAB8DDF5459E3FD4E3AB7",
+    "matches_baseline": true
+  },
+  {
+    "path": "posture_decoder\\tools\\check_zero_pose_compatibility.py",
+    "sha256": "101DB81054356F46FC055D1B660B4148CAC5A824D7C6CEF3AE7DAF33FE290BB6",
+    "exists": true,
+    "baseline_sha256": "101DB81054356F46FC055D1B660B4148CAC5A824D7C6CEF3AE7DAF33FE290BB6",
+    "matches_baseline": true
+  },
+  {
+    "path": "posture_decoder\\tools\\audit_repetitions.py",
+    "sha256": "0C2E390153E712E53C2F6B0B89E0A56D2A570BC322B70DE9BA60A7D7136EF4F1",
+    "exists": true,
+    "baseline_sha256": "0C2E390153E712E53C2F6B0B89E0A56D2A570BC322B70DE9BA60A7D7136EF4F1",
+    "matches_baseline": true
+  },
+  {
+    "path": "posture_decoder\\tools\\audit_db9_files.py",
+    "sha256": "046F846BF08E71CC3C106A55DC96D0963605DC0E04D1426A8CDA6194DD82778D",
+    "exists": true,
+    "baseline_sha256": "046F846BF08E71CC3C106A55DC96D0963605DC0E04D1426A8CDA6194DD82778D",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\SESSION6_STAGE_A_REPORT.md",
+    "sha256": "42B7AFC06F5D04CB857D04CCC5E6D02843F558B4140D88187B0709A401DE04FF",
+    "exists": true,
+    "baseline_sha256": "42B7AFC06F5D04CB857D04CCC5E6D02843F558B4140D88187B0709A401DE04FF",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\SESSION6_STAGE_A_REMEDIATION.md",
+    "sha256": "EFF7A647BBB4BE607515BEE9D516F9DA2AF05F4590FF93E3B979F337FCF0B12D",
+    "exists": true,
+    "baseline_sha256": "EFF7A647BBB4BE607515BEE9D516F9DA2AF05F4590FF93E3B979F337FCF0B12D",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\s6_sampling_spec.py",
+    "sha256": "A7CB74EDF857131F3E37C2E6FC970677CCE22685CDF58A16347D9458CE4F9C09",
+    "exists": true,
+    "baseline_sha256": "A7CB74EDF857131F3E37C2E6FC970677CCE22685CDF58A16347D9458CE4F9C09",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\verifier\\verify_mirror_geometry.py",
+    "sha256": "FDEE30CDD58FFDBDCFF7B6448B0B24E49A2813D39D8E8F68EEAC2FAC4DBBD44F",
+    "exists": true,
+    "baseline_sha256": "FDEE30CDD58FFDBDCFF7B6448B0B24E49A2813D39D8E8F68EEAC2FAC4DBBD44F",
+    "matches_baseline": true
+  },
+  {
+    "path": "posture_decoder\\README.md",
+    "sha256": "CD354E950EA0CDBC90F3B3C7E900851ABB8E91D29E6D319B2167E44EB3A6936F",
+    "exists": true,
+    "baseline_sha256": "CD354E950EA0CDBC90F3B3C7E900851ABB8E91D29E6D319B2167E44EB3A6936F",
+    "matches_baseline": true
+  },
+  {
+    "path": "posture_decoder\\report.md",
+    "sha256": "36B5E6F1491D0F42D7296718CD38C48CCB95994AA183F307003AEA40ECDFCCE6",
+    "exists": true,
+    "baseline_sha256": "36B5E6F1491D0F42D7296718CD38C48CCB95994AA183F307003AEA40ECDFCCE6",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\setup.py",
+    "sha256": "91EA118214373FC1CA6724168080C1CF9C7F595D55BEDB01F74C100F78B18345",
+    "exists": true,
+    "baseline_sha256": "91EA118214373FC1CA6724168080C1CF9C7F595D55BEDB01F74C100F78B18345",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\README.md",
+    "sha256": "8EDFE17691DF171CA73C69F6519C4862F76A8D10977A6BE3BC9D79904BA78BAB",
+    "exists": true,
+    "baseline_sha256": "8EDFE17691DF171CA73C69F6519C4862F76A8D10977A6BE3BC9D79904BA78BAB",
+    "matches_baseline": true
+  },
+  {
+    "path": "posture_decoder\\tests\\test_confirmatory_pipeline.py",
+    "sha256": "5D3DA587D1A719F81F894437CCCEFBB8365151B8F9D66B4D90B3A10CCDE7783A",
+    "exists": true,
+    "baseline_sha256": "5D3DA587D1A719F81F894437CCCEFBB8365151B8F9D66B4D90B3A10CCDE7783A",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\FUTURE_ANALYSIS_PLAN.md",
+    "sha256": "35D29585449E8A872EFAF1491D249E37C17BA79E4390521C6122C5DF27747B2B",
+    "exists": true,
+    "baseline_sha256": "35D29585449E8A872EFAF1491D249E37C17BA79E4390521C6122C5DF27747B2B",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\corpus_integrity_manifest.json",
+    "sha256": "C277DD643E98D3C68081B20AEF8F84AA1DA38DBF79394043CB326D5184CA5129",
+    "exists": true,
+    "baseline_sha256": "C277DD643E98D3C68081B20AEF8F84AA1DA38DBF79394043CB326D5184CA5129",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\BLINDING_SPEC.md",
+    "sha256": "C78A36D7C62EDC0E0D4BFAEAB2063D062D65F3BB5C3827DF183280174408FCAD",
+    "exists": true,
+    "baseline_sha256": "C78A36D7C62EDC0E0D4BFAEAB2063D062D65F3BB5C3827DF183280174408FCAD",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\environment.yml",
+    "sha256": "A430EEF0EF009AB5F46D0A81C554EA5C477760B5B7C346FBE341A55A7ED28910",
+    "exists": true,
+    "baseline_sha256": "A430EEF0EF009AB5F46D0A81C554EA5C477760B5B7C346FBE341A55A7ED28910",
+    "matches_baseline": true
+  },
+  {
+    "path": "posture_decoder\\experiments\\__init__.py",
+    "sha256": "9890ECB9CFD62D92ABBD19AC9995FDE8C2B135D8DC9514B1593F75E4DAB88EE3",
+    "exists": true,
+    "baseline_sha256": "9890ECB9CFD62D92ABBD19AC9995FDE8C2B135D8DC9514B1593F75E4DAB88EE3",
+    "matches_baseline": true
+  },
+  {
+    "path": "posture_decoder\\experiments\\run_posture16.py",
+    "sha256": "89CE5E62A6C8886B5ABA566FF4388837DDBA7750911B27131E39B2AAF8A062F1",
+    "exists": true,
+    "baseline_sha256": "89CE5E62A6C8886B5ABA566FF4388837DDBA7750911B27131E39B2AAF8A062F1",
+    "matches_baseline": true
+  },
+  {
+    "path": "posture_decoder\\experiments\\run_full_db9.py",
+    "sha256": "9CE2C7462FE80B60591B88DA007B1F91170CE1FB8EB06801EAC65354E44C66AE",
+    "exists": true,
+    "baseline_sha256": "9CE2C7462FE80B60591B88DA007B1F91170CE1FB8EB06801EAC65354E44C66AE",
+    "matches_baseline": true
+  },
+  {
+    "path": "posture_decoder\\experiments\\run_baseline.py",
+    "sha256": "959382686E3D5C9B4B0D1CEA0214B1F391557D1A75D80E348649409BDA36313D",
+    "exists": true,
+    "baseline_sha256": "959382686E3D5C9B4B0D1CEA0214B1F391557D1A75D80E348649409BDA36313D",
+    "matches_baseline": true
+  },
+  {
+    "path": "posture_decoder\\experiments\\diagnose_posture16.py",
+    "sha256": "2230F1195E372EF433B24ABE684A40A82276AA4248EA052AE3C1D29079CF978B",
+    "exists": true,
+    "baseline_sha256": "2230F1195E372EF433B24ABE684A40A82276AA4248EA052AE3C1D29079CF978B",
+    "matches_baseline": true
+  },
+  {
+    "path": "posture_decoder\\experiments\\diagnose_drift.py",
+    "sha256": "E8CBBAE64CFBDC7FF588C202DE247CA6B561964D41098958E7848902137EC6A8",
+    "exists": true,
+    "baseline_sha256": "E8CBBAE64CFBDC7FF588C202DE247CA6B561964D41098958E7848902137EC6A8",
+    "matches_baseline": true
+  },
+  {
+    "path": "posture_decoder\\experiments\\confirmatory_policy.py",
+    "sha256": "85AEA12A0F63139C6DF945D1258F2B5E18F1979225495D24671349172E7D50FD",
+    "exists": true,
+    "baseline_sha256": "85AEA12A0F63139C6DF945D1258F2B5E18F1979225495D24671349172E7D50FD",
+    "matches_baseline": true
+  },
+  {
+    "path": "posture_decoder\\experiments\\confidence_report.py",
+    "sha256": "2D1189F165B86D28637A5D1F004C5EAB2460D1423644DB8784D793EF991135AB",
+    "exists": true,
+    "baseline_sha256": "2D1189F165B86D28637A5D1F004C5EAB2460D1423644DB8784D793EF991135AB",
+    "matches_baseline": true
+  },
+  {
+    "path": "posture_decoder\\experiments\\build_dataset.py",
+    "sha256": "D6C8A78FC745767E51410A812515B04AFEA472C4542FD8458DD3C729154BE50D",
+    "exists": true,
+    "baseline_sha256": "D6C8A78FC745767E51410A812515B04AFEA472C4542FD8458DD3C729154BE50D",
+    "matches_baseline": true
+  },
+  {
+    "path": "posture_decoder\\db9\\__init__.py",
+    "sha256": "548CFD6523655C9295F3F4B51D3DC903C9338BD65E9B72675BD23CE975C6481A",
+    "exists": true,
+    "baseline_sha256": "548CFD6523655C9295F3F4B51D3DC903C9338BD65E9B72675BD23CE975C6481A",
+    "matches_baseline": true
+  },
+  {
+    "path": "posture_decoder\\db9\\quality.py",
+    "sha256": "F541238DFE079A4836D46635FC11AFCEA6F21625D9D400220871250F616EC938",
+    "exists": true,
+    "baseline_sha256": "F541238DFE079A4836D46635FC11AFCEA6F21625D9D400220871250F616EC938",
+    "matches_baseline": true
+  },
+  {
+    "path": "posture_decoder\\db9\\loader.py",
+    "sha256": "6A07C5CEFB8219D741BDBD2D1912E11D7F4039BAEFA4B9FD4AC745364B344D0D",
+    "exists": true,
+    "baseline_sha256": "6A07C5CEFB8219D741BDBD2D1912E11D7F4039BAEFA4B9FD4AC745364B344D0D",
+    "matches_baseline": true
+  },
+  {
+    "path": "posture_decoder\\db9\\labels.py",
+    "sha256": "8A90A3B5EF583037A1C4F38855B795587D3965007A0DB214FEAE61872317E5CF",
+    "exists": true,
+    "baseline_sha256": "8A90A3B5EF583037A1C4F38855B795587D3965007A0DB214FEAE61872317E5CF",
+    "matches_baseline": true
+  },
+  {
+    "path": "posture_decoder\\db9\\canonical.py",
+    "sha256": "749ED8D9B03D856D0BEAFC4F5B811A753A0C672B7E2E183090155CDB963164EF",
+    "exists": true,
+    "baseline_sha256": "749ED8D9B03D856D0BEAFC4F5B811A753A0C672B7E2E183090155CDB963164EF",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\CODE_OF_CONDUCT.md",
+    "sha256": "AA521DFB2DA67E77B0720AC7B86049FE4F0165E1474F871C10E575A11F72C30D",
+    "exists": true,
+    "baseline_sha256": "AA521DFB2DA67E77B0720AC7B86049FE4F0165E1474F871C10E575A11F72C30D",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\CONTRIBUTING.md",
+    "sha256": "E576C22CE3DB2334A2BCF767EA67CB7A10BB5AB9302839D9BD7C18DFBCD1C60F",
+    "exists": true,
+    "baseline_sha256": "E576C22CE3DB2334A2BCF767EA67CB7A10BB5AB9302839D9BD7C18DFBCD1C60F",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\ANNOTATION_PROTOCOL.md",
+    "sha256": "92CAD95EAAC65AA86D1D3CEAD9A6E8BFF689BFD96CE47BAC6AD20B53C08CC7D6",
+    "exists": true,
+    "baseline_sha256": "92CAD95EAAC65AA86D1D3CEAD9A6E8BFF689BFD96CE47BAC6AD20B53C08CC7D6",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\logs\\verifier_annotator_B.json",
+    "sha256": "9238487D72443DC7CDD5DE0609A217CE27BF339CE45928EA49A842EAC465AF01",
+    "exists": true,
+    "baseline_sha256": "9238487D72443DC7CDD5DE0609A217CE27BF339CE45928EA49A842EAC465AF01",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\logs\\verifier_annotator_A.json",
+    "sha256": "AB05A0B13F3F6E0541403F5CF40D3DD0687390163551A5BFCF459A27298AC42C",
+    "exists": true,
+    "baseline_sha256": "AB05A0B13F3F6E0541403F5CF40D3DD0687390163551A5BFCF459A27298AC42C",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\logs\\valid_run_probe.json",
+    "sha256": "073D3CBBA0717F66280516F984ED13332F3C1936DD629B63555CAFDC565DE583",
+    "exists": true,
+    "baseline_sha256": "073D3CBBA0717F66280516F984ED13332F3C1936DD629B63555CAFDC565DE583",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\logs\\startup_clean_shell_test.json",
+    "sha256": "57828E5BD59AA8750206D189119634775D5020347F091AB8D95A2EFDE97C9CFC",
+    "exists": true,
+    "baseline_sha256": "57828E5BD59AA8750206D189119634775D5020347F091AB8D95A2EFDE97C9CFC",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\logs\\staged_site_manifest.json",
+    "sha256": "A64C53EEDB111E2E5B6D74ECA65C4061B90F802E79A8F6C95AE432CA28E3EAB2",
+    "exists": true,
+    "baseline_sha256": "275E447E65633ABB42AAD40EAEC61ED4853897932C1B467FCBBA3ACAF9BB8A51",
+    "matches_baseline": false
+  },
+  {
+    "path": "human_semantic_validation\\logs\\render_diagnosis.json",
+    "sha256": "156E71F72EC1CAFE20C9E6C98F2F3479E07681B832532A56145FDB8A73190B47",
+    "exists": true,
+    "baseline_sha256": "156E71F72EC1CAFE20C9E6C98F2F3479E07681B832532A56145FDB8A73190B47",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\logs\\mirror_geometry_proof.json",
+    "sha256": "5FCB733C8B54ECFFC7FDF74C49538736570E5D38328DCFAD5BF819521F7046E1",
+    "exists": true,
+    "baseline_sha256": "5FCB733C8B54ECFFC7FDF74C49538736570E5D38328DCFAD5BF819521F7046E1",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\logs\\mirror_equivariance.json",
+    "sha256": "FCC4FA26FD088F02A28A76C1A5B63AD33213091858FC88E6F3E951D512BF95CF",
+    "exists": true,
+    "baseline_sha256": "FCC4FA26FD088F02A28A76C1A5B63AD33213091858FC88E6F3E951D512BF95CF",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\logs\\left_view_transform_search.json",
+    "sha256": "DDD96EEBC94EF65FAC59B7C38B1DEEB6ABAEC91034090B389D49642D40264532",
+    "exists": true,
+    "baseline_sha256": "DDD96EEBC94EF65FAC59B7C38B1DEEB6ABAEC91034090B389D49642D40264532",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\logs\\benchmark_hashes_pre_remediation.json",
+    "sha256": "37266E225AD66E30455E2774797CD63328558262A929B6899C944476C89158E3",
+    "exists": true,
+    "baseline_sha256": "37266E225AD66E30455E2774797CD63328558262A929B6899C944476C89158E3",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\logs\\benchmark_hashes_after_remediation.json",
+    "sha256": "C14F0A000C3440EE8A4DC9712902AA014B94C7CFF63A845903C1140010DD972C",
+    "exists": true,
+    "baseline_sha256": "C14F0A000C3440EE8A4DC9712902AA014B94C7CFF63A845903C1140010DD972C",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\logs\\benchmark_build_report.json",
+    "sha256": "00C93B2F9A73396E490B08DB78D1750C01FF7B012FA76A995C26564136190263",
+    "exists": true,
+    "baseline_sha256": "00C93B2F9A73396E490B08DB78D1750C01FF7B012FA76A995C26564136190263",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\logs\\adversarial_route_tests.json",
+    "sha256": "5C51403B9A4C019E296CE50D823F6DECF1631A95025876DE37FB9C5186205DEB",
+    "exists": true,
+    "baseline_sha256": "5C51403B9A4C019E296CE50D823F6DECF1631A95025876DE37FB9C5186205DEB",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\LABEL_DEFINITIONS.md",
+    "sha256": "A5B36BD059F61BBF15FA6A4CDAE26920AF82D82B6A1EDC5BA25BCF98D6182914",
+    "exists": true,
+    "baseline_sha256": "A5B36BD059F61BBF15FA6A4CDAE26920AF82D82B6A1EDC5BA25BCF98D6182914",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\NATURALISTIC_SAMPLING_SPEC.json",
+    "sha256": "64F5D95E1F8D5307E16EFA8BD236106AEC31B2A67A3BCF460419A3C719A2FBF5",
+    "exists": true,
+    "baseline_sha256": "64F5D95E1F8D5307E16EFA8BD236106AEC31B2A67A3BCF460419A3C719A2FBF5",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\config\\base.yaml",
+    "sha256": "9EC186A1CCC98443B7B07FA5A19B484C6552497F75A35A121A77426D75B052EE",
+    "exists": true,
+    "baseline_sha256": "9EC186A1CCC98443B7B07FA5A19B484C6552497F75A35A121A77426D75B052EE",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\lightning.py",
+    "sha256": "AA97CC0BAFA5163BF7052DD3A6CD0606184D3FBAE0F15125E6BEB918C6DCEF5F",
+    "exists": true,
+    "baseline_sha256": "AA97CC0BAFA5163BF7052DD3A6CD0606184D3FBAE0F15125E6BEB918C6DCEF5F",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\kinematics.py",
+    "sha256": "01D3D968DB86E334F7B537D17EB939EB1105C6D5DCEA33BA9E3691FB1DCAC051",
+    "exists": true,
+    "baseline_sha256": "01D3D968DB86E334F7B537D17EB939EB1105C6D5DCEA33BA9E3691FB1DCAC051",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\data.py",
+    "sha256": "BEF43E87EA25080AADD6B3A5480464850CE2AF1F2421087ECFC7172075C6B4D1",
+    "exists": true,
+    "baseline_sha256": "BEF43E87EA25080AADD6B3A5480464850CE2AF1F2421087ECFC7172075C6B4D1",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\constants.py",
+    "sha256": "8AE5D6941BE9FD4C2600F79D4A81F618AF003FFE565C672F018626B1132A8D85",
+    "exists": true,
+    "baseline_sha256": "8AE5D6941BE9FD4C2600F79D4A81F618AF003FFE565C672F018626B1132A8D85",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\networks.py",
+    "sha256": "1C5DAFE4B37380B1EF83C58696A5CDD4D9ABE0C9A63AF4B4FB88C3E449EE082C",
+    "exists": true,
+    "baseline_sha256": "1C5DAFE4B37380B1EF83C58696A5CDD4D9ABE0C9A63AF4B4FB88C3E449EE082C",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\metrics.py",
+    "sha256": "0AF517AA21922131864E24657BBD768438D73C7CC00D92313ECA3F37B4B6A7E5",
+    "exists": true,
+    "baseline_sha256": "0AF517AA21922131864E24657BBD768438D73C7CC00D92313ECA3F37B4B6A7E5",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\pose_modules.py",
+    "sha256": "7E02D749D7DB44D5370295872E9AB8F12E2E47A9E4B89386A2D9A5D101FD3B9B",
+    "exists": true,
+    "baseline_sha256": "7E02D749D7DB44D5370295872E9AB8F12E2E47A9E4B89386A2D9A5D101FD3B9B",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\__init__.py",
+    "sha256": "9B703C1E0053753A565A8FF09418B823B4AAA0953A1B661FD8403EBE6B8E3A8F",
+    "exists": true,
+    "baseline_sha256": "9B703C1E0053753A565A8FF09418B823B4AAA0953A1B661FD8403EBE6B8E3A8F",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\visualization.py",
+    "sha256": "8D701FA5557B5048C96F8D961DB0F3A5D948F461BD312C8EB68B4FAE00585FD5",
+    "exists": true,
+    "baseline_sha256": "8D701FA5557B5048C96F8D961DB0F3A5D948F461BD312C8EB68B4FAE00585FD5",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\utils.py",
+    "sha256": "0531D6786DD6D667CA6F48343A3A01D9E0734EBEEA383C3C4543C5205F6F9C8B",
+    "exists": true,
+    "baseline_sha256": "0531D6786DD6D667CA6F48343A3A01D9E0734EBEEA383C3C4543C5205F6F9C8B",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\train.py",
+    "sha256": "86BC097BB7787B44D719CBF7A38BB42B4C79DF1FAD63EE3A019096F156AA6DBA",
+    "exists": true,
+    "baseline_sha256": "86BC097BB7787B44D719CBF7A38BB42B4C79DF1FAD63EE3A019096F156AA6DBA",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\test_analysis.py",
+    "sha256": "D6C216623E7B2AA2017D92BC2D38D3D1B3741FA62FB8C102619E0F2223FFEDDE",
+    "exists": true,
+    "baseline_sha256": "D6C216623E7B2AA2017D92BC2D38D3D1B3741FA62FB8C102619E0F2223FFEDDE",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\transforms.py",
+    "sha256": "15140D8A493D2E7E56C8BCCDB69FD15A3C9ADD1CE9E233EF7D4BC39A0926E5AB",
+    "exists": true,
+    "baseline_sha256": "15140D8A493D2E7E56C8BCCDB69FD15A3C9ADD1CE9E233EF7D4BC39A0926E5AB",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\pilot2_external\\tools\\scan_external_packages.py",
+    "sha256": "9C457D2D7440799138C65718A00306B91CF24BD7AEBB7E342B98547E8C704752",
+    "exists": true,
+    "baseline_sha256": "9C457D2D7440799138C65718A00306B91CF24BD7AEBB7E342B98547E8C704752",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\pilot2_external\\tools\\make_external_packages.py",
+    "sha256": "0D146F6A5780ED335983743AF4977F86D32A9CAD73D1B542F56AED7C6E6628DA",
+    "exists": true,
+    "baseline_sha256": "0D146F6A5780ED335983743AF4977F86D32A9CAD73D1B542F56AED7C6E6628DA",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\config\\transforms\\rotation_augmentation.yaml",
+    "sha256": "9B73508E96459626DE3897B0B15ECCF106F3B3A736A6FDFD1EEF0B99F8A72350",
+    "exists": true,
+    "baseline_sha256": "9B73508E96459626DE3897B0B15ECCF106F3B3A736A6FDFD1EEF0B99F8A72350",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\config\\transforms\\channel_downsampling.yaml",
+    "sha256": "EB3194E139F402CBC2612B9C5A5152CAAA92CDE579FFDBEDEF7BFC7C22727281",
+    "exists": true,
+    "baseline_sha256": "EB3194E139F402CBC2612B9C5A5152CAAA92CDE579FFDBEDEF7BFC7C22727281",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\config\\transforms\\basic.yaml",
+    "sha256": "ECDC6B09D8CC32BC499590B35B712734AC5B354C5E6B1CBCD560B68FE9D005E1",
+    "exists": true,
+    "baseline_sha256": "ECDC6B09D8CC32BC499590B35B712734AC5B354C5E6B1CBCD560B68FE9D005E1",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\tests\\test_visualization.py",
+    "sha256": "03354A11B5955E9F8CA6BC529D53FAF52900554EC1FAB8041B058FD41C6F4401",
+    "exists": true,
+    "baseline_sha256": "03354A11B5955E9F8CA6BC529D53FAF52900554EC1FAB8041B058FD41C6F4401",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\tests\\test_kinematics.py",
+    "sha256": "AB1F7D9A6EE58F142DC569860427EF90DC0CFF76EB55256D8858A1F79D7E83B4",
+    "exists": true,
+    "baseline_sha256": "AB1F7D9A6EE58F142DC569860427EF90DC0CFF76EB55256D8858A1F79D7E83B4",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\tests\\test_data.py",
+    "sha256": "98C164A7286B1BAC3EE42A209BD1D8C3A1EDACAA2BFAC8AAE865E92E203E18B1",
+    "exists": true,
+    "baseline_sha256": "98C164A7286B1BAC3EE42A209BD1D8C3A1EDACAA2BFAC8AAE865E92E203E18B1",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\config\\pose_module\\vemg_with_initial_state.yaml",
+    "sha256": "5B81DBFD420FFC2D8FC7671D938CAEDE5C5E082267539860E22D0C6EE5642218",
+    "exists": true,
+    "baseline_sha256": "5B81DBFD420FFC2D8FC7671D938CAEDE5C5E082267539860E22D0C6EE5642218",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\config\\pose_module\\pose_stateful.yaml",
+    "sha256": "A54890B4D04A5B440019B27394D3FBF8C61101029BDA690C682BE20CAFA57862",
+    "exists": true,
+    "baseline_sha256": "A54890B4D04A5B440019B27394D3FBF8C61101029BDA690C682BE20CAFA57862",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\config\\pose_module\\pose.yaml",
+    "sha256": "15FFD7614308E07DA1801FB376EAE3380B92F764CF6E8EE8B1F1E3C29377F620",
+    "exists": true,
+    "baseline_sha256": "15FFD7614308E07DA1801FB376EAE3380B92F764CF6E8EE8B1F1E3C29377F620",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\pilot2_external\\README.md",
+    "sha256": "77F42232AE395364EEA39C4EE0212C8461C6E1183E69F451D728C74826E4118B",
+    "exists": true,
+    "baseline_sha256": "77F42232AE395364EEA39C4EE0212C8461C6E1183E69F451D728C74826E4118B",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\__init__.py",
+    "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "exists": true,
+    "baseline_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\setup.py",
+    "sha256": "93304212B4E613D99379E39F960A796409BFE3E3807067F37A471CC584ECADC0",
+    "exists": true,
+    "baseline_sha256": "93304212B4E613D99379E39F960A796409BFE3E3807067F37A471CC584ECADC0",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\run_inference_torch_data.py",
+    "sha256": "52EDF20E5EAB4BD1D6246AF6BCD4D0B8A302E8C31365010534D10E3E4BB7DCBE",
+    "exists": true,
+    "baseline_sha256": "52EDF20E5EAB4BD1D6246AF6BCD4D0B8A302E8C31365010534D10E3E4BB7DCBE",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\run_eval_unknown_skeleton.py",
+    "sha256": "80C5664B2FCA9CB5F25D5A3C82C3530434F03B254438F4F0F3DC3A7C86BF7368",
+    "exists": true,
+    "baseline_sha256": "80C5664B2FCA9CB5F25D5A3C82C3530434F03B254438F4F0F3DC3A7C86BF7368",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\run_eval_known_skeleton.py",
+    "sha256": "2DEA2F0578F29E11621965DA618ADF6C7BC7DDBA2CB2E3AB4125BCBE3BC5B235",
+    "exists": true,
+    "baseline_sha256": "2DEA2F0578F29E11621965DA618ADF6C7BC7DDBA2CB2E3AB4125BCBE3BC5B235",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\README.md",
+    "sha256": "1B74477D1265BEDBA6CB87926071780C0CD58AAA1D7F4DAFEFEE93058F3037C2",
+    "exists": true,
+    "baseline_sha256": "1B74477D1265BEDBA6CB87926071780C0CD58AAA1D7F4DAFEFEE93058F3037C2",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\load_eval.py",
+    "sha256": "80903FB1D15A403EE5B87809FFFF38CF9F6B78F1B19888A01D4298D895246F4E",
+    "exists": true,
+    "baseline_sha256": "80903FB1D15A403EE5B87809FFFF38CF9F6B78F1B19888A01D4298D895246F4E",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\tests\\scripts\\create_test_hdf5.py",
+    "sha256": "603E5025356723FB0A0EACB82C312806D905E874EA9BB4517B3E175DE9D45265",
+    "exists": true,
+    "baseline_sha256": "603E5025356723FB0A0EACB82C312806D905E874EA9BB4517B3E175DE9D45265",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\config\\pose_module\\decoder\\mlp.yaml",
+    "sha256": "166FFD1964BAD0492508E3CB048F54A19E2751A6A3BBACA89520754BF00657E2",
+    "exists": true,
+    "baseline_sha256": "166FFD1964BAD0492508E3CB048F54A19E2751A6A3BBACA89520754BF00657E2",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\config\\pose_module\\decoder\\lstm.yaml",
+    "sha256": "765D0F0D5763BF2C7EAB773DD3AF4F7FD6A145C41C35CE777D1039FE1D29A9FB",
+    "exists": true,
+    "baseline_sha256": "765D0F0D5763BF2C7EAB773DD3AF4F7FD6A145C41C35CE777D1039FE1D29A9FB",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\__init__.py",
+    "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "exists": true,
+    "baseline_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\annotator_A\\payload.json",
+    "sha256": "E73ACC1EBFE72C289659F122A6BECD8404D2362A1A8952AB6DF2011864D04A5D",
+    "exists": true,
+    "baseline_sha256": "E73ACC1EBFE72C289659F122A6BECD8404D2362A1A8952AB6DF2011864D04A5D",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\tools\\stage_annotation_site.py",
+    "sha256": "C53458B6056A85D884CD4051354CE07B90D8A1FEB995CB40B402423C35136713",
+    "exists": true,
+    "baseline_sha256": "C53458B6056A85D884CD4051354CE07B90D8A1FEB995CB40B402423C35136713",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\tools\\serve_annotation.py",
+    "sha256": "267B6B804CC4C3382B99770E79F2524B3E6BA4A1D5B9FEB784E7636C58EC568C",
+    "exists": true,
+    "baseline_sha256": "267B6B804CC4C3382B99770E79F2524B3E6BA4A1D5B9FEB784E7636C58EC568C",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\tools\\probe_valid_runs.py",
+    "sha256": "96831355B96ED94D265DF74E2735F9275B69038681AF834CA816165D2864D426",
+    "exists": true,
+    "baseline_sha256": "96831355B96ED94D265DF74E2735F9275B69038681AF834CA816165D2864D426",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\tools\\make_naturalistic_sampling_spec.py",
+    "sha256": "E5C2F4A04A517DDB6E86FB360B609B70F94957EE2E94DC574C70A91C0057E990",
+    "exists": true,
+    "baseline_sha256": "E5C2F4A04A517DDB6E86FB360B609B70F94957EE2E94DC574C70A91C0057E990",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\tools\\make_left_hand_geometry.py",
+    "sha256": "A95C5973E9247D0BEE64913CE7D831114846A2CA0E4EF53E72A6DF153CE090B7",
+    "exists": true,
+    "baseline_sha256": "A95C5973E9247D0BEE64913CE7D831114846A2CA0E4EF53E72A6DF153CE090B7",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\tools\\make_annotation_benchmark.py",
+    "sha256": "CB4163FF93A94EF30EA7F8B9EB744DE396B75FCDFB5338A7E4484CDF4E6D41E0",
+    "exists": true,
+    "baseline_sha256": "CB4163FF93A94EF30EA7F8B9EB744DE396B75FCDFB5338A7E4484CDF4E6D41E0",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\tools\\build_corpus_integrity_manifest.py",
+    "sha256": "2E8DDAF1FEA0B1C48AADEA5BED9E82AA190117A7A9A9E829D363CAA661614AB7",
+    "exists": true,
+    "baseline_sha256": "2E8DDAF1FEA0B1C48AADEA5BED9E82AA190117A7A9A9E829D363CAA661614AB7",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\config\\optimizer\\adam.yaml",
+    "sha256": "383A1A7EAEF767E14482D31539D07E0FA38975A5757EEAE58D8D84BA2D8336DB",
+    "exists": true,
+    "baseline_sha256": "383A1A7EAEF767E14482D31539D07E0FA38975A5757EEAE58D8D84BA2D8336DB",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\pilot2_external\\packages\\annotator_F\\使用说明.txt",
+    "sha256": "9C5E5445041767E8BF1469BF3A43E03077F23D0D26C1DF32927988AFC77A0A74",
+    "exists": true,
+    "baseline_sha256": "9C5E5445041767E8BF1469BF3A43E03077F23D0D26C1DF32927988AFC77A0A74",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\pilot2_external\\packages\\annotator_F\\package_manifest.json",
+    "sha256": "7A743894B553226FD2DD6EDFE1CE97CEFA3DCD859B51E3788EFB378D4510F7DD",
+    "exists": true,
+    "baseline_sha256": "7A743894B553226FD2DD6EDFE1CE97CEFA3DCD859B51E3788EFB378D4510F7DD",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\tracker\\__init__.py",
+    "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "exists": true,
+    "baseline_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\tracker\\video_pose_data.py",
+    "sha256": "65F69A48E9A554589B57A899F24EDA35A59CEB30C956733DB1208AFC04CF2E33",
+    "exists": true,
+    "baseline_sha256": "65F69A48E9A554589B57A899F24EDA35A59CEB30C956733DB1208AFC04CF2E33",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\tracker\\tracking_result.py",
+    "sha256": "71340D853E8FBE8E703295A62959EFC9D582D15969C0A1C1EC00AA7042C9F291",
+    "exists": true,
+    "baseline_sha256": "71340D853E8FBE8E703295A62959EFC9D582D15969C0A1C1EC00AA7042C9F291",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\tracker\\tracker.py",
+    "sha256": "2EC892741108A3A4294909D1D52E7BB36F8D90F55CEE989E83A68DD4D4571276",
+    "exists": true,
+    "baseline_sha256": "2EC892741108A3A4294909D1D52E7BB36F8D90F55CEE989E83A68DD4D4571276",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\tracker\\perspective_crop.py",
+    "sha256": "93B1031127E4770C72CE779CEF8716EB3FA6404FE6A8DCC320E52909360E7B65",
+    "exists": true,
+    "baseline_sha256": "93B1031127E4770C72CE779CEF8716EB3FA6404FE6A8DCC320E52909360E7B65",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\models\\umetrack_model.py",
+    "sha256": "A80E6496FEC099CC2BC63B5FBEC9DD02814E9DA6C27BA00A004FBE48FEC39D36",
+    "exists": true,
+    "baseline_sha256": "A80E6496FEC099CC2BC63B5FBEC9DD02814E9DA6C27BA00A004FBE48FEC39D36",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\pilot2_external\\packages\\annotator_E\\使用说明.txt",
+    "sha256": "38D089614AB484EDC118A4E97B3F6CA31E99A3C1E4E336A9D453F80C3A8CFBC9",
+    "exists": true,
+    "baseline_sha256": "38D089614AB484EDC118A4E97B3F6CA31E99A3C1E4E336A9D453F80C3A8CFBC9",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\models\\temporal.py",
+    "sha256": "825BAEB0A23D8FF43DB6158C4C0AF69AA9C0FA5563F374A73CC9E4B555DC4559",
+    "exists": true,
+    "baseline_sha256": "825BAEB0A23D8FF43DB6158C4C0AF69AA9C0FA5563F374A73CC9E4B555DC4559",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\pilot2_external\\packages\\annotator_E\\package_manifest.json",
+    "sha256": "10129DB206190C5CF9E72B53A9859F34B287F3BA0DE8F7A971AA92620E51B2DB",
+    "exists": true,
+    "baseline_sha256": "10129DB206190C5CF9E72B53A9859F34B287F3BA0DE8F7A971AA92620E51B2DB",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\models\\skeleton_encoder.py",
+    "sha256": "B67A3903E305F3A53C28B3AC743CD5C7ADE604B37888D91B771BCA5ED5E70761",
+    "exists": true,
+    "baseline_sha256": "B67A3903E305F3A53C28B3AC743CD5C7ADE604B37888D91B771BCA5ED5E70761",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\models\\regressor.py",
+    "sha256": "850FFA740AB0782936EAC95DFFDF44F0C60EEB078B467DD42D10A000FF3D7B8B",
+    "exists": true,
+    "baseline_sha256": "850FFA740AB0782936EAC95DFFDF44F0C60EEB078B467DD42D10A000FF3D7B8B",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\models\\model_utils.py",
+    "sha256": "428B09ADD510AE70360DD54D00C7E7A4A5BFDAC9102A672243AC4A88E4E73B75",
+    "exists": true,
+    "baseline_sha256": "428B09ADD510AE70360DD54D00C7E7A4A5BFDAC9102A672243AC4A88E4E73B75",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\models\\model_opts.py",
+    "sha256": "EEA62AC44ECBEC18F59602FF6FBA5A43FD9B661C2615C56F74E6B672E560AF7F",
+    "exists": true,
+    "baseline_sha256": "EEA62AC44ECBEC18F59602FF6FBA5A43FD9B661C2615C56F74E6B672E560AF7F",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\pilot2_external\\packages\\annotator_C\\使用说明.txt",
+    "sha256": "BFFBE0E684F14C2B713FDD57DFEC06E3F3A7D88006B6578EF565E31FDFDA543D",
+    "exists": true,
+    "baseline_sha256": "BFFBE0E684F14C2B713FDD57DFEC06E3F3A7D88006B6578EF565E31FDFDA543D",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\models\\model_loader.py",
+    "sha256": "A1D5E3C6D6084D1AEECAC25ED93493B87DC82C0BC9965DD4DBADE5DC7B52C910",
+    "exists": true,
+    "baseline_sha256": "A1D5E3C6D6084D1AEECAC25ED93493B87DC82C0BC9965DD4DBADE5DC7B52C910",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\pilot2_external\\packages\\annotator_C\\package_manifest.json",
+    "sha256": "BB903E7EE238DFD045A22C8B7378A6FDBC536F40025382F49C311A9DBCF8845F",
+    "exists": true,
+    "baseline_sha256": "BB903E7EE238DFD045A22C8B7378A6FDBC536F40025382F49C311A9DBCF8845F",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\models\\feature_extractor.py",
+    "sha256": "2EF9A722CF867FECF7FE2F645B510A660B8E100C4CC839D8A2CFDCA5B8E0EA0F",
+    "exists": true,
+    "baseline_sha256": "2EF9A722CF867FECF7FE2F645B510A660B8E100C4CC839D8A2CFDCA5B8E0EA0F",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\models\\backbone_resnet.py",
+    "sha256": "B776080ED05FFA107B4577C05E5D42E07E71044C6791EFC6C7A316B66D850C31",
+    "exists": true,
+    "baseline_sha256": "B776080ED05FFA107B4577C05E5D42E07E71044C6791EFC6C7A316B66D850C31",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\tests\\test_server_startup_clean_shell.py",
+    "sha256": "102887C1A59BC67714E54469732226DD081A3A76F265C25EE7353B7E50341AFC",
+    "exists": true,
+    "baseline_sha256": "102887C1A59BC67714E54469732226DD081A3A76F265C25EE7353B7E50341AFC",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\tests\\test_s6_annotation_benchmark.py",
+    "sha256": "7B5D69A1F38AB00BC2C778B1DE5129AD2A448B9191F1962F2C82DE11C2009D92",
+    "exists": true,
+    "baseline_sha256": "7B5D69A1F38AB00BC2C778B1DE5129AD2A448B9191F1962F2C82DE11C2009D92",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\tests\\test_annotation_server_adversarial.py",
+    "sha256": "F24F40A29381B22E358B71D47F13EBA401CD8293FD2B8DE62F0F5D85FBFCA45E",
+    "exists": true,
+    "baseline_sha256": "F24F40A29381B22E358B71D47F13EBA401CD8293FD2B8DE62F0F5D85FBFCA45E",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\tests\\report_server_state.py",
+    "sha256": "3712EAAA8838963E8F54A96BBFB3700626DB01A67111D6F86B1341007AACBA38",
+    "exists": true,
+    "baseline_sha256": "3712EAAA8838963E8F54A96BBFB3700626DB01A67111D6F86B1341007AACBA38",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\pilot2\\ONTOLOGY_REFINED.md",
+    "sha256": "7867344E354F5DD78EC68FA9E8F5A645B5EACC1F5827EC88131D9B7C3C39F479",
+    "exists": true,
+    "baseline_sha256": "7867344E354F5DD78EC68FA9E8F5A645B5EACC1F5827EC88131D9B7C3C39F479",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\config\\data_split\\mini_split.yaml",
+    "sha256": "E7EEED2E393FCED2E1EDD66D4A63D866ABF177F84BC79AA8B94FD587DC85BCBE",
+    "exists": true,
+    "baseline_sha256": "E7EEED2E393FCED2E1EDD66D4A63D866ABF177F84BC79AA8B94FD587DC85BCBE",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\config\\data_split\\full_split.yaml",
+    "sha256": "A586861238CCB3011BD34D04329B6CDB42D21582E185F03100898994A176083C",
+    "exists": true,
+    "baseline_sha256": "A586861238CCB3011BD34D04329B6CDB42D21582E185F03100898994A176083C",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\hidden\\hidden_sample_manifest.json",
+    "sha256": "D622187CF5D7DA229C1EED69FD8B55480DC372D646F3812DEC4EB5531F3C7559",
+    "exists": true,
+    "baseline_sha256": "D622187CF5D7DA229C1EED69FD8B55480DC372D646F3812DEC4EB5531F3C7559",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\hidden\\hidden_payload_contract.json",
+    "sha256": "7EFBC7D1E778DEA67EBDE55AD38F1A86CBE4C6C17D807FAC3D7C5277397885D1",
+    "exists": true,
+    "baseline_sha256": "7EFBC7D1E778DEA67EBDE55AD38F1A86CBE4C6C17D807FAC3D7C5277397885D1",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\hidden\\hidden_duplicate_map.json",
+    "sha256": "1A2BB3C568ED152C4D2BB210E5C8AD809F28CCCC38F3EDA67D981F6698E2F442",
+    "exists": true,
+    "baseline_sha256": "1A2BB3C568ED152C4D2BB210E5C8AD809F28CCCC38F3EDA67D981F6698E2F442",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\config\\network\\tds.yaml",
+    "sha256": "BC10241E69746144A831F9554731A9AFF1C3B911636B19F501F121F285D07907",
+    "exists": true,
+    "baseline_sha256": "BC10241E69746144A831F9554731A9AFF1C3B911636B19F501F121F285D07907",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\config\\network\\neuropose.yaml",
+    "sha256": "BB0DB4CB62E859CB698AEFD905AC26A66AB9A091E2EA6FD1F82B311D88E13945",
+    "exists": true,
+    "baseline_sha256": "BB0DB4CB62E859CB698AEFD905AC26A66AB9A091E2EA6FD1F82B311D88E13945",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\data_utils\\split.py",
+    "sha256": "89E12C489B4C8062BA935AF939EB7AA052D9595A50BF65BCD6DBFD9CF882401E",
+    "exists": true,
+    "baseline_sha256": "89E12C489B4C8062BA935AF939EB7AA052D9595A50BF65BCD6DBFD9CF882401E",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\data_utils\\nested_async.py",
+    "sha256": "E57AFFF195CD9E755EE4C948CE9775428AFBF8650A9AD6FA6AA355BACAE2AB84",
+    "exists": true,
+    "baseline_sha256": "E57AFFF195CD9E755EE4C948CE9775428AFBF8650A9AD6FA6AA355BACAE2AB84",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\data_utils\\idxbinfile.py",
+    "sha256": "43B03EE4580360E1DC33AA93C8BD0432F3868C619198A2966C7E4F82C727F442",
+    "exists": true,
+    "baseline_sha256": "43B03EE4580360E1DC33AA93C8BD0432F3868C619198A2966C7E4F82C727F442",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\data_utils\\fs.py",
+    "sha256": "88F347920AB4FA48B9DB082A6177CE3070677574989B8B86BD975F1682903E49",
+    "exists": true,
+    "baseline_sha256": "88F347920AB4FA48B9DB082A6177CE3070677574989B8B86BD975F1682903E49",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\data_utils\\dataset_util.py",
+    "sha256": "32DC7A23D89F880753D419F386F973DB2BD65D532D99658A26C4F6F25B8BD1A6",
+    "exists": true,
+    "baseline_sha256": "32DC7A23D89F880753D419F386F973DB2BD65D532D99658A26C4F6F25B8BD1A6",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\data_utils\\bundles.py",
+    "sha256": "09E62B17ABBF2B00C487878F4BBEEB621601D9F2D690600D156B2B422A5AA508",
+    "exists": true,
+    "baseline_sha256": "09E62B17ABBF2B00C487878F4BBEEB621601D9F2D690600D156B2B422A5AA508",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\data_utils\\async_utils.py",
+    "sha256": "43F53F628DF7979D1C53B4BBD22A012BEC3F1F6660F13173AC01CE42985F1EE1",
+    "exists": true,
+    "baseline_sha256": "43F53F628DF7979D1C53B4BBD22A012BEC3F1F6660F13173AC01CE42985F1EE1",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\data_utils\\async_dataset.py",
+    "sha256": "7D1139D0CC15E8487569D9D4FA537E644A093FCB1535A1E9E67736BFAB10957C",
+    "exists": true,
+    "baseline_sha256": "7D1139D0CC15E8487569D9D4FA537E644A093FCB1535A1E9E67736BFAB10957C",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\pilot2_external\\logs\\external_package_build_report.json",
+    "sha256": "943FC99ABC9A111871573F8B1F849F7796AED0F27D8827D084BC27B75295F17D",
+    "exists": true,
+    "baseline_sha256": "943FC99ABC9A111871573F8B1F849F7796AED0F27D8827D084BC27B75295F17D",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\pilot2_external\\logs\\external_leakage_and_isolation_scan.json",
+    "sha256": "64FFA1E1998C5BCA0A9E4FBCE064CB1E675A198A9C33DC880F37287CD34FF95A",
+    "exists": true,
+    "baseline_sha256": "64FFA1E1998C5BCA0A9E4FBCE064CB1E675A198A9C33DC880F37287CD34FF95A",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\pilot2_external\\logs\\clean_machine_F.json",
+    "sha256": "9512626D5F384AB9263D6277CF1A20F35F97BA3EBDBBDFD65F29DBDBDB4B6A57",
+    "exists": true,
+    "baseline_sha256": "9512626D5F384AB9263D6277CF1A20F35F97BA3EBDBBDFD65F29DBDBDB4B6A57",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\pilot2_external\\logs\\clean_machine_E.json",
+    "sha256": "ED87942CC20AA8C82388AF9B03FE315C7EC324FD2131DEB7B08FE46ED3D4F85C",
+    "exists": true,
+    "baseline_sha256": "ED87942CC20AA8C82388AF9B03FE315C7EC324FD2131DEB7B08FE46ED3D4F85C",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\pilot2_external\\logs\\clean_machine_D.json",
+    "sha256": "9F49B9549002D8634B2505E14EEEE394CD17C4B1C24A44C87F12356EDA7BD51A",
+    "exists": true,
+    "baseline_sha256": "9F49B9549002D8634B2505E14EEEE394CD17C4B1C24A44C87F12356EDA7BD51A",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\pilot2_external\\logs\\clean_machine_C.json",
+    "sha256": "5E4935840AC2AA9D2E89D4D98B9DE37775D9CA5AFF90601DA8BD8BEB6AFA8F61",
+    "exists": true,
+    "baseline_sha256": "5E4935840AC2AA9D2E89D4D98B9DE37775D9CA5AFF90601DA8BD8BEB6AFA8F61",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\EMG2POSE_DEVELOPER_NOTE.md",
+    "sha256": "870BA73C0F39BBC8EFE830C52C0D10C5D2F0082FBCCBB01E3499E24819E5843F",
+    "exists": true,
+    "baseline_sha256": "870BA73C0F39BBC8EFE830C52C0D10C5D2F0082FBCCBB01E3499E24819E5843F",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\pilot2_external\\packages\\annotator_D\\使用说明.txt",
+    "sha256": "8055B87147091CA7A82E689C06FD501D719661A2A30A3EA9F9B190F7498104CC",
+    "exists": true,
+    "baseline_sha256": "8055B87147091CA7A82E689C06FD501D719661A2A30A3EA9F9B190F7498104CC",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\pilot2_external\\packages\\annotator_D\\package_manifest.json",
+    "sha256": "234AAF2D12CEA07DC0F7F88605E9F70F53715689FEAD5BED57D9E61FE8BB2610",
+    "exists": true,
+    "baseline_sha256": "234AAF2D12CEA07DC0F7F88605E9F70F53715689FEAD5BED57D9E61FE8BB2610",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\annotator_common\\left_hand_geometry.json",
+    "sha256": "E22359F3933F425F932573EAB92DB69C35C141F20BE5AB1B1551060F9A109C4C",
+    "exists": true,
+    "baseline_sha256": "E22359F3933F425F932573EAB92DB69C35C141F20BE5AB1B1551060F9A109C4C",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\annotator_common\\hand_geometry_343fc94403306119.json",
+    "sha256": "AD633041FE0AB74DD4BDBC30FEE22491940A988172AA64078123860A2E788FBF",
+    "exists": true,
+    "baseline_sha256": "AD633041FE0AB74DD4BDBC30FEE22491940A988172AA64078123860A2E788FBF",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\config\\experiment\\tracking_vemg2pose.yaml",
+    "sha256": "2755C428696C0140F9331B113BAA9EE7F83CBC0E9BC774F400149124744EC00A",
+    "exists": true,
+    "baseline_sha256": "2755C428696C0140F9331B113BAA9EE7F83CBC0E9BC774F400149124744EC00A",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\config\\experiment\\tracking_emg2pose.yaml",
+    "sha256": "E63234EE0586412A8C676DAF30B88B2F7CC5098FB17AB5BC73789DBE12A8B44A",
+    "exists": true,
+    "baseline_sha256": "E63234EE0586412A8C676DAF30B88B2F7CC5098FB17AB5BC73789DBE12A8B44A",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\config\\experiment\\regression_vemg2pose.yaml",
+    "sha256": "14A49B80B31432E8A7FF93AB6C1FD94F79106A2F4F4E16934B103DB054A9E8CF",
+    "exists": true,
+    "baseline_sha256": "14A49B80B31432E8A7FF93AB6C1FD94F79106A2F4F4E16934B103DB054A9E8CF",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\config\\experiment\\regression_neuropose.yaml",
+    "sha256": "F9A080F9A5E8ED7B8778EC4B1511573A4D0575FFB6F2574D74CDA07C1941F1C3",
+    "exists": true,
+    "baseline_sha256": "F9A080F9A5E8ED7B8778EC4B1511573A4D0575FFB6F2574D74CDA07C1941F1C3",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\config\\experiment\\regression_emg2pose.yaml",
+    "sha256": "7278E621E76B1FA5FF76FE7C27900E1C3545598170061D9FB13235B09820459B",
+    "exists": true,
+    "baseline_sha256": "7278E621E76B1FA5FF76FE7C27900E1C3545598170061D9FB13235B09820459B",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\CODE_OF_CONDUCT.md",
+    "sha256": "49FD7625EA116E80B0B3F999C981647D7EC28568B9B999382B8E5BA8ED6FA32C",
+    "exists": true,
+    "baseline_sha256": "49FD7625EA116E80B0B3F999C981647D7EC28568B9B999382B8E5BA8ED6FA32C",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\CONTRIBUTING.md",
+    "sha256": "E78929092A04A7F52934C9920B1E973BDDD751097C28BD799FF9FE2DE0EAB387",
+    "exists": true,
+    "baseline_sha256": "E78929092A04A7F52934C9920B1E973BDDD751097C28BD799FF9FE2DE0EAB387",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\dataset\\generic_hand_model.json",
+    "sha256": "96649DDF7D036BE3357DADD7C13DB325A18638C6713583FBBBDD71446CE07564",
+    "exists": true,
+    "baseline_sha256": "96649DDF7D036BE3357DADD7C13DB325A18638C6713583FBBBDD71446CE07564",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\batched_dataset\\sample.py",
+    "sha256": "6A238AA49FC40B477B7DB911835FE713F8DC6311BB3681A3626535D7ADDBA404",
+    "exists": true,
+    "baseline_sha256": "6A238AA49FC40B477B7DB911835FE713F8DC6311BB3681A3626535D7ADDBA404",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\batched_dataset\\data_transform.py",
+    "sha256": "4F8F8BD82BC109AA5D664B5C2B6DA21156E72BAA735A61914CB69EF8F8023AB9",
+    "exists": true,
+    "baseline_sha256": "4F8F8BD82BC109AA5D664B5C2B6DA21156E72BAA735A61914CB69EF8F8023AB9",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\pilot\\README.md",
+    "sha256": "0B1543A9BEBA0275171936B3339B5C583C0E38C5EE0205CDD8B0C45C143F3C02",
+    "exists": true,
+    "baseline_sha256": "0B1543A9BEBA0275171936B3339B5C583C0E38C5EE0205CDD8B0C45C143F3C02",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\pilot\\pilot_sampling_spec.py",
+    "sha256": "6D4B89D6CB848D1D64FDA8E3A019D821CB1AB6BB96BE36B1A4105E8BCBF66096",
+    "exists": true,
+    "baseline_sha256": "6D4B89D6CB848D1D64FDA8E3A019D821CB1AB6BB96BE36B1A4105E8BCBF66096",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\pilot\\PILOT_SAMPLING_SPEC.json",
+    "sha256": "4A65D383AB88C68B4F3D7E93938ABCFA7B7D418E37A43354E79AECCED1EB847A",
+    "exists": true,
+    "baseline_sha256": "4A65D383AB88C68B4F3D7E93938ABCFA7B7D418E37A43354E79AECCED1EB847A",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\common\\__init__.py",
+    "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "exists": true,
+    "baseline_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\common\\pytorch3d_transforms_so3.py",
+    "sha256": "E06FAC0D29BA41E0C852D003D3AA2E63E1720954F827C10F9848FF31AEDBA5E5",
+    "exists": true,
+    "baseline_sha256": "E06FAC0D29BA41E0C852D003D3AA2E63E1720954F827C10F9848FF31AEDBA5E5",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\common\\metric_utils.py",
+    "sha256": "9DF942392FCD49304688CFC9E3B24B5923F429076F9FCED4EE2D902E256367BB",
+    "exists": true,
+    "baseline_sha256": "9DF942392FCD49304688CFC9E3B24B5923F429076F9FCED4EE2D902E256367BB",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\common\\hand_skinning.py",
+    "sha256": "73D74CB31CA05165FFA1EAD9C8CF7FF6120A0798D1E4DE8ED1CC497A28A9EA09",
+    "exists": true,
+    "baseline_sha256": "73D74CB31CA05165FFA1EAD9C8CF7FF6120A0798D1E4DE8ED1CC497A28A9EA09",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\common\\hand.py",
+    "sha256": "CE2067A6AFD0339D6B1AB4B4E85EFA20AFC07A4233E8A2D445A2BF1D0AC2C7F4",
+    "exists": true,
+    "baseline_sha256": "CE2067A6AFD0339D6B1AB4B4E85EFA20AFC07A4233E8A2D445A2BF1D0AC2C7F4",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\common\\crop.py",
+    "sha256": "AF0284AA7E45DD161D7198AE7ADBCEB0BBF3E8D980584404947D392B46719988",
+    "exists": true,
+    "baseline_sha256": "AF0284AA7E45DD161D7198AE7ADBCEB0BBF3E8D980584404947D392B46719988",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\common\\camera.py",
+    "sha256": "346C7F753769B2100C104B51022A00CF83CAE8798E1F2FE97114F8BF5843A776",
+    "exists": true,
+    "baseline_sha256": "346C7F753769B2100C104B51022A00CF83CAE8798E1F2FE97114F8BF5843A776",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\emg2pose\\UmeTrack\\lib\\common\\affine.py",
+    "sha256": "737FC686355072E6859AE03F16785FFF3141F0D568C287BDB8D5AF80C1306EF8",
+    "exists": true,
+    "baseline_sha256": "737FC686355072E6859AE03F16785FFF3141F0D568C287BDB8D5AF80C1306EF8",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\annotator_B\\payload.json",
+    "sha256": "4DF0D804FEFF291B524C807D74C03CE219D3080BB6061C8331DE7DDBF3E3F69E",
+    "exists": true,
+    "baseline_sha256": "4DF0D804FEFF291B524C807D74C03CE219D3080BB6061C8331DE7DDBF3E3F69E",
+    "matches_baseline": true
+  },
+  {
+    "path": "baseline/emg2pose\\config\\datamodule\\default.yaml",
+    "sha256": "19376459C8FF19789496972E6E84F470D136605F2C27650E7AB2405BCF403BA9",
+    "exists": true,
+    "baseline_sha256": "19376459C8FF19789496972E6E84F470D136605F2C27650E7AB2405BCF403BA9",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\pilot2\\logs\\pilot2_state_before_revision.json",
+    "sha256": "EE0CDBD0F3F060C295A893DBDD2FD1D8EE7024A0DF1B13475BF4FD2B97C196E7",
+    "exists": true,
+    "baseline_sha256": "EE0CDBD0F3F060C295A893DBDD2FD1D8EE7024A0DF1B13475BF4FD2B97C196E7",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\pilot2\\logs\\pilot2_state_after_revision.json",
+    "sha256": null,
+    "exists": false,
+    "baseline_sha256": "ECD1539DF985426C2229420633A4B2327338E24FC3F268D62C73E1A5512A03C3",
+    "matches_baseline": false
+  },
+  {
+    "path": "human_semantic_validation\\pilot2\\logs\\pilot2_build_report.json",
+    "sha256": "CF49A4A76F51B64A934345D246C33A90516F27DB13398C0D505FCB2AF655D54B",
+    "exists": true,
+    "baseline_sha256": "CF49A4A76F51B64A934345D246C33A90516F27DB13398C0D505FCB2AF655D54B",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\pilot2\\logs\\verifier_pilot2_B.json",
+    "sha256": "A4FA48E1FFA7E4325DDF3344C696A0CC50424CFA18E6371D54480B392843C91D",
+    "exists": true,
+    "baseline_sha256": "FC63D5E8E97DDD867CE41DC312779FEBFE64CD8C1107126BB8600C1B388406F7",
+    "matches_baseline": false
+  },
+  {
+    "path": "human_semantic_validation\\pilot2\\logs\\verifier_pilot2_A.json",
+    "sha256": "52FF181C443EE79D769EC0D0622D3A67B478FD09B3E843F7A40A65D1D850F2F7",
+    "exists": true,
+    "baseline_sha256": "5DF6B12926F31DCCEA048489FED298AF9CDC0D2CCF7F77374504E2BFC115C0BD",
+    "matches_baseline": false
+  },
+  {
+    "path": "human_semantic_validation\\pilot2\\logs\\verifier_pilot1_regression_A.json",
+    "sha256": "3C2E65CB4138FD1A275EBBA31512D6CD4B61CE240409C5F59F01AB9BDF28E1EA",
+    "exists": true,
+    "baseline_sha256": "BB1C72838DFC2213763EBC5563E2BCD9F5C3BD85D5BC318FEC123F32B70E894E",
+    "matches_baseline": false
+  },
+  {
+    "path": "human_semantic_validation\\pilot2\\logs\\verifier_formal_regression_A.json",
+    "sha256": "91C50C2BB02E79AEE814E6F8FA24498E8B2E798A51A219551790D5C966324D3C",
+    "exists": true,
+    "baseline_sha256": "21059EB4B5F4C365C967230F4D9E751D47F96642ED67BE557CA9ADDEC6C01218",
+    "matches_baseline": false
+  },
+  {
+    "path": "human_semantic_validation\\pilot2\\annotator_B\\payload.json",
+    "sha256": "51D0BE8655CBE7AFD93DB92A59C9B5F73BABB4EB4AA8034CDC798672A8AD309B",
+    "exists": true,
+    "baseline_sha256": "51D0BE8655CBE7AFD93DB92A59C9B5F73BABB4EB4AA8034CDC798672A8AD309B",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\pilot2\\tools\\_probe_pilot2_feasibility.py",
+    "sha256": "66CB254F845211A6AA1AB3A450C311DBD93467AB46709A000108B8B011D25842",
+    "exists": true,
+    "baseline_sha256": "66CB254F845211A6AA1AB3A450C311DBD93467AB46709A000108B8B011D25842",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\pilot2\\tools\\_pilot2_state.py",
+    "sha256": "15175646903EA6FC4A9CD8EFE3148571AD35DC2287689C6DDCBBF8046A24B620",
+    "exists": true,
+    "baseline_sha256": "15175646903EA6FC4A9CD8EFE3148571AD35DC2287689C6DDCBBF8046A24B620",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\pilot2\\tools\\stage_pilot2_site.py",
+    "sha256": "89DB026B0469C01FBF6CC4DC5D6DF5BE57B1A80F2D068345E6D1EBF91B38FDD5",
+    "exists": true,
+    "baseline_sha256": "92A3A6F02F4D97A542D30CC5A168526C65B1629C508223911223AFA34F6DE5BF",
+    "matches_baseline": false
+  },
+  {
+    "path": "human_semantic_validation\\pilot2\\tools\\serve_pilot2.py",
+    "sha256": "0110608BD2601D1BFEE929FF4289DC39DF681BB61B4AD801FB64FAEB17AC792E",
+    "exists": true,
+    "baseline_sha256": "1A6893D974EB025A910337F6CBA9F97A1F21F019F33B6525BCF0ECC2315AA323",
+    "matches_baseline": false
+  },
+  {
+    "path": "human_semantic_validation\\pilot2\\tools\\make_pilot2_set.py",
+    "sha256": "22B99FF743F0A5EFEFDC037ECEBE5389B565822C95021F1506BFBF468FADD466",
+    "exists": true,
+    "baseline_sha256": "22B99FF743F0A5EFEFDC037ECEBE5389B565822C95021F1506BFBF468FADD466",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\pilot2\\tools\\check_pilot2_invariants.py",
+    "sha256": "33924FFDF810B5B7E89EE8CD4E59C856E7406EA608EC7D4C46AEF569B2E5079D",
+    "exists": true,
+    "baseline_sha256": "33924FFDF810B5B7E89EE8CD4E59C856E7406EA608EC7D4C46AEF569B2E5079D",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\pilot2\\tools\\build_pilot2_ontology.py",
+    "sha256": "A84D5418C0783CFE4479EE94982B953150B60387EADC7928CACB45CCCC2AB82B",
+    "exists": true,
+    "baseline_sha256": "A84D5418C0783CFE4479EE94982B953150B60387EADC7928CACB45CCCC2AB82B",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\pilot2\\evaluator\\pilot2_sample_manifest.json",
+    "sha256": "5369367843A044B324EBB19BC6FBCEBDEF700357CE0EF34896C165886AECDADD",
+    "exists": true,
+    "baseline_sha256": "5369367843A044B324EBB19BC6FBCEBDEF700357CE0EF34896C165886AECDADD",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\pilot2\\evaluator\\pilot2_ontology.json",
+    "sha256": "3BB0DB2F14F5B19D6BABA978BC2B61533D7751759953B99EAFB3E8D2EC9A5538",
+    "exists": true,
+    "baseline_sha256": "3BB0DB2F14F5B19D6BABA978BC2B61533D7751759953B99EAFB3E8D2EC9A5538",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\pilot2\\evaluator\\pilot2_nonoverlap_witness.json",
+    "sha256": "5746D8DA0874E16BC5A184DEAEA57F1D0CF9CEED76A3D8869552B738BD3EE7EB",
+    "exists": true,
+    "baseline_sha256": "5746D8DA0874E16BC5A184DEAEA57F1D0CF9CEED76A3D8869552B738BD3EE7EB",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\pilot2\\PILOT2_SAMPLING_SPEC.json",
+    "sha256": "659171B24DD277E048888B4F157A8D6310551A1D19740E5AD20C216D5EAF3C01",
+    "exists": true,
+    "baseline_sha256": "659171B24DD277E048888B4F157A8D6310551A1D19740E5AD20C216D5EAF3C01",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\pilot2\\PILOT2_EVALUATION_PREREGISTRATION.md",
+    "sha256": "24E6A83554A5EB0C87AB4A9DE6BDE588EEDDF9D6E53C4093F0195414085544B4",
+    "exists": true,
+    "baseline_sha256": "24E6A83554A5EB0C87AB4A9DE6BDE588EEDDF9D6E53C4093F0195414085544B4",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\pilot2\\pilot2_sampling_spec.py",
+    "sha256": "492D4D2C58E6D253C05CACB989191E5C35D927E8DC997EF3973B78FB788E02E3",
+    "exists": true,
+    "baseline_sha256": "492D4D2C58E6D253C05CACB989191E5C35D927E8DC997EF3973B78FB788E02E3",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\pilot2\\README.md",
+    "sha256": "05A3BC992771FD2384729B32925A6870C7D12B60CF2FE011187AC36D003F07AE",
+    "exists": true,
+    "baseline_sha256": "05A3BC992771FD2384729B32925A6870C7D12B60CF2FE011187AC36D003F07AE",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\pilot\\logs\\_probe_pilot_feasibility.json",
+    "sha256": "1012A7BBFE4580EBD0E6004293C4072E375E127B65BE014F482624BE9EC413F6",
+    "exists": true,
+    "baseline_sha256": "1012A7BBFE4580EBD0E6004293C4072E375E127B65BE014F482624BE9EC413F6",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\pilot2\\annotator_common\\pilot2_hand_geometry.json",
+    "sha256": "1E33D19CA4A08B6E32AC07890820CBAA485CA022B28F17C551DBDA52A3BE88E8",
+    "exists": true,
+    "baseline_sha256": "1E33D19CA4A08B6E32AC07890820CBAA485CA022B28F17C551DBDA52A3BE88E8",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\pilot\\logs\\pilot_render_audit_A.json",
+    "sha256": "146654F5ABD2EEB082DEAE09DCED4939BA482A4085FE7C4FC80FEE3C1EDB5497",
+    "exists": true,
+    "baseline_sha256": "146654F5ABD2EEB082DEAE09DCED4939BA482A4085FE7C4FC80FEE3C1EDB5497",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\pilot2\\annotator_A\\payload.json",
+    "sha256": "F7E827168745FCDC4F80E76F144D86C0B708FD5C55FBF6DD15FEA426801BD31F",
+    "exists": true,
+    "baseline_sha256": "F7E827168745FCDC4F80E76F144D86C0B708FD5C55FBF6DD15FEA426801BD31F",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\pilot\\logs\\verifier_formal_B.json",
+    "sha256": "317D72C17092FA03EB0305A6919B51F73C48C0EA2497A80D3048A73C89F9F6FB",
+    "exists": true,
+    "baseline_sha256": "317D72C17092FA03EB0305A6919B51F73C48C0EA2497A80D3048A73C89F9F6FB",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\pilot\\logs\\verifier_formal_A.json",
+    "sha256": "B0C22ADF8F6ACA5B7F854F17E8FAD1BF84660B723F6C82B8B2FC20B84DE9338F",
+    "exists": true,
+    "baseline_sha256": "B0C22ADF8F6ACA5B7F854F17E8FAD1BF84660B723F6C82B8B2FC20B84DE9338F",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\pilot\\logs\\verifier_pilot_A.json",
+    "sha256": "A0CC1203D38CC4C1A6EF49BC3A144B10B50C67142355AF5F75BF860C9F29B6A5",
+    "exists": true,
+    "baseline_sha256": "A0CC1203D38CC4C1A6EF49BC3A144B10B50C67142355AF5F75BF860C9F29B6A5",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\pilot\\logs\\verifier_pilot_B.json",
+    "sha256": "038C0CEC2F088CF2B8FED569F1CDA0333C10020CBA5A7D3D2053D3F023243623",
+    "exists": true,
+    "baseline_sha256": "038C0CEC2F088CF2B8FED569F1CDA0333C10020CBA5A7D3D2053D3F023243623",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\pilot\\logs\\pilot1_human_agreement.json",
+    "sha256": "A9425B7AF092BA005020F5DF4CDE7DBD2DF7BC87D52805EB9112249AC0EE83D3",
+    "exists": true,
+    "baseline_sha256": "A9425B7AF092BA005020F5DF4CDE7DBD2DF7BC87D52805EB9112249AC0EE83D3",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\pilot\\logs\\pilot_build_report.json",
+    "sha256": "F1BEE555BAA794C3B1D80B94E73BDF9C29DB58E64F303230D231518BF3D85A5B",
+    "exists": true,
+    "baseline_sha256": "F1BEE555BAA794C3B1D80B94E73BDF9C29DB58E64F303230D231518BF3D85A5B",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\pilot2\\tests\\test_s6_pilot2.py",
+    "sha256": "527535ABC8B5B226E5FD24235819994605E7F7B054C39D3462914058667EC366",
+    "exists": true,
+    "baseline_sha256": "96E38FE9D26493C34EA08952D594E33778F773483B09A06513D1B439FAC51561",
+    "matches_baseline": false
+  },
+  {
+    "path": "human_semantic_validation\\pilot\\annotator_B\\payload.json",
+    "sha256": "D16EE2ADD77F6C2339D3965F3D22421DA48032BD7634B2D1D0E32A4653DC9601",
+    "exists": true,
+    "baseline_sha256": "D16EE2ADD77F6C2339D3965F3D22421DA48032BD7634B2D1D0E32A4653DC9601",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\pilot\\evaluator\\pilot_sample_manifest.json",
+    "sha256": "3D89213E0C5CD9C2EBE70A445BBCBDE6A495A8776AD1208B022DE255BF2BCAA7",
+    "exists": true,
+    "baseline_sha256": "3D89213E0C5CD9C2EBE70A445BBCBDE6A495A8776AD1208B022DE255BF2BCAA7",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\pilot\\evaluator\\pilot_nonoverlap_witness.json",
+    "sha256": "2E424B77671FA8B624A89C08A0496EC161ACC81BDA7116AD54A0AD82EF3AB3B2",
+    "exists": true,
+    "baseline_sha256": "2E424B77671FA8B624A89C08A0496EC161ACC81BDA7116AD54A0AD82EF3AB3B2",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\pilot\\tests\\test_s6_pilot.py",
+    "sha256": "6C0BF7CADD09AEF9D7939F0F16F55D823709B1DCC7ABB1B4E42D6A517FEF4F92",
+    "exists": true,
+    "baseline_sha256": "6C0BF7CADD09AEF9D7939F0F16F55D823709B1DCC7ABB1B4E42D6A517FEF4F92",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\pilot\\annotator_common\\pilot_hand_geometry.json",
+    "sha256": "88256E077C7A47D76988C301B37F90E86C8BC101895B27AD2C887904000D783F",
+    "exists": true,
+    "baseline_sha256": "88256E077C7A47D76988C301B37F90E86C8BC101895B27AD2C887904000D783F",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\pilot\\annotator_A\\payload.json",
+    "sha256": "232BE6CC289108EEED5017680603FD77F129B724619C57028244F9BE8EF3E162",
+    "exists": true,
+    "baseline_sha256": "232BE6CC289108EEED5017680603FD77F129B724619C57028244F9BE8EF3E162",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\pilot\\tools\\_probe_pilot_feasibility.py",
+    "sha256": "66CB254F845211A6AA1AB3A450C311DBD93467AB46709A000108B8B011D25842",
+    "exists": true,
+    "baseline_sha256": "66CB254F845211A6AA1AB3A450C311DBD93467AB46709A000108B8B011D25842",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\pilot\\tools\\stage_pilot_site.py",
+    "sha256": "214773E81EB92E4D5445C952713848A3061331DAC2AAD54DF25BB53ADFFE3970",
+    "exists": true,
+    "baseline_sha256": "214773E81EB92E4D5445C952713848A3061331DAC2AAD54DF25BB53ADFFE3970",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\pilot\\tools\\serve_pilot.py",
+    "sha256": "68483488FB85C10B634AFCF49D1FDF4B3D7DDA9F9150A4AD12C7F032EBE3EB1E",
+    "exists": true,
+    "baseline_sha256": "68483488FB85C10B634AFCF49D1FDF4B3D7DDA9F9150A4AD12C7F032EBE3EB1E",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\pilot\\tools\\make_pilot_set.py",
+    "sha256": "537607BF723A8A3F3A9BD461D6EEDCE14DB7E8E6115EEB2240998851FCBFE622",
+    "exists": true,
+    "baseline_sha256": "537607BF723A8A3F3A9BD461D6EEDCE14DB7E8E6115EEB2240998851FCBFE622",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\pilot\\tools\\ingest_pilot1_labels.py",
+    "sha256": "3F5D31791DF1D935BEADFAB20D125ED89AE0ADFB51CC2B620746A216B28144F2",
+    "exists": true,
+    "baseline_sha256": "3F5D31791DF1D935BEADFAB20D125ED89AE0ADFB51CC2B620746A216B28144F2",
+    "matches_baseline": true
+  },
+  {
+    "path": "human_semantic_validation\\pilot\\tools\\check_localization_invariants.py",
+    "sha256": "2A6D29477C18D1CBB380FBEED83AB4339E345C6147DEFC9D92A1CC6DD3B54C49",
+    "exists": true,
+    "baseline_sha256": "2A6D29477C18D1CBB380FBEED83AB4339E345C6147DEFC9D92A1CC6DD3B54C49",
+    "matches_baseline": true
+  },
+  {
+    "path": "checkpoints\\emg2pose_model_checkpoints\\regression_emg2pose.ckpt",
+    "sha256": "D22D85C91638DDB122390AF08A508E42D6CB7B6F1064B77FB610020D14B0CD94",
+    "exists": true,
+    "baseline_sha256": "d22d85c91638ddb122390af08a508e42d6cb7b6f1064b77fb610020d14b0cd94",
+    "matches_baseline": true
+  },
+  {
+    "path": "checkpoints\\emg2pose_model_checkpoints\\regression_neuropose.ckpt",
+    "sha256": "AA744E1878ACE0665859F8BD072F3E451FEFAA2ED12D537F51828D216118E3F4",
+    "exists": true,
+    "baseline_sha256": "aa744e1878ace0665859f8bd072f3e451fefaa2ed12d537f51828d216118e3f4",
+    "matches_baseline": true
+  },
+  {
+    "path": "checkpoints\\emg2pose_model_checkpoints\\regression_vemg2pose.ckpt",
+    "sha256": "748B1D1EF0CE1985F6FC07225D97EEBFB370243429AF803B4997D28ECCE2424E",
+    "exists": true,
+    "baseline_sha256": "748b1d1ef0ce1985f6fc07225d97eebfb370243429af803b4997d28ecce2424e",
+    "matches_baseline": true
+  },
+  {
+    "path": "checkpoints\\emg2pose_model_checkpoints\\tracking_emg2pose.ckpt",
+    "sha256": "258625329EA6E1BB57BAE7EAAFB01BFCA31AB26083FDA68734DABF017C341610",
+    "exists": true,
+    "baseline_sha256": "258625329ea6e1bb57bae7eaafb01bfca31ab26083fda68734dabf017c341610",
+    "matches_baseline": true
+  },
+  {
+    "path": "checkpoints\\emg2pose_model_checkpoints\\tracking_vemg2pose.ckpt",
+    "sha256": "629783B2B1E8BC1316190FC2A57BA95396DD0D6B59CFBB38543FC6AD8BD61AE5",
+    "exists": true,
+    "baseline_sha256": "629783b2b1e8bc1316190fc2a57ba95396dd0d6b59cfbb38543fc6ad8bd61ae5",
+    "matches_baseline": true
+  },
+  {
+    "path": "humanengine_design\\EVIDENCE_MANIFEST.json",
+    "sha256": "C7665333EB66F5FD74A2BEA1F8BB59088B844377E6E2A7699FF40498E1043C97",
+    "exists": true,
+    "baseline_sha256": "C7665333EB66F5FD74A2BEA1F8BB59088B844377E6E2A7699FF40498E1043C97",
+    "matches_baseline": true
+  },
+  {
+    "path": "humanengine_design\\FOCUSED_REVIEW_EVIDENCE.json",
+    "sha256": "B464970D398E6FE1A503375EBD299940452BC0E05F64244AF109E2C9780879BF",
+    "exists": true,
+    "baseline_sha256": "B464970D398E6FE1A503375EBD299940452BC0E05F64244AF109E2C9780879BF",
+    "matches_baseline": true
+  },
+  {
+    "path": "humanengine_design\\FOCUSED_REVIEW_HANDOVER.md",
+    "sha256": "8AACB6420CC26848DFA4814D763514588D61B18EDFE18AD4DBC4FC569B4E1947",
+    "exists": true,
+    "baseline_sha256": "8AACB6420CC26848DFA4814D763514588D61B18EDFE18AD4DBC4FC569B4E1947",
+    "matches_baseline": true
+  },
+  {
+    "path": "humanengine_design\\FOCUSED_REVIEW_MULTI_API_RESIDUAL.md",
+    "sha256": "65D200E97B83C40B683F64B97104AA2FF7DC1385849751FDCC9D08F5689F58A0",
+    "exists": true,
+    "baseline_sha256": "65D200E97B83C40B683F64B97104AA2FF7DC1385849751FDCC9D08F5689F58A0",
+    "matches_baseline": true
+  },
+  {
+    "path": "humanengine_design\\HUMANENGINE_EMG_V0_1_ARCHITECTURE.md",
+    "sha256": "731D1A484B637F6A77D20B4895B874CE5700F97A5F411CBFD43182959C807268",
+    "exists": true,
+    "baseline_sha256": "731D1A484B637F6A77D20B4895B874CE5700F97A5F411CBFD43182959C807268",
+    "matches_baseline": true
+  },
+  {
+    "path": "humanengine_design\\SESSION_HANDOVER.md",
+    "sha256": "6BDBF3AE75E01870698F0857FAA22B12C22D7961759760479EF37DA26D1B701A",
+    "exists": true,
+    "baseline_sha256": "6BDBF3AE75E01870698F0857FAA22B12C22D7961759760479EF37DA26D1B701A",
+    "matches_baseline": true
+  },
+  {
+    "path": "AGENTS.md",
+    "sha256": "1C5B79F76230B4AF5C72B1C55E0A8A58F8AF7C11CC551F742C083B100EC99494",
+    "exists": true,
+    "baseline_sha256": "1C5B79F76230B4AF5C72B1C55E0A8A58F8AF7C11CC551F742C083B100EC99494",
+    "matches_baseline": true
+  }
+]

@@ -1,0 +1,367 @@
+{
+  "schema": "humanengine-kernel-implementation-evidence-v1",
+  "created_utc": "2026-09-19T10:09:26.076725+00:00",
+  "status": "implemented_local_scientific_correctness_verified_no_scientific_training",
+  "authorization": {
+    "attachment": "C:\\Users\\董伯言\\.codex\\attachments\\bb44180b-feb3-4896-b916-027c4bd6b2a7\\已粘贴的文本.txt",
+    "sha256": "9477aea330fce4029f842a503fb7f1f580a59bc94207c87d473916ca25446e77",
+    "archived_task": "humanengine/SPEC_IMPLEMENTATION_TASK.md"
+  },
+  "precedence": "User implementation task; focused addendum for three specified topics; original architecture otherwise",
+  "environment": {
+    "python": "3.11.16",
+    "executable": "D:\\Anaconda3\\envs\\emgforce\\python.exe",
+    "torch": "2.4.1+cpu",
+    "numpy": "1.26.4",
+    "scipy": "1.14.1",
+    "pytest": "8.4.1",
+    "device": "CPU",
+    "installations": []
+  },
+  "verification": {
+    "tests": 59,
+    "passed": 59,
+    "failed": [],
+    "skipped": [],
+    "junit": "humanengine/test-results.xml",
+    "only_synthetic": true,
+    "end_to_end_microsteps": 1,
+    "limitations": [
+      "No real-data training or probes",
+      "No real teacher health qualification",
+      "No GPU/AMP verification",
+      "No remote jobs",
+      "HDF5 interface tested lexically, no real data opened"
+    ]
+  },
+  "integrity": {
+    "snapshot": "humanengine/FROZEN_BASELINE.json",
+    "records": 321,
+    "mismatches": [],
+    "scope": "309 prior protected files + 5 official checkpoints + 6 design records + root AGENTS; not full raw-data CRC"
+  },
+  "source_control": {
+    "root_git_repository": false,
+    "baseline_head": "5f6f62b1a0a08426adffe55900842e75a8adb38c",
+    "baseline_status_clean": true,
+    "git_mutations": []
+  },
+  "files_modified_preexisting": [],
+  "all_additions_under": "humanengine/",
+  "files": [
+    {
+      "path": "humanengine/__init__.py",
+      "bytes": 89,
+      "sha256": "8e4e281a3375393d0c74f00523a6f4e2130ce5692773321c92e02040217871b1"
+    },
+    {
+      "path": "humanengine/AGENTS.md",
+      "bytes": 1758,
+      "sha256": "a199b87f0736b4fc77d93bc2b0ec60f7a0e1d72b3391aaddca4d6a3d746866cf"
+    },
+    {
+      "path": "humanengine/api.py",
+      "bytes": 2506,
+      "sha256": "9f49c182cf9565a330d60df5f90c200dd673fe65515ef681a0c51e9bd9602207"
+    },
+    {
+      "path": "humanengine/config.py",
+      "bytes": 4090,
+      "sha256": "55e4c66445957ce0e16113a5c6689241b8e7b07817d8bb2751d9194cc4ff2780"
+    },
+    {
+      "path": "humanengine/configs/he_cagrad_test.json",
+      "bytes": 3763,
+      "sha256": "1c77ba698df69b04986d3ffe9d8db041290cfc7d866ed38d64769f190a4c4aff"
+    },
+    {
+      "path": "humanengine/configs/he_core_v01.json",
+      "bytes": 3761,
+      "sha256": "c5ad1a54f48c06a9d067d7b2b9cf4a6ca62e6b5a6b0f4677239f3a80fafd528c"
+    },
+    {
+      "path": "humanengine/configs/he_family_budget_test.json",
+      "bytes": 3770,
+      "sha256": "3b3ef2a7b777c2133bfc952ff14d0d93f97a5df0548ee861455c4490dd74d10f"
+    },
+    {
+      "path": "humanengine/configs/he_full_v01.json",
+      "bytes": 3761,
+      "sha256": "98337a12803f62b7492a8cb15f7a7d59af7ac41f6dbf7700d29021504b5c5c1b"
+    },
+    {
+      "path": "humanengine/configs/he_routing_test.json",
+      "bytes": 3764,
+      "sha256": "99ba4285f7fb375c6a7922bdb771ede6dd13d810b98c9d891de1b34bb591076a"
+    },
+    {
+      "path": "humanengine/configs/teacher_emg_ssl_v01.json",
+      "bytes": 3769,
+      "sha256": "51323c41b4b3c558b28640277037271776547c9852eed86ea59205ce1c49ab7c"
+    },
+    {
+      "path": "humanengine/continual/__init__.py",
+      "bytes": 84,
+      "sha256": "723aed724293895a9c54c9f606a8d3aad04b34c4dd5ac18b53b2194a14908475"
+    },
+    {
+      "path": "humanengine/continual/contracts.py",
+      "bytes": 2569,
+      "sha256": "c5140017a00232ae8e98d7f6a095296abe6692710e8fbade0120859d750a1a1a"
+    },
+    {
+      "path": "humanengine/contracts.py",
+      "bytes": 2663,
+      "sha256": "08887869749198326af3edd25a58ce6fbd45917214f6657c79e43e80fd5a3484"
+    },
+    {
+      "path": "humanengine/core/__init__.py",
+      "bytes": 69,
+      "sha256": "c47069cbed4d6f4cde25f0f81021e14d6e0ed560667bca4a1c46fe7ba174f661"
+    },
+    {
+      "path": "humanengine/core/frontend.py",
+      "bytes": 3004,
+      "sha256": "243bf9d750abd5035644375e80880320eeeaf62ab52e4f2b41c81e15bc631efe"
+    },
+    {
+      "path": "humanengine/core/personalization.py",
+      "bytes": 1810,
+      "sha256": "1cef31ee326b40e4421eb01404fdcb582fda6faabd3cdcfa4594c86185fa9df7"
+    },
+    {
+      "path": "humanengine/core/state.py",
+      "bytes": 7491,
+      "sha256": "60e492cdc28713a28c639e22bc75834cb14c7e52e92909df8ee4805fba0c71cb"
+    },
+    {
+      "path": "humanengine/core/summaries.py",
+      "bytes": 2624,
+      "sha256": "f1ea51c69a234aa023a932385b1caa28ef9c92b3cc4240b0a85c95e1a905a072"
+    },
+    {
+      "path": "humanengine/data/__init__.py",
+      "bytes": 64,
+      "sha256": "483fa3f4f43007fa60f43155bd8e15d7b0bc23869318ec89cfd1ddf90b382c81"
+    },
+    {
+      "path": "humanengine/data/references.py",
+      "bytes": 2173,
+      "sha256": "3f5310ebaee980226db39f531f8528fcc25e8df3c882f575da057f7ad3663d45"
+    },
+    {
+      "path": "humanengine/data/sampling.py",
+      "bytes": 4053,
+      "sha256": "24185d27401da43064e99c4e3697a838a7e8f82069461e9b60507af479eb528e"
+    },
+    {
+      "path": "humanengine/data/sequence.py",
+      "bytes": 2883,
+      "sha256": "e6c38e27d1e32fb71ddbe19676d143a6f579afe18551fa41b4c53260ee7a11e1"
+    },
+    {
+      "path": "humanengine/data/views.py",
+      "bytes": 3536,
+      "sha256": "b97ddeb9a6e8a9e654e4dc32e5d97b9533528227fdaa72a204f79d795e4c1e08"
+    },
+    {
+      "path": "humanengine/diagnostics/__init__.py",
+      "bytes": 79,
+      "sha256": "3b0b068da9ec4630e259f17b479469a986534f6dc2f466063abf64cfee3c4d83"
+    },
+    {
+      "path": "humanengine/diagnostics/gradients.py",
+      "bytes": 3146,
+      "sha256": "e0a9dbab71bbf1c321b4c1d7e5b3e210f0486b33343e325677dab8f23fb2ea04"
+    },
+    {
+      "path": "humanengine/diagnostics/representation.py",
+      "bytes": 2952,
+      "sha256": "3c381d8b98e03420cbd52b8247218145fd74cea13737ab88beaddc30ac35d145"
+    },
+    {
+      "path": "humanengine/FROZEN_BASELINE.json",
+      "bytes": 60706,
+      "sha256": "759567c5f29c8500a8a17765a8df2c685adb55c2a27ce41a83280b261eafa231"
+    },
+    {
+      "path": "humanengine/heads/__init__.py",
+      "bytes": 57,
+      "sha256": "cb3c0d21624cc9221d2a9ce19c3d7480cde81e8699e07d9584b5b9e80d9fe953"
+    },
+    {
+      "path": "humanengine/heads/api_heads.py",
+      "bytes": 1794,
+      "sha256": "efed7bccfc91d9cd24fc426b8e61a5870347b1e131e711d9e0b6506363b9bd59"
+    },
+    {
+      "path": "humanengine/IMPLEMENTATION_MAP.md",
+      "bytes": 2946,
+      "sha256": "6fd0a13fbdb4dd20df7d89644e6377744bac6f074814d3039f093453c8ea4cb9"
+    },
+    {
+      "path": "humanengine/IMPLEMENTATION_REPORT.md",
+      "bytes": 26980,
+      "sha256": "91589715c1d8a49e4eb3140ea5900a25d02d628e2bc509bcaeb7a45629071aca"
+    },
+    {
+      "path": "humanengine/manifest.py",
+      "bytes": 6353,
+      "sha256": "ae104c24ba84d07b0ccb024b8051f9c1336f40c2a79cffe49982c7ac1fa7ffb8"
+    },
+    {
+      "path": "humanengine/objectives/__init__.py",
+      "bytes": 81,
+      "sha256": "09e89f8c91bc0f607a8de0b496b666f3c94c08c2349f3c9c042f815fc8b245ad"
+    },
+    {
+      "path": "humanengine/objectives/full.py",
+      "bytes": 4806,
+      "sha256": "dd1fc26a843f10b8fbdb8b0357b4c57e990057c00100b3f8ac1f7604a36ccab4"
+    },
+    {
+      "path": "humanengine/objectives/reductions.py",
+      "bytes": 1662,
+      "sha256": "a44008053bdadadab46363f59730ceb3e16545fb8304fda44e213ea159c8335f"
+    },
+    {
+      "path": "humanengine/objectives/regularizers.py",
+      "bytes": 3729,
+      "sha256": "c528e73a8046cffc2873e74a556d9b163d8b679aa17005734cff64d921b991b8"
+    },
+    {
+      "path": "humanengine/objectives/residual.py",
+      "bytes": 1601,
+      "sha256": "da186a620fff37d03188b42f1d28fad2ae2407bc4baead3dc0c468841fe67b5a"
+    },
+    {
+      "path": "humanengine/optimization/__init__.py",
+      "bytes": 73,
+      "sha256": "735d7b7a72c8065a6e16ed0758ca32ef4502e9178c716222b1908d608f53111b"
+    },
+    {
+      "path": "humanengine/optimization/cagrad.py",
+      "bytes": 3719,
+      "sha256": "aa46ecdf38cf6aad3cebb26364a7f60f137f3684dc492cfb80e49fb076a0fe03"
+    },
+    {
+      "path": "humanengine/optimization/factory.py",
+      "bytes": 779,
+      "sha256": "bf0f652f770e4db22f8344973b67242c45db79836ba2ca2015f23ca5af3d9003"
+    },
+    {
+      "path": "humanengine/optimization/macrostep.py",
+      "bytes": 4746,
+      "sha256": "103bd9249ad9dbb1c789d09d912570a8d1d896200e18d8e08af443d7a48dafd7"
+    },
+    {
+      "path": "humanengine/README.md",
+      "bytes": 4875,
+      "sha256": "ee40c8ba851525fa3bbe9287a5ce3609b32c8d7edd0c86076bcaf2f68bd97701"
+    },
+    {
+      "path": "humanengine/registry.py",
+      "bytes": 2754,
+      "sha256": "420cc8aa62c36fd832c3d223f5d9b3514e142c3307673d4346090b86211dedb2"
+    },
+    {
+      "path": "humanengine/requirements-kernel.txt",
+      "bytes": 189,
+      "sha256": "a3df8ce8e1fb1b4b547150c9bd3562ae8f9696769af1490634aa225893644cba"
+    },
+    {
+      "path": "humanengine/runbooks/LOCAL_VERIFICATION.md",
+      "bytes": 967,
+      "sha256": "97a1dbae3ef169cd9a420ceec0aadce95095f870dde79901a114a621895dcdb5"
+    },
+    {
+      "path": "humanengine/SESSION_HANDOVER.md",
+      "bytes": 6218,
+      "sha256": "f6cd00eec0d65695c2d05cf0e59afbfcc886e1d283b4504097f62d7cde49cd8a"
+    },
+    {
+      "path": "humanengine/SPEC_IMPLEMENTATION_TASK.md",
+      "bytes": 55110,
+      "sha256": "9477aea330fce4029f842a503fb7f1f580a59bc94207c87d473916ca25446e77"
+    },
+    {
+      "path": "humanengine/teacher/__init__.py",
+      "bytes": 78,
+      "sha256": "06aded74be96ca4d13ba86e1d9a606c9d70a5fdb591c59e1b7de1f89b85de7ef"
+    },
+    {
+      "path": "humanengine/teacher/model.py",
+      "bytes": 5336,
+      "sha256": "4e1cb47381b193aab4ab205574b903dd9bbe18baa174d8f72bfc39503a92b5ac"
+    },
+    {
+      "path": "humanengine/teacher/preparation.py",
+      "bytes": 6805,
+      "sha256": "60ca4135f90eb05ade39efcd843929de7d465b28ecdc1fdbd913225eaa92e986"
+    },
+    {
+      "path": "humanengine/test-results.xml",
+      "bytes": 7983,
+      "sha256": "61a55c921ac94e420efc618c8275fa9936af595f9ddd972b764c2a1e4ec669fe"
+    },
+    {
+      "path": "humanengine/tests/__init__.py",
+      "bytes": 66,
+      "sha256": "6d636f1c4eaa947c1a6cdd26fc2db0e9c93900dbe74871b2b0c35e89b5ee50c1"
+    },
+    {
+      "path": "humanengine/tests/conftest.py",
+      "bytes": 1254,
+      "sha256": "e7db27d3fef7bd98a5e77276e91a1305ce676352e27413ec87b855f00af992ed"
+    },
+    {
+      "path": "humanengine/tests/test_core.py",
+      "bytes": 7034,
+      "sha256": "03254dfebdadf132605338602afc1b70e48cc8ede551c023ff49671bd401185d"
+    },
+    {
+      "path": "humanengine/tests/test_data_provenance.py",
+      "bytes": 8084,
+      "sha256": "4a320abafcd8b4cc7fdcc0de3049620e3da2a3f9145826e5aa0bbf0db02f5ddb"
+    },
+    {
+      "path": "humanengine/tests/test_integration.py",
+      "bytes": 4557,
+      "sha256": "2738332ff227c55cc639a37b3a06d587e00a80953493e780333f2a4e0ae5ee4d"
+    },
+    {
+      "path": "humanengine/tests/test_objectives.py",
+      "bytes": 5921,
+      "sha256": "b9e341e3d631cc9cfc08238eea60d8779579ba4d59b1e0b9ff392298879a033b"
+    },
+    {
+      "path": "humanengine/tests/test_optimization.py",
+      "bytes": 8405,
+      "sha256": "2e200b59b3e84c9cada62140a223ce5371d3456ac98bbfb11147c248501b0c3f"
+    },
+    {
+      "path": "humanengine/tests/test_teacher.py",
+      "bytes": 5004,
+      "sha256": "32d5cce0d6f32258fe1a0b07cfbb5759be991784c878d699565a936417d20949"
+    },
+    {
+      "path": "humanengine/verify.py",
+      "bytes": 1632,
+      "sha256": "1f6f0825012b3491b7be0fc069223bd3ea3b4a61b4dc80095618c0a1e9a4b481"
+    }
+  ],
+  "source_tree_fingerprint": "39c61af32b965a339ec6043f06fd4ee4bf4a2f50145b6d6634823bce091be5eb",
+  "scientific_claims": [],
+  "design_deviations": [],
+  "blocked_design_questions": [],
+  "next_command_executed": false,
+  "runtime": {
+    "persistent_jobs_launched": [],
+    "external_other_lane_state": "UNKNOWN; reverify in successor"
+  },
+  "session_health": {
+    "phase_handoff_prepared": true,
+    "host_crash_or_unknown_outcome": false,
+    "cumulative_tokens_not_used_as_context_measure": true
+  }
+}

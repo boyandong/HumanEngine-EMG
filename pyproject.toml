@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "humanengine-emg"
+version = "0.1.0"
+description = "Causal EMG representation research kernel and independent teacher validation"
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+  "numpy>=1.26,<3",
+  "scipy>=1.14,<2",
+  "torch>=2.4,<3",
+  "h5py>=3.12,<4",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8.4,<9"]
+
+[tool.setuptools.packages.find]
+include = ["humanengine*", "representation*"]
+
+[tool.pytest.ini_options]
+testpaths = ["humanengine/tests"]
+addopts = "-p no:cacheprovider"

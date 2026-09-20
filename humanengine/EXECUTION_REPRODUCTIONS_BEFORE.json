@@ -1,0 +1,388 @@
+{
+  "R01_transient": {
+    "status": "FAIL",
+    "pure_gradients": {
+      "pose": [
+        0.2981160283088684,
+        0.2981160283088684
+      ],
+      "reserve": [
+        2.320000171661377,
+        5.519999980926514
+      ]
+    },
+    "transient_accepted": true,
+    "snapshot_flag": true,
+    "expected_reserve": [
+      2.320000171661377,
+      5.519999980926514
+    ],
+    "actual_reserve": [
+      10.319999694824219,
+      13.520000457763672
+    ],
+    "core_update": [
+      -0.009068042039871216,
+      -0.008789539337158203
+    ],
+    "steps": 1
+  },
+  "R02_R06": {
+    "status": "FAIL",
+    "tampering": {
+      "mean_stale": "Checkpoint actual content hash mismatch",
+      "mean_outer_reseal": "Statistics content hash mismatch",
+      "std_stale": "Checkpoint actual content hash mismatch",
+      "std_outer_reseal": "Statistics content hash mismatch",
+      "floor_stale": "Checkpoint actual content hash mismatch",
+      "floor_outer_reseal": "Scientific runtime semantics incompatibility",
+      "provenance_stale": "Checkpoint actual content hash mismatch",
+      "provenance_outer_reseal": "Scientific runtime semantics incompatibility",
+      "definition_stale": "Checkpoint actual content hash mismatch",
+      "definition_outer_reseal": "Scientific runtime semantics incompatibility",
+      "adapter_id_stale": "Checkpoint actual content hash mismatch",
+      "adapter_id_outer_reseal": "Scientific runtime semantics incompatibility",
+      "adapter_version_stale": "Checkpoint actual content hash mismatch",
+      "adapter_version_outer_reseal": "Scientific runtime semantics incompatibility",
+      "mode_stale": "Checkpoint actual content hash mismatch",
+      "mode_outer_reseal": "Scientific runtime semantics incompatibility",
+      "summary_version_stale": "Checkpoint actual content hash mismatch",
+      "summary_version_outer_reseal": "Scientific runtime semantics incompatibility",
+      "input_schema_stale": "Checkpoint actual content hash mismatch",
+      "input_schema_outer_reseal": "Scientific runtime semantics incompatibility",
+      "route_version_stale": "Checkpoint actual content hash mismatch",
+      "route_version_outer_reseal": "Scientific runtime semantics incompatibility"
+    },
+    "live_incompatible": {
+      "floor": "Scientific runtime semantics incompatibility",
+      "provenance": "Scientific runtime semantics incompatibility",
+      "adapter": "Scientific runtime semantics incompatibility",
+      "mode": "Scientific runtime semantics incompatibility"
+    },
+    "AU_restored": true,
+    "late_failure": {
+      "rng": {
+        "error": "Expected either a CPUGeneratorImplStateLegacy of size 5048 or a CPUGeneratorImplState of size 5056 but found the input RNG state size to be 1",
+        "restored": true
+      },
+      "metadata": {
+        "error": "late injected metadata",
+        "restored": true
+      },
+      "gradients": {
+        "error": "late injected gradients",
+        "restored": false
+      }
+    },
+    "live_layernorm_eps_accepted": true
+  },
+  "R03_running_targets": {
+    "status": "FAIL",
+    "cases": {
+      "target_mean_stale": {
+        "accepted": false,
+        "restored_on_rejection": true,
+        "error": "Checkpoint actual content hash mismatch"
+      },
+      "target_mean_outer": {
+        "accepted": true,
+        "restored_on_rejection": null,
+        "error": null
+      },
+      "target_second_stale": {
+        "accepted": false,
+        "restored_on_rejection": true,
+        "error": "Checkpoint actual content hash mismatch"
+      },
+      "target_second_outer": {
+        "accepted": true,
+        "restored_on_rejection": null,
+        "error": null
+      },
+      "target_count_stale": {
+        "accepted": false,
+        "restored_on_rejection": true,
+        "error": "Checkpoint actual content hash mismatch"
+      },
+      "target_count_outer": {
+        "accepted": true,
+        "restored_on_rejection": null,
+        "error": null
+      },
+      "physical_mean_stale": {
+        "accepted": false,
+        "restored_on_rejection": true,
+        "error": "Checkpoint actual content hash mismatch"
+      },
+      "physical_mean_outer": {
+        "accepted": false,
+        "restored_on_rejection": true,
+        "error": "Teacher statistics content mismatch"
+      },
+      "physical_std_stale": {
+        "accepted": false,
+        "restored_on_rejection": true,
+        "error": "Checkpoint actual content hash mismatch"
+      },
+      "physical_std_outer": {
+        "accepted": false,
+        "restored_on_rejection": true,
+        "error": "Teacher statistics content mismatch"
+      },
+      "physical_floor_stale": {
+        "accepted": false,
+        "restored_on_rejection": true,
+        "error": "Checkpoint actual content hash mismatch"
+      },
+      "physical_floor_outer": {
+        "accepted": false,
+        "restored_on_rejection": true,
+        "error": "Teacher statistics semantics incompatibility"
+      },
+      "physical_provenance_stale": {
+        "accepted": false,
+        "restored_on_rejection": true,
+        "error": "Checkpoint actual content hash mismatch"
+      },
+      "physical_provenance_outer": {
+        "accepted": false,
+        "restored_on_rejection": true,
+        "error": "Teacher statistics semantics incompatibility"
+      },
+      "target_definition_stale": {
+        "accepted": false,
+        "restored_on_rejection": true,
+        "error": "Checkpoint actual content hash mismatch"
+      },
+      "target_definition_outer": {
+        "accepted": false,
+        "restored_on_rejection": true,
+        "error": "Teacher statistics semantics incompatibility"
+      }
+    }
+  },
+  "R02_R05_teacher": {
+    "status": "FAIL",
+    "cases": {
+      "unchanged": {
+        "export_rejected": false,
+        "error": null,
+        "direct_rejected": false,
+        "output_max_change": 0.0
+      },
+      "ema": {
+        "export_rejected": true,
+        "error": "Teacher health artifact identity mismatch",
+        "direct_rejected": true,
+        "output_max_change": null
+      },
+      "buffer": {
+        "export_rejected": true,
+        "error": "Teacher health artifact identity mismatch",
+        "direct_rejected": true,
+        "output_max_change": null
+      },
+      "target": {
+        "export_rejected": true,
+        "error": "Teacher health artifact identity mismatch",
+        "direct_rejected": true,
+        "output_max_change": null
+      },
+      "physical": {
+        "export_rejected": true,
+        "error": "Teacher health artifact identity mismatch",
+        "direct_rejected": false,
+        "output_max_change": null
+      },
+      "config": {
+        "export_rejected": true,
+        "error": "Teacher health artifact identity mismatch",
+        "direct_rejected": true,
+        "output_max_change": null
+      },
+      "manifest": {
+        "export_rejected": true,
+        "error": "Teacher health artifact identity mismatch",
+        "direct_rejected": false,
+        "output_max_change": null
+      },
+      "step": {
+        "export_rejected": true,
+        "error": "Health evidence checkpoint mismatch",
+        "direct_rejected": false,
+        "output_max_change": null
+      },
+      "evaluation": {
+        "export_rejected": true,
+        "error": "Teacher health artifact identity mismatch",
+        "direct_rejected": false,
+        "output_max_change": null
+      },
+      "partition": {
+        "export_rejected": true,
+        "error": "Teacher health artifact identity mismatch",
+        "direct_rejected": false,
+        "output_max_change": null
+      },
+      "budget": {
+        "export_rejected": true,
+        "error": "Teacher health artifact identity mismatch",
+        "direct_rejected": false,
+        "output_max_change": null
+      },
+      "stride": {
+        "export_rejected": false,
+        "error": null,
+        "direct_rejected": false,
+        "output_max_change": 0.6285949945449829
+      },
+      "eps": {
+        "export_rejected": false,
+        "error": null,
+        "direct_rejected": false,
+        "output_max_change": 0.14671242237091064
+      },
+      "direct_health_mismatch": {
+        "accepted": true,
+        "certificate_eval": {
+          "protocol": "independent-synthetic-only"
+        },
+        "health_eval": {
+          "different_evaluation": true
+        }
+      }
+    },
+    "metric_truth_not_claimed": true
+  },
+  "R04_N01": {
+    "status": "FAIL",
+    "cases": {
+      "core_data": {
+        "rejected": true,
+        "restored": true,
+        "error": "Family closure mutated the same-parameter snapshot or training state",
+        "steps": 0,
+        "ephemeral": 4.0,
+        "eps": 1e-05,
+        "sampler_quota": 1
+      },
+      "private_data": {
+        "rejected": true,
+        "restored": true,
+        "error": "Family closure mutated the same-parameter snapshot or training state",
+        "steps": 0,
+        "ephemeral": 4.0,
+        "eps": 1e-05,
+        "sampler_quota": 1
+      },
+      "adam_step": {
+        "rejected": true,
+        "restored": true,
+        "error": "Family closure mutated the same-parameter snapshot or training state",
+        "steps": 0,
+        "ephemeral": 4.0,
+        "eps": 1e-05,
+        "sampler_quota": 1
+      },
+      "adam_moment": {
+        "rejected": true,
+        "restored": true,
+        "error": "Family closure mutated the same-parameter snapshot or training state",
+        "steps": 0,
+        "ephemeral": 4.0,
+        "eps": 1e-05,
+        "sampler_quota": 1
+      },
+      "buffer": {
+        "rejected": true,
+        "restored": true,
+        "error": "Family closure mutated the same-parameter snapshot or training state",
+        "steps": 0,
+        "ephemeral": 4.0,
+        "eps": 1e-05,
+        "sampler_quota": 1
+      },
+      "metadata": {
+        "rejected": true,
+        "restored": true,
+        "error": "Family closure mutated the same-parameter snapshot or training state",
+        "steps": 0,
+        "ephemeral": 4.0,
+        "eps": 1e-05,
+        "sampler_quota": 1
+      },
+      "sampler": {
+        "rejected": true,
+        "restored": true,
+        "error": "Family closure mutated the same-parameter snapshot or training state",
+        "steps": 0,
+        "ephemeral": 4.0,
+        "eps": 1e-05,
+        "sampler_quota": 1
+      },
+      "rng_fail": {
+        "rejected": true,
+        "restored": true,
+        "error": "independent injected failure",
+        "steps": 0,
+        "ephemeral": 4.0,
+        "eps": 1e-05,
+        "sampler_quota": 1
+      },
+      "after_forward": {
+        "rejected": true,
+        "restored": true,
+        "error": "Family closure mutated the same-parameter snapshot or training state",
+        "steps": 0,
+        "ephemeral": 4.0,
+        "eps": 1e-05,
+        "sampler_quota": 1
+      },
+      "autograd_hook": {
+        "rejected": true,
+        "restored": true,
+        "error": "Family closure mutated the same-parameter snapshot or training state",
+        "steps": 0,
+        "ephemeral": 4.0,
+        "eps": 1e-05,
+        "sampler_quota": 1
+      },
+      "nonpersistent": {
+        "rejected": false,
+        "restored": false,
+        "error": null,
+        "steps": 1,
+        "ephemeral": 5.0,
+        "eps": 1e-05,
+        "sampler_quota": 1
+      },
+      "layernorm_eps": {
+        "rejected": false,
+        "restored": false,
+        "error": null,
+        "steps": 1,
+        "ephemeral": 4.0,
+        "eps": 1.0,
+        "sampler_quota": 1
+      },
+      "sampler_manifest": {
+        "rejected": true,
+        "restored": false,
+        "error": "Sampler manifest mismatch",
+        "steps": 0,
+        "ephemeral": 4.0,
+        "eps": 1e-05,
+        "sampler_quota": 2
+      },
+      "unregistered": {
+        "rejected": false,
+        "restored": false,
+        "error": null,
+        "steps": 1,
+        "ephemeral": 4.0,
+        "eps": 1e-05,
+        "sampler_quota": 1
+      }
+    }
+  }
+}

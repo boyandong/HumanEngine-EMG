@@ -1,0 +1,367 @@
+{
+  "schema_name": "db9_to_canonical16",
+  "version": "1.0.0",
+  "status": "FROZEN",
+  "ndim": 16,
+  "unit": "radians",
+  "source_dataset": "NinaPro DB9 (calibrated CyberGlove-II kinematics)",
+  "source_page": "https://ninapro.hevs.ch/instructions/DB9.html",
+  "source_paper": "doi:10.1038/s41597-019-0349-2 (PMC6952409)",
+  "source_channel_count": 22,
+  "source_channel_order": [
+    "CMC1_f",
+    "CMC1_a",
+    "MCP1",
+    "IP1",
+    "MCP2_f",
+    "MCP2_a",
+    "PIP2",
+    "MCP3_f",
+    "PIP3",
+    "MCP4_f",
+    "MCP4_a",
+    "PIP4",
+    "CMC5",
+    "MCP5_f",
+    "MCP5_a",
+    "PIP5",
+    "DIP2",
+    "DIP3",
+    "DIP4",
+    "DIP5",
+    "WRIST_F",
+    "WRIST_A"
+  ],
+  "source_unit": "degrees",
+  "unit_conversion": "radians = degrees / (180/pi); explicit, named",
+  "selection": "by official channel NAME from each file's order_of_angles",
+  "db9_column_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    16,
+    7,
+    8,
+    17,
+    9,
+    11,
+    18,
+    13,
+    15,
+    19
+  ],
+  "canonical16_names": [
+    "thumb_cmc_flexion",
+    "thumb_cmc_ab_adduction",
+    "thumb_mcp_flexion",
+    "thumb_ip_flexion",
+    "index_mcp_flexion",
+    "index_pip_flexion",
+    "index_dip_flexion",
+    "middle_mcp_flexion",
+    "middle_pip_flexion",
+    "middle_dip_flexion",
+    "ring_mcp_flexion",
+    "ring_pip_flexion",
+    "ring_dip_flexion",
+    "pinky_mcp_flexion",
+    "pinky_pip_flexion",
+    "pinky_dip_flexion"
+  ],
+  "db9_channels": [
+    "CMC1_f",
+    "CMC1_a",
+    "MCP1",
+    "IP1",
+    "MCP2_f",
+    "PIP2",
+    "DIP2",
+    "MCP3_f",
+    "PIP3",
+    "DIP3",
+    "MCP4_f",
+    "PIP4",
+    "DIP4",
+    "MCP5_f",
+    "PIP5",
+    "DIP5"
+  ],
+  "anatomy": {
+    "thumb_cmc_flexion": {
+      "db9_anatomical_name": "CMC1_F",
+      "anatomical_meaning": "Thumb carpometacarpal flexion/extension",
+      "positive_direction": "flexion",
+      "db9_sign_criterion": "CMC1_F: Flexion+ / Extension- (Table 6)",
+      "evidence_source": "Jarque-Bou, Atzori & Muller, Sci Data 7:12 (2020), Table 6: 'CMC1_F  Flexion+ / Extension- (See Fig. 5)'",
+      "evidence_type": "OFFICIAL-DOC",
+      "db9_sign_confidence": "HIGH",
+      "cross_dataset_polarity_confidence": "HIGH",
+      "cross_dataset_note": "emg2pose's THUMB_CMC_FE is one of the 15 flexion joints verified flexion-positive by forward kinematics."
+    },
+    "thumb_cmc_ab_adduction": {
+      "db9_anatomical_name": "CMC1_A",
+      "anatomical_meaning": "Thumb carpometacarpal abduction/adduction",
+      "positive_direction": "abduction",
+      "db9_sign_criterion": "CMC1_A: Abduction+ / Adduction- (Table 6)",
+      "evidence_source": "Jarque-Bou, Atzori & Muller, Sci Data 7:12 (2020), Table 6: 'CMC1_A  Abduction+ / Adduction- (See Fig. 5)'",
+      "evidence_type": "OFFICIAL-DOC (DB9 side) + GEOMETRY (emg2pose side)",
+      "db9_sign_confidence": "HIGH",
+      "cross_dataset_polarity_confidence": "FROZEN (sign)",
+      "cross_dataset_axis_identity_confidence": "NOT PROVEN (magnitude/geometry)",
+      "cross_dataset_note": "DB9 documents CMC1_A as abduction-positive. Forward kinematics of the official UmeTrack model over THUMB_CMC_AA's full limit range [-0.6118, +0.6118] rad shows positive emg2pose CMC_AA BOTH closes the first web space (thumb-index tip separation 153.90 -> 114.83 -> 93.57) AND brings the thumb down toward the palm plane (elevation +45.70 -> +32.45 -> +8.94 deg). The in-plane and out-of-plane criteria therefore AGREE that positive is adduction, which is opposite to DB9, so DB9 is negated. Zero alignment for this variable was verified separately (both datasets place its zero at the extended-and-together hand), so the correction is a pure sign flip with no offset. SCOPE: the SIGN correspondence is frozen on this evidence. It is NOT claimed that DB9's CMC1_A and UmeTrack's THUMB_CMC_AA are proven to be identical rotation axes in magnitude or geometry -- emg2pose's THUMB_CMC_FE moves the in-plane web angle about 3x more strongly per radian, so the pairing is approximate at the DOF level. That residual uncertainty is why canonical15_noThumbAA is a pre-registered control. See docs/DB9_CANONICAL16_MAPPING.md section 4.2."
+    },
+    "thumb_mcp_flexion": {
+      "db9_anatomical_name": "MCP1_F",
+      "anatomical_meaning": "Thumb metacarpophalangeal flexion/extension",
+      "positive_direction": "flexion",
+      "db9_sign_criterion": "MCP(1-5)_F: Flexion+ / Extension- (Table 6)",
+      "evidence_source": "Jarque-Bou, Atzori & Muller, Sci Data 7:12 (2020), Table 6: 'DIP(2-5)_F, PIP(2-5)_F, IP1_F, MCP(1-5)_F  Flexion+ / Extension-'",
+      "evidence_type": "OFFICIAL-DOC",
+      "db9_sign_confidence": "HIGH",
+      "cross_dataset_polarity_confidence": "HIGH",
+      "cross_dataset_note": "emg2pose's 15 FE joints were shown by forward kinematics to be flexion-positive as well, so the polarity agrees and no conversion is needed."
+    },
+    "thumb_ip_flexion": {
+      "db9_anatomical_name": "IP1_F",
+      "anatomical_meaning": "Thumb interphalangeal flexion/extension",
+      "positive_direction": "flexion",
+      "db9_sign_criterion": "IP1_F: Flexion+ / Extension- (Table 6)",
+      "evidence_source": "Jarque-Bou, Atzori & Muller, Sci Data 7:12 (2020), Table 6: 'DIP(2-5)_F, PIP(2-5)_F, IP1_F, MCP(1-5)_F  Flexion+ / Extension-'",
+      "evidence_type": "OFFICIAL-DOC",
+      "db9_sign_confidence": "HIGH",
+      "cross_dataset_polarity_confidence": "HIGH",
+      "cross_dataset_note": "emg2pose's 15 FE joints were shown by forward kinematics to be flexion-positive as well, so the polarity agrees and no conversion is needed."
+    },
+    "index_mcp_flexion": {
+      "db9_anatomical_name": "MCP2_F",
+      "anatomical_meaning": "Index metacarpophalangeal flexion/extension",
+      "positive_direction": "flexion",
+      "db9_sign_criterion": "DIP(2-5)_F, PIP(2-5)_F, MCP(1-5)_F: Flexion+ / Extension- (Table 6)",
+      "evidence_source": "Jarque-Bou, Atzori & Muller, Sci Data 7:12 (2020), Table 6: 'DIP(2-5)_F, PIP(2-5)_F, IP1_F, MCP(1-5)_F  Flexion+ / Extension-'",
+      "evidence_type": "OFFICIAL-DOC",
+      "db9_sign_confidence": "HIGH",
+      "cross_dataset_polarity_confidence": "HIGH",
+      "cross_dataset_note": "emg2pose's 15 FE joints were shown by forward kinematics to be flexion-positive as well, so the polarity agrees and no conversion is needed."
+    },
+    "index_pip_flexion": {
+      "db9_anatomical_name": "PIP2_F",
+      "anatomical_meaning": "Index proximal interphalangeal flexion/extension",
+      "positive_direction": "flexion",
+      "db9_sign_criterion": "DIP(2-5)_F, PIP(2-5)_F, MCP(1-5)_F: Flexion+ / Extension- (Table 6)",
+      "evidence_source": "Jarque-Bou, Atzori & Muller, Sci Data 7:12 (2020), Table 6: 'DIP(2-5)_F, PIP(2-5)_F, IP1_F, MCP(1-5)_F  Flexion+ / Extension-'",
+      "evidence_type": "OFFICIAL-DOC",
+      "db9_sign_confidence": "HIGH",
+      "cross_dataset_polarity_confidence": "HIGH",
+      "cross_dataset_note": "emg2pose's 15 FE joints were shown by forward kinematics to be flexion-positive as well, so the polarity agrees and no conversion is needed."
+    },
+    "index_dip_flexion": {
+      "db9_anatomical_name": "DIP2_F",
+      "anatomical_meaning": "Index distal interphalangeal flexion/extension",
+      "positive_direction": "flexion",
+      "db9_sign_criterion": "DIP(2-5)_F, PIP(2-5)_F, MCP(1-5)_F: Flexion+ / Extension- (Table 6)",
+      "evidence_source": "Jarque-Bou, Atzori & Muller, Sci Data 7:12 (2020), Table 6: 'DIP(2-5)_F, PIP(2-5)_F, IP1_F, MCP(1-5)_F  Flexion+ / Extension-'",
+      "evidence_type": "OFFICIAL-DOC",
+      "db9_sign_confidence": "HIGH",
+      "cross_dataset_polarity_confidence": "HIGH",
+      "cross_dataset_note": "emg2pose's 15 FE joints were shown by forward kinematics to be flexion-positive as well, so the polarity agrees and no conversion is needed."
+    },
+    "middle_mcp_flexion": {
+      "db9_anatomical_name": "MCP3_F",
+      "anatomical_meaning": "Middle metacarpophalangeal flexion/extension",
+      "positive_direction": "flexion",
+      "db9_sign_criterion": "DIP(2-5)_F, PIP(2-5)_F, MCP(1-5)_F: Flexion+ / Extension- (Table 6)",
+      "evidence_source": "Jarque-Bou, Atzori & Muller, Sci Data 7:12 (2020), Table 6: 'DIP(2-5)_F, PIP(2-5)_F, IP1_F, MCP(1-5)_F  Flexion+ / Extension-'",
+      "evidence_type": "OFFICIAL-DOC",
+      "db9_sign_confidence": "HIGH",
+      "cross_dataset_polarity_confidence": "HIGH",
+      "cross_dataset_note": "emg2pose's 15 FE joints were shown by forward kinematics to be flexion-positive as well, so the polarity agrees and no conversion is needed."
+    },
+    "middle_pip_flexion": {
+      "db9_anatomical_name": "PIP3_F",
+      "anatomical_meaning": "Middle proximal interphalangeal flexion/extension",
+      "positive_direction": "flexion",
+      "db9_sign_criterion": "DIP(2-5)_F, PIP(2-5)_F, MCP(1-5)_F: Flexion+ / Extension- (Table 6)",
+      "evidence_source": "Jarque-Bou, Atzori & Muller, Sci Data 7:12 (2020), Table 6: 'DIP(2-5)_F, PIP(2-5)_F, IP1_F, MCP(1-5)_F  Flexion+ / Extension-'",
+      "evidence_type": "OFFICIAL-DOC",
+      "db9_sign_confidence": "HIGH",
+      "cross_dataset_polarity_confidence": "HIGH",
+      "cross_dataset_note": "emg2pose's 15 FE joints were shown by forward kinematics to be flexion-positive as well, so the polarity agrees and no conversion is needed."
+    },
+    "middle_dip_flexion": {
+      "db9_anatomical_name": "DIP3_F",
+      "anatomical_meaning": "Middle distal interphalangeal flexion/extension",
+      "positive_direction": "flexion",
+      "db9_sign_criterion": "DIP(2-5)_F, PIP(2-5)_F, MCP(1-5)_F: Flexion+ / Extension- (Table 6)",
+      "evidence_source": "Jarque-Bou, Atzori & Muller, Sci Data 7:12 (2020), Table 6: 'DIP(2-5)_F, PIP(2-5)_F, IP1_F, MCP(1-5)_F  Flexion+ / Extension-'",
+      "evidence_type": "OFFICIAL-DOC",
+      "db9_sign_confidence": "HIGH",
+      "cross_dataset_polarity_confidence": "HIGH",
+      "cross_dataset_note": "emg2pose's 15 FE joints were shown by forward kinematics to be flexion-positive as well, so the polarity agrees and no conversion is needed."
+    },
+    "ring_mcp_flexion": {
+      "db9_anatomical_name": "MCP4_F",
+      "anatomical_meaning": "Ring metacarpophalangeal flexion/extension",
+      "positive_direction": "flexion",
+      "db9_sign_criterion": "DIP(2-5)_F, PIP(2-5)_F, MCP(1-5)_F: Flexion+ / Extension- (Table 6)",
+      "evidence_source": "Jarque-Bou, Atzori & Muller, Sci Data 7:12 (2020), Table 6: 'DIP(2-5)_F, PIP(2-5)_F, IP1_F, MCP(1-5)_F  Flexion+ / Extension-'",
+      "evidence_type": "OFFICIAL-DOC",
+      "db9_sign_confidence": "HIGH",
+      "cross_dataset_polarity_confidence": "HIGH",
+      "cross_dataset_note": "emg2pose's 15 FE joints were shown by forward kinematics to be flexion-positive as well, so the polarity agrees and no conversion is needed."
+    },
+    "ring_pip_flexion": {
+      "db9_anatomical_name": "PIP4_F",
+      "anatomical_meaning": "Ring proximal interphalangeal flexion/extension",
+      "positive_direction": "flexion",
+      "db9_sign_criterion": "DIP(2-5)_F, PIP(2-5)_F, MCP(1-5)_F: Flexion+ / Extension- (Table 6)",
+      "evidence_source": "Jarque-Bou, Atzori & Muller, Sci Data 7:12 (2020), Table 6: 'DIP(2-5)_F, PIP(2-5)_F, IP1_F, MCP(1-5)_F  Flexion+ / Extension-'",
+      "evidence_type": "OFFICIAL-DOC",
+      "db9_sign_confidence": "HIGH",
+      "cross_dataset_polarity_confidence": "HIGH",
+      "cross_dataset_note": "emg2pose's 15 FE joints were shown by forward kinematics to be flexion-positive as well, so the polarity agrees and no conversion is needed."
+    },
+    "ring_dip_flexion": {
+      "db9_anatomical_name": "DIP4_F",
+      "anatomical_meaning": "Ring distal interphalangeal flexion/extension",
+      "positive_direction": "flexion",
+      "db9_sign_criterion": "DIP(2-5)_F, PIP(2-5)_F, MCP(1-5)_F: Flexion+ / Extension- (Table 6)",
+      "evidence_source": "Jarque-Bou, Atzori & Muller, Sci Data 7:12 (2020), Table 6: 'DIP(2-5)_F, PIP(2-5)_F, IP1_F, MCP(1-5)_F  Flexion+ / Extension-'",
+      "evidence_type": "OFFICIAL-DOC",
+      "db9_sign_confidence": "HIGH",
+      "cross_dataset_polarity_confidence": "HIGH",
+      "cross_dataset_note": "emg2pose's 15 FE joints were shown by forward kinematics to be flexion-positive as well, so the polarity agrees and no conversion is needed."
+    },
+    "pinky_mcp_flexion": {
+      "db9_anatomical_name": "MCP5_F",
+      "anatomical_meaning": "Pinky metacarpophalangeal flexion/extension",
+      "positive_direction": "flexion",
+      "db9_sign_criterion": "DIP(2-5)_F, PIP(2-5)_F, MCP(1-5)_F: Flexion+ / Extension- (Table 6)",
+      "evidence_source": "Jarque-Bou, Atzori & Muller, Sci Data 7:12 (2020), Table 6: 'DIP(2-5)_F, PIP(2-5)_F, IP1_F, MCP(1-5)_F  Flexion+ / Extension-'",
+      "evidence_type": "OFFICIAL-DOC",
+      "db9_sign_confidence": "HIGH",
+      "cross_dataset_polarity_confidence": "HIGH",
+      "cross_dataset_note": "emg2pose's 15 FE joints were shown by forward kinematics to be flexion-positive as well, so the polarity agrees and no conversion is needed."
+    },
+    "pinky_pip_flexion": {
+      "db9_anatomical_name": "PIP5_F",
+      "anatomical_meaning": "Pinky proximal interphalangeal flexion/extension",
+      "positive_direction": "flexion",
+      "db9_sign_criterion": "DIP(2-5)_F, PIP(2-5)_F, MCP(1-5)_F: Flexion+ / Extension- (Table 6)",
+      "evidence_source": "Jarque-Bou, Atzori & Muller, Sci Data 7:12 (2020), Table 6: 'DIP(2-5)_F, PIP(2-5)_F, IP1_F, MCP(1-5)_F  Flexion+ / Extension-'",
+      "evidence_type": "OFFICIAL-DOC",
+      "db9_sign_confidence": "HIGH",
+      "cross_dataset_polarity_confidence": "HIGH",
+      "cross_dataset_note": "emg2pose's 15 FE joints were shown by forward kinematics to be flexion-positive as well, so the polarity agrees and no conversion is needed."
+    },
+    "pinky_dip_flexion": {
+      "db9_anatomical_name": "DIP5_F",
+      "anatomical_meaning": "Pinky distal interphalangeal flexion/extension",
+      "positive_direction": "flexion",
+      "db9_sign_criterion": "DIP(2-5)_F, PIP(2-5)_F, MCP(1-5)_F: Flexion+ / Extension- (Table 6)",
+      "evidence_source": "Jarque-Bou, Atzori & Muller, Sci Data 7:12 (2020), Table 6: 'DIP(2-5)_F, PIP(2-5)_F, IP1_F, MCP(1-5)_F  Flexion+ / Extension-'",
+      "evidence_type": "OFFICIAL-DOC",
+      "db9_sign_confidence": "HIGH",
+      "cross_dataset_polarity_confidence": "HIGH",
+      "cross_dataset_note": "emg2pose's 15 FE joints were shown by forward kinematics to be flexion-positive as well, so the polarity agrees and no conversion is needed."
+    }
+  },
+  "anatomy_confidence_summary": {
+    "db9_sign_HIGH": 16,
+    "cross_dataset_polarity_HIGH": 15,
+    "cross_dataset_sign_frozen": [
+      "thumb_cmc_ab_adduction"
+    ],
+    "cross_dataset_axis_identity_not_proven": [
+      "thumb_cmc_ab_adduction"
+    ]
+  },
+  "reference_posture": "The reference posture was chosen as the central part of a movement in exercise B, corresponding to the hand resting on the table with the fingers closed together and extended. (Jarque-Bou et al. 2020, doi:10.1038/s41597-019-0349-2)",
+  "excluded_channels": {
+    "MCP2_a": "All-NaN in every audited recording. Official DB9 docs: 'Sensor 11 (which corresponds to MCP2-3_A) was not included into the calibrated data due to noise problems.' It is not a canonical16 input."
+  },
+  "not_a_positional_prefix": true,
+  "frozen_sign_transformation": {
+    "thumb_cmc_ab_adduction": -1.0
+  },
+  "frozen_sign_rationale": {
+    "thumb_cmc_ab_adduction": "DB9 CMC1_A is Abduction+/Adduction- (paper Table 6). Forward kinematics of the official UmeTrack model over CMC_AA's full limit range shows positive emg2pose CMC_AA both closes the first web space (tip separation 114.8 -> 93.6) and brings the thumb toward the palm plane (elevation +32.5 -> +8.9 deg), i.e. adduction. The datasets are therefore opposite and DB9 is negated. Zero aligns between the two, so this is a pure sign flip with no offset. Frozen from geometry before classification; never tuned on accuracy."
+  },
+  "frozen_sign_scope": "applied in this DB9 adapter only; Session 2's emg2pose adapter is not modified",
+  "does_not_apply": [
+    "clipping",
+    "per-subject centring",
+    "offset correction",
+    "normalisation",
+    "scaling",
+    "smoothing",
+    "interpolation"
+  ],
+  "note_on_sign": "The only sign change is the frozen one above. Every other variable passes through with its DB9 polarity, which agrees with the emg2pose polarity for the 15 flexion variables.",
+  "validity_semantics": "True where every canonical16 source channel is finite. Composes with the emg2pose IK-failure mask by logical AND.",
+  "control_representation": {
+    "name": "canonical12_noDIP",
+    "ndim": 12,
+    "names": [
+      "thumb_cmc_flexion",
+      "thumb_cmc_ab_adduction",
+      "thumb_mcp_flexion",
+      "thumb_ip_flexion",
+      "index_mcp_flexion",
+      "index_pip_flexion",
+      "middle_mcp_flexion",
+      "middle_pip_flexion",
+      "ring_mcp_flexion",
+      "ring_pip_flexion",
+      "pinky_mcp_flexion",
+      "pinky_pip_flexion"
+    ],
+    "dropped": [
+      "index_dip_flexion",
+      "middle_dip_flexion",
+      "ring_dip_flexion",
+      "pinky_dip_flexion"
+    ],
+    "reason": "DB9 warns that DIP sensors 'provide reliable angles when subject hand size is big ... may provide partial results when the hand of the subject is small'. Pre-registered robustness control, not a search."
+  },
+  "pre_registered_control_representations": {
+    "canonical12_noDIP": {
+      "ndim": 12,
+      "dropped": [
+        "index_dip_flexion",
+        "middle_dip_flexion",
+        "ring_dip_flexion",
+        "pinky_dip_flexion"
+      ],
+      "purpose": "DIP-sensor reliability control"
+    },
+    "canonical15_noThumbAA": {
+      "ndim": 15,
+      "dropped": [
+        "thumb_cmc_ab_adduction"
+      ],
+      "purpose": "tests whether the residual cross-dataset uncertainty in the thumb CMC ab/adduction axis materially drives posture identifiability",
+      "names": [
+        "thumb_cmc_flexion",
+        "thumb_mcp_flexion",
+        "thumb_ip_flexion",
+        "index_mcp_flexion",
+        "index_pip_flexion",
+        "index_dip_flexion",
+        "middle_mcp_flexion",
+        "middle_pip_flexion",
+        "middle_dip_flexion",
+        "ring_mcp_flexion",
+        "ring_pip_flexion",
+        "ring_dip_flexion",
+        "pinky_mcp_flexion",
+        "pinky_pip_flexion",
+        "pinky_dip_flexion"
+      ]
+    },
+    "policy": "all three representations are reported side by side; none of them is used to select or tune the primary model"
+  },
+  "cross_dataset_zero_compatibility": "RESOLVED for all 16 variables. The 15 flexion variables share the same zero (emg2pose's rest pose is verified 'fingers extended and together', which is DB9's documented reference), and thumb_cmc_ab_adduction's zero also aligns, so the only correction needed is the frozen sign flip recorded above. Evidence: docs/DB9_CANONICAL16_MAPPING.md and data/db9_posture16/thumb_web_sign_evidence.json."
+}
